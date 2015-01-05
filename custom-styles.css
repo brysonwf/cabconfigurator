@@ -1,0 +1,33 @@
+#grillcloth-preview-container-top-custom div{ display:none; }
+#preview-container-div, #preview-container-top-div{ height:200px; }
+#feet-button-div{ margin-top: 254px; }
+
+
+#tolex-preview-container-custom div{ height:154px; }
+#tolex-preview-container-custom div{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/8300002.jpg); }
+#grillcloth-preview-container-custom div{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/fender-style-oxblood-with-gold-stripe-grill-cloth-6301001.jpg);  }
+.inner-shadow{ }
+
+#valence-preview-container-custom{ display:none; }
+#preview-container-div #feet-preview-container-custom div{ background-image:url(http://mojostuff.com/cabconfigimg/feet/9000000.png); height:173px; margin-left:0; }
+#preview-container-div #feet2-preview-container-custom div{ background-image:url(http://mojostuff.com/cabconfigimg/feet/9000000.png); height:173px; width:50px; margin-left: 233px; }
+
+#tolex-preview-container-top-custom div{ height:133px; background-image:url(http://mojostuff.com/cabconfigimg/tolex/8300002.jpg); }
+#pipingm2-preview-container-top-custom div{}
+#preview-container-div #valence-preview-container-top-custom div{ }
+
+#top-cutout{ display:block; width:175px; margin-left:50px; }
+
+
+#handle-preview-container-custom div{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9045000.png); }
+#handle-preview-container-top-custom div{ margin-top:-25px; background-image:url(http://mojostuff.com/cabconfigimg/handletop/9045000.png); }
+
+
+
+
+#preview-container-top-div, #preview-container-div, #tolex-preview-container-top-custom div, #tolex-preview-container-custom div, #handle-preview-container-custom div, #handle-preview-container-top-custom div{ width:280px; }
+.inner-shadow, #grillcloth-preview-container-custom div{ width:260px; height:94px !important; margin-left:10px; margin-right:10px; margin-top:30px !important; }
+
+
+
+#cabpreview-options-h-piping, #piping-options, #cabpreview-options-h-baffle, #baffle-options{ display:none; }

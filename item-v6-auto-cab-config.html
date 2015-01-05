@@ -82,16 +82,16 @@ drilldown item
         </ul>
         <div id="cabpreview-1">
             <div id="preview-container-div" class="preview-container-div">
-                <div id="feet-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="feet2-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="tolex-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="grillcloth-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="piping-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="pipingm-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="pipingm2-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="pipingm3-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="valence-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="handle-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                <div id="feet-preview-container-custom" class="preview-container-custom preview-main"><div id="feet-preview-container-custom-subdiv"></div></div>
+                <div id="feet2-preview-container-custom" class="preview-container-custom preview-main"><div id="feet2-preview-container-custom-subdiv"></div></div>
+                <div id="tolex-preview-container-custom" class="preview-container-custom preview-main"><div id="tolex-preview-container-custom-subdiv"></div></div>
+                <div id="grillcloth-preview-container-custom" class="preview-container-custom preview-main"><div id="grillcloth-preview-container-custom-subdiv"></div></div>
+                <div id="piping-preview-container-custom" class="preview-container-custom preview-main"><div id="piping-preview-container-custom-subdiv"></div></div>
+                <div id="pipingm-preview-container-custom" class="preview-container-custom preview-main"><div id="pipingm-preview-container-custom-subdiv"></div></div>
+                <div id="pipingm2-preview-container-custom" class="preview-container-custom preview-main"><div id="pipingm2-preview-container-custom-subdiv"></div></div>
+                <div id="pipingm3-preview-container-custom" class="preview-container-custom preview-main"><div id="pipingm3-preview-container-custom-subdiv"></div></div>
+                <div id="valence-preview-container-custom" class="preview-container-custom preview-main"><div id="valence-preview-container-custom-subdiv"></div></div>
+                <div id="handle-preview-container-custom" class="preview-container-custom preview-main"><div id="handle-preview-container-custom-subdiv"></div></div>
                 <div class="inner-shadow"></div>
                 <div id="front-cutout"></div>
                 <div id="rear-cutout"></div>
@@ -100,11 +100,11 @@ drilldown item
         </div>
         <div id="cabpreview-2">
             <div id="preview-container-top-div" class="preview-container-div">
-                <div id="tolex-preview-container-top-custom" class="preview-container-custom preview-top"><div></div></div>
-                <div id="grillcloth-preview-container-top-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="pipingm2-preview-container-top-custom" class="preview-container-custom preview-top"><div></div></div>
-                <div id="pipingm-preview-container-top-custom" class="preview-container-custom preview-main"><div></div></div>
-                <div id="handle-preview-container-top-custom" class="preview-container-custom preview-top"><div></div></div>
+                <div id="tolex-preview-container-top-custom" class="preview-container-custom preview-top"><div id="tolex-preview-container-top-custom-subdiv"></div></div>
+                <div id="grillcloth-preview-container-top-custom" class="preview-container-custom preview-main"><div id="grillcloth-preview-container-top-custom-subdiv"></div></div>
+                <div id="pipingm2-preview-container-top-custom" class="preview-container-custom preview-top"><div id="pipingm2-preview-container-top-custom-subdiv"></div></div>
+                <div id="pipingm-preview-container-top-custom" class="preview-container-custom preview-main"><div id="pipingm-preview-container-top-custom-subdiv"></div></div>
+                <div id="handle-preview-container-top-custom" class="preview-container-custom preview-top"><div id="handle-preview-container-top-custom-subdiv"></div></div>
                 <div class="inner-shadow"></div>
                 <div id="top-cutout"></div>
                 <div id="cabshadowtop"></div>
@@ -112,7 +112,8 @@ drilldown item
         </div>
     </div>
     <div class="cab-config-message">
-        This  is only a computer simulation of what your cabinet will look like and not intended to be an exact representation.
+        <strong>Currently upgrading this template...</strong>
+        This is only a computer simulation of what your cabinet will look like and not intended to be an exact representation.
     </div>
     <!-- ADD-TO-CART -->
     <form method='post' name='form<%=getCurrentAttribute('item', 'internalid')%>' id='form<%=getCurrentAttribute('item', 'internalid')%>' onsubmit='return checkmandatory<%=getCurrentAttribute('item', 'internalid')%>();' action='/app/site/backend/additemtocart.nl'>
@@ -175,6 +176,160 @@ drilldown item
 <style type="text/css">
     <%=getCurrentAttribute('item','custitemcabinetoptionscabconfigstyles')%>
 </style>
+
+<style type="text/css">
+    #main-image{ float:left; width:100%; }
+    #main-image img{ max-width:260px; }
+    .sub-gallery{ float:left; clear:both; width:100%; }
+    .sub-gallery .sub{ float:left; padding:3px; margin:10px 8px 0 0; border:1px solid #c4c4c4; width:50px; }
+    .sub-gallery .sub a{ max-width:100%; height:auto; }
+    .sub-gallery .sub img{ max-width:100%; height:auto; }
+    .facebook-like-button{ cursor:pointer; }
+</style>
+</div>
+</div>
+</div>
+<div id="more-information" class="white-box details-box">
+    <div class="pad">
+        <div style="float:left; width:300px;">
+            <div class="image">
+                <div class="gallery">
+                    <a id="main-image" class="main" href="<%=getCurrentAttribute('item','storedisplayimage')%>"><%=getCurrentAttribute('item','storedisplayimagehtml')%></a>
+                </div>
+                <div class="sub-gallery"></div>
+            </div>
+            <style type="text/css">
+                #main-image{ height:140px; float:left; width:100%; }
+                #main-image img{ max-height:140px; }
+                .sub-gallery{ float:left; clear:both; width:100%; }
+                .sub-gallery .sub{ float:left; padding:3px; margin:10px 8px 0 0; border:1px solid #c4c4c4; width:50px; }
+                .sub-gallery .sub a{ max-width:100%; height:auto; }
+                .sub-gallery .sub img{ max-width:100%; height:auto; }
+            </style>
+        </div>
+        <div style="float:left; width:360px;">
+            <h4 >#<span class="item-number"><%=getCurrentAttribute('item','itemid')%></span></h4>
+            <div class="item-weight"><span>Weight:</span> <%=getCurrentAttribute("item","weight","N/A")%> <%=getCurrentAttribute("item","weightunit","")%></div>
+            <div class="brief-description">
+                <%=getCurrentAttribute('item','storedescription')%><br />
+                <%=getCurrentAttribute('item','storedetaileddescription')%>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="related-items">
+    <h3>Related Items</h3>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <%=getCurrentAttribute('item','allrelateditemshtml')%>
+        </tr>
+    </table>
+</div>
+</td>
+
+<!--
+
+
+/drilldown item
+
+
+-->
+<script type="text/javascript">
+
+    //photo stuff
+    var mainImageHref = $('.gallery #main-image').attr('href');
+    var mainImageHTML = $('.gallery #main-image').html();
+
+
+    var custitemimage1 = "<%=getCurrentAttribute('item','custitemimage1')%>";
+    var custitemimage1thumb = "<%=getCurrentAttribute('item','custitemimage1thumb')%>";
+    if (custitemimage1 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+mainImageHref+'">'+mainImageHTML+'</a>');
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage1+'"><img src="'+custitemimage1thumb+'"/></a>');
+    }
+
+    var custitemimage2 = "<%=getCurrentAttribute('item','custitemimage2')%>";
+    var custitemimage2thumb = "<%=getCurrentAttribute('item','custitemimage2thumb')%>";
+    if (custitemimage2 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage2+'"><img src="'+custitemimage2thumb+'"/></a>');
+    }
+
+    var custitemimage3 = "<%=getCurrentAttribute('item','custitemimage3')%>";
+    var custitemimage3thumb = "<%=getCurrentAttribute('item','custitemimage3thumb')%>";
+    if (custitemimage3 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage3+'"><img src="'+custitemimage3thumb+'"/></a>');
+    }
+
+    var custitemimage4 = "<%=getCurrentAttribute('item','custitemimage4')%>";
+    var custitemimage4thumb = "<%=getCurrentAttribute('item','custitemimage4thumb')%>";
+    if (custitemimage4 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage4+'"><img src="'+custitemimage4thumb+'"/></a>');
+    }
+
+    var custitemimage5 = "<%=getCurrentAttribute('item','custitemimage5')%>";
+    var custitemimage5thumb = "<%=getCurrentAttribute('item','custitemimage5thumb')%>";
+    if (custitemimage5 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage5+'"><img src="'+custitemimage5thumb+'"/></a>');
+    }
+
+    var custitemimage6 = "<%=getCurrentAttribute('item','custitemimage6')%>";
+    var custitemimage6thumb = "<%=getCurrentAttribute('item','custitemimage6thumb')%>";
+    if (custitemimage6 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage6+'"><img src="'+custitemimage6thumb+'"/></a>');
+    }
+
+    var custitemimage7 = "<%=getCurrentAttribute('item','custitemimage7')%>";
+    var custitemimage7thumb = "<%=getCurrentAttribute('item','custitemimage7thumb')%>";
+    if (custitemimage7 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage7+'"><img src="'+custitemimage7thumb+'"/></a>');
+    }
+
+    var custitemimage8 = "<%=getCurrentAttribute('item','custitemimage8')%>";
+    var custitemimage8thumb = "<%=getCurrentAttribute('item','custitemimage8thumb')%>";
+    if (custitemimage8 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage8+'"><img src="'+custitemimage8thumb+'"/></a>');
+    }
+
+    var custitemimage9 = "<%=getCurrentAttribute('item','custitemimage9')%>";
+    var custitemimage9thumb = "<%=getCurrentAttribute('item','custitemimage9thumb')%>";
+    if (custitemimage9 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage9+'"><img src="'+custitemimage9thumb+'"/></a>');
+    }
+
+    var custitemimage10 = "<%=getCurrentAttribute('item','custitemimage10')%>";
+    var custitemimage10thumb = "<%=getCurrentAttribute('item','custitemimage10thumb')%>";
+    if (custitemimage10 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage10+'"><img src="'+custitemimage10thumb+'"/></a>');
+    }
+
+    var custitemimage11 = "<%=getCurrentAttribute('item','custitemimage11')%>";
+    var custitemimage11thumb = "<%=getCurrentAttribute('item','custitemimage11thumb')%>";
+    if (custitemimage11 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage11+'"><img src="'+custitemimage11thumb+'"/></a>');
+    }
+
+    var custitemimage12 = "<%=getCurrentAttribute('item','custitemimage12')%>";
+    var custitemimage12thumb = "<%=getCurrentAttribute('item','custitemimage12thumb')%>";
+    if (custitemimage12 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage12+'"><img src="'+custitemimage12thumb+'"/></a>');
+    }
+
+    var custitemimage13 = "<%=getCurrentAttribute('item','custitemimage13')%>";
+    var custitemimage13thumb = "<%=getCurrentAttribute('item','custitemimage13thumb')%>";
+    if (custitemimage13 != ''){
+        $('.sub-gallery').append('<a class="sub" href="'+custitemimage13+'"><img src="'+custitemimage13thumb+'"/></a>');
+    }
+
+    $('.sub-gallery a').click( function(){
+        var href = $(this).attr('href');
+        var thumb = $(this).html();
+        $('.gallery #main-image').attr('href', href);
+        $('.gallery #main-image').html(thumb);
+        return false;
+    });
+
+</script>
+
 <script type="text/javascript">
 jQuery.easing.easeOutQuart = function (x, t, b, c, d) {
     return -c * ((t=t/d-1)*t*t*t - 1) + b;
@@ -233,8 +388,8 @@ $('select[name="custcol40"]').change(function(){
 //tolex options
 $('.item-drill-down #custcolcabinettolexcolor').change(function(){
     var searchString = $( '#custcolcabinettolexcolor option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
-    $('#tolex-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
-    $('#tolex-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+    $('#tolex-preview-container-custom').find('div').addClass('active').addClass(searchString);
+    $('#tolex-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
     setCustomLink();
     if (searchString != ''){
         $('.tolexSwatchDiv div.active').removeClass('active');
@@ -351,21 +506,21 @@ $('#sort-tolex-style').click(function(){
 $('.item-drill-down #custcolcabinetoptionspiping').change(function(){
     var searchString = $( '#custcolcabinetoptionspiping option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
     if (searchString != ''){
-        $('#piping-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
-        $('#pipingm2-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
-        $('#pipingm3-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+        $('#piping-preview-container-custom').find('div').addClass('active').addClass(searchString);
+        $('#pipingm2-preview-container-custom').find('div').addClass('active').addClass(searchString);
+        $('#pipingm3-preview-container-custom').find('div').addClass('active').addClass(searchString);
 
-        $('#piping-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
-        $('#pipingm2-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
-        $('#pipingm3-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+        $('#piping-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
+        $('#pipingm2-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
+        $('#pipingm3-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
     }else{
-        $('#piping-preview-container-custom').html('<div></div>');
-        $('#pipingm2-preview-container-custom').html('<div></div>');
-        $('#pipingm3-preview-container-custom').html('<div></div>');
+        $('#piping-preview-container-custom').removeClass();
+        $('#pipingm2-preview-container-custom').removeClass();
+        $('#pipingm3-preview-container-custom').removeClass();
 
-        $('#piping-preview-container-top-custom').html('<div></div>');
-        $('#pipingm2-preview-container-top-custom').html('<div></div>');
-        $('#pipingm3-preview-container-top-custom').html('<div></div>');
+        $('#piping-preview-container-top-custom').removeClass();
+        $('#pipingm2-preview-container-top-custom').removeClass();
+        $('#pipingm3-preview-container-top-custom').removeClass();
     }
     setCustomLink();
     if (searchString != ''){
@@ -417,13 +572,13 @@ $('.item-drill-down #custcolcabinetoptionspiping_m').change(function(){
     var title = $(this).html();
     var searchString = $( '#custcolcabinetoptionspiping_m option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
     if (searchString != ''){
-        $('#pipingm-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
-        $('#pipingm-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
-        $('#valence-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+        $('#pipingm-preview-container-custom').find('div').addClass('active').addClass(searchString);
+        $('#pipingm-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
+        $('#valence-preview-container-custom').find('div').addClass('active').addClass(searchString);
     }else{
-        $('#pipingm-preview-container-custom').html('<div></div>');
-        $('#pipingm-preview-container-top-custom').html('<div></div>');
-        $('#valence-preview-container-custom').html('<div></div>');
+        $('#pipingm-preview-container-custom').removeClass();
+        $('#pipingm-preview-container-top-custom').removeClass();
+        $('#valence-preview-container-custom').removeClass();
     }
     setCustomLink();
     if (searchString != ''){
@@ -473,8 +628,8 @@ $('#button-bafflepiping-right').click(function(){
 //grill cloth options
 $('.item-drill-down #custcolcabinetgrillcloth').change(function(){
     var searchString = $( '#custcolcabinetgrillcloth option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
-    $('#grillcloth-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
-    $('#grillcloth-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+    $('#grillcloth-preview-container-custom').find('div').addClass('active').addClass(searchString);
+    $('#grillcloth-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
     setCustomLink();
     if (searchString != ''){
         $('.grillclothSwatchDiv div.active').removeClass('active');
@@ -524,11 +679,11 @@ $('#button-grillcloth-right').click(function(){
 $('.item-drill-down #custcolcabinethandle').change(function(){
     var searchString = $( '#custcolcabinethandle option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
     if (searchString != ''){
-        $('#handle-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
-        $('#handle-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+        $('#handle-preview-container-custom').find('div').addClass('active').addClass(searchString);
+        $('#handle-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
     }else{
-        $('#handle-preview-container-custom').html('<div></div>');
-        $('#handle-preview-container-top-custom').html('<div></div>');
+        $('#handle-preview-container-custom div').removeClass();
+        $('#handle-preview-container-top-custom div').removeClass();
     }
     setCustomLink();
 });
@@ -550,11 +705,11 @@ $('#handleNext').click(function(){
 $('.item-drill-down #custcolcabinetoptionsfeet').change(function(){
     var searchString = $( '#custcolcabinetoptionsfeet option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'').replace(regex6,'');
     if (searchString != ''){
-        $('#feet-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
-        $('#feet2-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+        $('#feet-preview-container-custom').find('div').addClass('active').addClass(searchString);
+        $('#feet2-preview-container-custom').find('div').addClass('active').addClass(searchString);
     }else{
-        $('#feet-preview-container-custom').html('<div></div>');
-        $('#feet2-preview-container-custom').html('<div></div>');
+        $('#feet-preview-container-custom div').removeClass();
+        $('#feet2-preview-container-custom div').removeClass();
     }
     setCustomLink();
 });
@@ -671,155 +826,63 @@ $(document).ready(function(){
 });
 
 </script>
-<style type="text/css">
-    #main-image{ float:left; width:100%; }
-    #main-image img{ max-width:260px; }
-    .sub-gallery{ float:left; clear:both; width:100%; }
-    .sub-gallery .sub{ float:left; padding:3px; margin:10px 8px 0 0; border:1px solid #c4c4c4; width:50px; }
-    .sub-gallery .sub a{ max-width:100%; height:auto; }
-    .sub-gallery .sub img{ max-width:100%; height:auto; }
-    .facebook-like-button{ cursor:pointer; }
-</style>
-</div>
-</div>
-</div>
-<div id="more-information" class="white-box details-box">
-    <div class="pad">
-        <div style="float:left; width:300px;">
-            <div class="image">
-                <div class="gallery">
-                    <a id="main-image" class="main" href="<%=getCurrentAttribute('item','storedisplayimage')%>"><%=getCurrentAttribute('item','storedisplayimagehtml')%></a>
-                </div>
-                <div class="sub-gallery"></div>
-            </div>
-            <script type="text/javascript">
+<script>
+    $(document).ready(function(){
+        var inchToPxModifer = 7.5;
 
-                //photo stuff
-                var mainImageHref = $('.gallery #main-image').attr('href');
-                var mainImageHTML = $('.gallery #main-image').html();
+        var cabHeight = inchToPxModifer*<%=getCurrentAttribute('item','custitemcabconfigheight')%>;
+        var cabWidth = inchToPxModifer*<%=getCurrentAttribute('item','custitemcabconfigwidth')%>;
+        var cabDepth = inchToPxModifer*<%=getCurrentAttribute('item','custitemcabconfigdepth')%>;
+        var cabChassis = inchToPxModifer*<%=getCurrentAttribute('item','custitemcabconfigchassis')%>;
+        var cabDefaultTolex = '<%=getCurrentAttribute('item','custitemcabconfigdefaulttolexurl')%>';
+        var cabDefaultGrillCloth = '<%=getCurrentAttribute('item','custitemcabconfigdefaultgrillclothurl')%>';
+        var cabDefaultFeet = '<%=getCurrentAttribute('item','custitemcabconfigdefaultfeet')%>';
+        var cabDefaultHandle = '<%=getCurrentAttribute('item','custitemcabconfigdefaulthandle')%>';
+        var cabDefaultHandleTop = '<%=getCurrentAttribute('item','custitemcabconfigdefaulthandletop')%>';
 
 
-                var custitemimage1 = "<%=getCurrentAttribute('item','custitemimage1')%>";
-                var custitemimage1thumb = "<%=getCurrentAttribute('item','custitemimage1thumb')%>";
-                if (custitemimage1 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+mainImageHref+'">'+mainImageHTML+'</a>');
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage1+'"><img src="'+custitemimage1thumb+'"/></a>');
-                }
+        $('#preview-container-div, #preview-container-top-div').css('height',(cabHeight+80)+'px');
 
-                var custitemimage2 = "<%=getCurrentAttribute('item','custitemimage2')%>";
-                var custitemimage2thumb = "<%=getCurrentAttribute('item','custitemimage2thumb')%>";
-                if (custitemimage2 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage2+'"><img src="'+custitemimage2thumb+'"/></a>');
-                }
+        $('#feet-button-div').css('margin-top',(cabHeight+134)+'px');
 
-                var custitemimage3 = "<%=getCurrentAttribute('item','custitemimage3')%>";
-                var custitemimage3thumb = "<%=getCurrentAttribute('item','custitemimage3thumb')%>";
-                if (custitemimage3 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage3+'"><img src="'+custitemimage3thumb+'"/></a>');
-                }
+        $('#tolex-preview-container-custom-subdiv').css('height',(cabHeight+34)+'px');
 
-                var custitemimage4 = "<%=getCurrentAttribute('item','custitemimage4')%>";
-                var custitemimage4thumb = "<%=getCurrentAttribute('item','custitemimage4thumb')%>";
-                if (custitemimage4 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage4+'"><img src="'+custitemimage4thumb+'"/></a>');
-                }
+        $('#tolex-preview-container-custom-subdiv').css('background-image','url('+cabDefaultTolex+')');
+        $('#grillcloth-preview-container-custom-subdiv').css('background-image','url('+cabDefaultGrillCloth+')');
 
-                var custitemimage5 = "<%=getCurrentAttribute('item','custitemimage5')%>";
-                var custitemimage5thumb = "<%=getCurrentAttribute('item','custitemimage5thumb')%>";
-                if (custitemimage5 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage5+'"><img src="'+custitemimage5thumb+'"/></a>');
-                }
+        $('#feet-preview-container-custom-subdiv, #feet2-preview-container-custom-subdiv').css('background-image','url('+cabDefaultFeet+')');
 
-                var custitemimage6 = "<%=getCurrentAttribute('item','custitemimage6')%>";
-                var custitemimage6thumb = "<%=getCurrentAttribute('item','custitemimage6thumb')%>";
-                if (custitemimage6 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage6+'"><img src="'+custitemimage6thumb+'"/></a>');
-                }
-
-                var custitemimage7 = "<%=getCurrentAttribute('item','custitemimage7')%>";
-                var custitemimage7thumb = "<%=getCurrentAttribute('item','custitemimage7thumb')%>";
-                if (custitemimage7 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage7+'"><img src="'+custitemimage7thumb+'"/></a>');
-                }
-
-                var custitemimage8 = "<%=getCurrentAttribute('item','custitemimage8')%>";
-                var custitemimage8thumb = "<%=getCurrentAttribute('item','custitemimage8thumb')%>";
-                if (custitemimage8 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage8+'"><img src="'+custitemimage8thumb+'"/></a>');
-                }
-
-                var custitemimage9 = "<%=getCurrentAttribute('item','custitemimage9')%>";
-                var custitemimage9thumb = "<%=getCurrentAttribute('item','custitemimage9thumb')%>";
-                if (custitemimage9 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage9+'"><img src="'+custitemimage9thumb+'"/></a>');
-                }
-
-                var custitemimage10 = "<%=getCurrentAttribute('item','custitemimage10')%>";
-                var custitemimage10thumb = "<%=getCurrentAttribute('item','custitemimage10thumb')%>";
-                if (custitemimage10 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage10+'"><img src="'+custitemimage10thumb+'"/></a>');
-                }
-
-                var custitemimage11 = "<%=getCurrentAttribute('item','custitemimage11')%>";
-                var custitemimage11thumb = "<%=getCurrentAttribute('item','custitemimage11thumb')%>";
-                if (custitemimage11 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage11+'"><img src="'+custitemimage11thumb+'"/></a>');
-                }
-
-                var custitemimage12 = "<%=getCurrentAttribute('item','custitemimage12')%>";
-                var custitemimage12thumb = "<%=getCurrentAttribute('item','custitemimage12thumb')%>";
-                if (custitemimage12 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage12+'"><img src="'+custitemimage12thumb+'"/></a>');
-                }
-
-                var custitemimage13 = "<%=getCurrentAttribute('item','custitemimage13')%>";
-                var custitemimage13thumb = "<%=getCurrentAttribute('item','custitemimage13thumb')%>";
-                if (custitemimage13 != ''){
-                    $('.sub-gallery').append('<a class="sub" href="'+custitemimage13+'"><img src="'+custitemimage13thumb+'"/></a>');
-                }
-
-                $('.sub-gallery a').click( function(){
-                    var href = $(this).attr('href');
-                    var thumb = $(this).html();
-                    $('.gallery #main-image').attr('href', href);
-                    $('.gallery #main-image').html(thumb);
-                    return false;
-                });
-
-            </script>
-            <style type="text/css">
-                #main-image{ height:140px; float:left; width:100%; }
-                #main-image img{ max-height:140px; }
-                .sub-gallery{ float:left; clear:both; width:100%; }
-                .sub-gallery .sub{ float:left; padding:3px; margin:10px 8px 0 0; border:1px solid #c4c4c4; width:50px; }
-                .sub-gallery .sub a{ max-width:100%; height:auto; }
-                .sub-gallery .sub img{ max-width:100%; height:auto; }
-            </style>
-        </div>
-        <div style="float:left; width:360px;">
-            <h4 >#<span class="item-number"><%=getCurrentAttribute('item','itemid')%></span></h4>
-            <div class="item-weight"><span>Weight:</span> <%=getCurrentAttribute("item","weight","N/A")%> <%=getCurrentAttribute("item","weightunit","")%></div>
-            <div class="brief-description">
-                <%=getCurrentAttribute('item','storedescription')%><br />
-                <%=getCurrentAttribute('item','storedetaileddescription')%>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="related-items">
-    <h3>Related Items</h3>
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-            <%=getCurrentAttribute('item','allrelateditemshtml')%>
-        </tr>
-    </table>
-</div>
-</td>
-
-<!--
+        $('#feet-preview-container-custom-subdiv').css('height',(cabHeight+53)+'px');
+        $('#feet-preview-container-custom-subdiv, #feet2-preview-container-custom-subdiv').css('height',(cabHeight+53)+'px');
+        $('#feet-preview-container-custom-subdiv').css('margin-left','0px');
+        $('#feet2-preview-container-custom-subdiv').css('margin-left',(cabWidth-40)+'px');
 
 
-/drilldown item
+        $('#tolex-preview-container-top-custom-subdiv').css('height',(cabDepth+13)+'px');
+        $('#tolex-preview-container-top-custom-subdiv').css('background-image','url('+cabDefaultTolex+')');
+
+        $('#top-cutout').css('width',(cabWidth+25)+'px');
+        $('#top-cutout').css('margin-left',(50)+'px');
 
 
--->
+        $('#handle-preview-container-custom-subdiv').css('background-image','url('+cabDefaultHandle+')');
+        $('#handle-preview-container-top-custom-subdiv').css('background-image','url('+cabDefaultHandleTop+')');
+        $('#handle-preview-container-top-custom-subdiv').css('margin-top',((cabDepth/2)-100)+'px');
+
+
+        $('#preview-container-top-div, #preview-container-div, #tolex-preview-container-top-custom-subdiv, #tolex-preview-container-custom-subdiv, #handle-preview-container-custom-subdiv, #handle-preview-container-top-custom-subdiv').css('width',(cabWidth+100)+'px');
+
+
+        $('.inner-shadow, #grillcloth-preview-container-custom-subdiv').css('width',(cabWidth+80)+'px');
+
+        $('.inner-shadow, #grillcloth-preview-container-custom-subdiv').css('height',(cabHeight-26)+'px');
+
+        $('.inner-shadow, #grillcloth-preview-container-custom-subdiv').css('margin-left',(10)+'px');
+        $('.inner-shadow, #grillcloth-preview-container-custom-subdiv').css('margin-right',(10)+'px');
+        $('.inner-shadow, #grillcloth-preview-container-custom-subdiv').css('margin-top',(30)+'px');
+
+
+        $('.inner-shadow, #grillcloth-preview-container-custom-subdiv').css('margin-top',(30)+'px');
+
+    });
+</script>
