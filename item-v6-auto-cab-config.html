@@ -514,13 +514,13 @@ $('.item-drill-down #custcolcabinetoptionspiping').change(function(){
         $('#pipingm2-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
         $('#pipingm3-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
     }else{
-        $('#piping-preview-container-custom').removeClass();
-        $('#pipingm2-preview-container-custom').removeClass();
-        $('#pipingm3-preview-container-custom').removeClass();
+        $('#piping-preview-container-custom-subdiv').removeClass();
+        $('#pipingm2-preview-container-custom-subdiv').removeClass();
+        $('#pipingm3-preview-container-custom-subdiv').removeClass();
 
-        $('#piping-preview-container-top-custom').removeClass();
-        $('#pipingm2-preview-container-top-custom').removeClass();
-        $('#pipingm3-preview-container-top-custom').removeClass();
+        $('#piping-preview-container-top-custom-subdiv').removeClass();
+        $('#pipingm2-preview-container-top-custom-subdiv').removeClass();
+        $('#pipingm3-preview-container-top-custom-subdivvalence-preview-container-custom').removeClass();
     }
     setCustomLink();
     if (searchString != ''){
@@ -576,9 +576,9 @@ $('.item-drill-down #custcolcabinetoptionspiping_m').change(function(){
         $('#pipingm-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
         $('#valence-preview-container-custom').find('div').addClass('active').addClass(searchString);
     }else{
-        $('#pipingm-preview-container-custom').removeClass();
-        $('#pipingm-preview-container-top-custom').removeClass();
-        $('#valence-preview-container-custom').removeClass();
+        $('#pipingm-preview-container-custom-subdiv').removeClass();
+        $('#pipingm-preview-container-top-custom-subdiv').removeClass();
+        $('#valence-preview-container-custom-subdiv').removeClass();
     }
     setCustomLink();
     if (searchString != ''){
@@ -840,7 +840,6 @@ $(document).ready(function(){
         var cabDefaultHandle = '<%=getCurrentAttribute('item','custitemcabconfigdefaulthandle')%>';
         var cabDefaultHandleTop = '<%=getCurrentAttribute('item','custitemcabconfigdefaulthandletop')%>';
 
-
         $('#preview-container-div, #preview-container-top-div').css('height',(cabHeight+80)+'px');
 
         $('#feet-button-div').css('margin-top',(cabHeight+134)+'px');
@@ -883,6 +882,36 @@ $(document).ready(function(){
 
 
         $('.inner-shadow, #grillcloth-preview-container-custom-subdiv').css('margin-top',(30)+'px');
+        $('#pipingm-preview-container-custom-subdiv').css('height',(cabHeight)+'px');
+        $('#pipingm-preview-container-custom-subdiv div').css('height',(cabHeight)+'px');
+
+
+
+
+
+        /*
+
+
+        #pipingm-preview-container-custom div{ height:127px;  }
+#pipingm-preview-container-custom div{ margin-top:10px; }
+#preview-container-div #valence-preview-container-custom div{ margin-top:10px; height:56px !important; }
+#pipingm2-preview-container-custom div{ height:10px; }
+#pipingm3-preview-container-custom div{ margin-top:141px; height:10px; }
+
+
+        .Large-Burgundy-Piping-716H-x-316-Bead-with-Lip-8132411,
+                .Large-Cocoa-Piping-12H-x-316-Bead-with-Lip-8132410,
+                .Large-Cocoa-Piping-12H-x-316-Bead-with-Lip-8132410,
+                .Large-Cream-Piping-12H-x-316-Bead-With-Lip-8132402,
+        .Large-Gold-Piping-12H-x-316-Bead-with-Lip-1135001,
+                .Large-Silver-Piping-12H-x-316-Bead-with-Lip-1135002,
+                .Large-White-Piping-12H-x-316-Bead-with-Lip-1131402{ height:125px !important; }
+        .Medium-Black-Piping-716H-x-18-Bead-with-Lip-8132405,
+                .Medium-Gold-Piping-716H-x-18-Bead-with-Lip-8131401,
+                .Medium-Silver-Piping-716H-x-18-Bead-with-Lip-8132401,
+                .Medium-White-Piping-716H-x-18-Bead-with-Lip-8131402{ height:127px !important; }
+
+         */
 
     });
 </script>
