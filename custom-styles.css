@@ -1,9 +1,10 @@
 #tolex-preview-container-custom div{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310101.jpg); }
+#grillcloth-preview-container-custom div{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000005.jpg); }
 #piping-preview-container-custom{ display:none; }
-#pipingm-preview-container-custom div{ border:2px solid #D2B780; }
+#pipingm-preview-container-custom div{ border:2px solid #F6F6F6; }
 #pipingm2-preview-container-custom div{ border:1px solid #47402D; }
 #pipingm3-preview-container-custom div{ border:1px solid #47402D; }
-#preview-container-div #valence-preview-container-custom div{ border:2px solid #D2B780; }
+#preview-container-div #valence-preview-container-custom div{ border:2px solid #F6F6F6; }
 #handle-preview-container-custom div{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220101.png);  }
 #preview-container-div #feet-preview-container-custom div{ background-image:url(http://mojostuff.com/cabconfigimg/feet/9000001.png); }
 #preview-container-div #feet2-preview-container-custom div{ background-image:url(http://mojostuff.com/cabconfigimg/feet/9000001.png); }
@@ -13,25 +14,24 @@
 
 
 
+#grillcloth-preview-container-top-custom{ display:none; }
 
 
 
-
-
-#cabpreview-options-h-grillcloth{ display:none; }
 
 /* height */
-#tolex-preview-container-custom div{ height:151px; }
-#preview-container-div #feet-preview-container-custom div{ height:170px; margin-left:-5px; }
-#preview-container-div #feet2-preview-container-custom div{ height:170px; width:50px; margin-left: 362px; }
-.inner-shadow, #grillcloth-preview-container-custom div{ height:131px !important; margin-top:10px !important; }
+#tolex-preview-container-custom div{ height:322px; }
+#preview-container-div #feet-preview-container-custom div{ height:341px; margin-left:-5px; }
+#preview-container-div #feet2-preview-container-custom div{ height:341px; width:50px; margin-left: 398px; }
+.inner-shadow{ height:302px !important; margin:10px; }
+#grillcloth-preview-container-custom div{ height:246px !important; margin-top:66px !important; }
 
 /* pipings */
-#pipingm-preview-container-custom div{ height:127px;  }
+#pipingm-preview-container-custom div{ height:298px;  }
 #pipingm-preview-container-custom div{ margin-top:10px; }
 #preview-container-div #valence-preview-container-custom div{ margin-top:10px; height:56px !important; }
 #pipingm2-preview-container-custom div{ height:10px; }
-#pipingm3-preview-container-custom div{ margin-top:141px; height:10px; }
+#pipingm3-preview-container-custom div{ margin-top:312px; height:10px; }
 
 
 .Large-Burgundy-Piping-716H-x-316-Bead-with-Lip-8132411,
@@ -40,37 +40,46 @@
 .Large-Cream-Piping-12H-x-316-Bead-With-Lip-8132402,
 .Large-Gold-Piping-12H-x-316-Bead-with-Lip-1135001,
 .Large-Silver-Piping-12H-x-316-Bead-with-Lip-1135002,
-.Large-White-Piping-12H-x-316-Bead-with-Lip-1131402{ height:125px !important; }
+.Large-White-Piping-12H-x-316-Bead-with-Lip-1131402{ height:296px !important; }
 .Medium-Black-Piping-716H-x-18-Bead-with-Lip-8132405,
 .Medium-Gold-Piping-716H-x-18-Bead-with-Lip-8131401,
 .Medium-Silver-Piping-716H-x-18-Bead-with-Lip-8132401,
-.Medium-White-Piping-716H-x-18-Bead-with-Lip-8131402{ height:127px !important; }
+.Medium-White-Piping-716H-x-18-Bead-with-Lip-8131402{ height:298px !important; }
 
-#preview-container-div, #preview-container-top-div{ height:200px; width:252px; }
-#feet-button-div{ margin-top: 231px; }
+#preview-container-div, #preview-container-top-div{ height:336px; width:300px; }
+#feet-button-div{ margin-top: 400px; }
 
 /* width */
-#preview-container-top-div, #preview-container-div, #tolex-preview-container-top-custom div, #tolex-preview-container-custom div, #handle-preview-container-custom div, #handle-preview-container-top-custom div{ width:406px; }
-.inner-shadow, #grillcloth-preview-container-custom div,#preview-container-div #valence-preview-container-custom div{ width:386px !important; margin-left:10px; margin-right:10px; }
-#pipingm-preview-container-custom div{ width:382px; }
+#preview-container-top-div, #preview-container-div, #tolex-preview-container-top-custom div, #tolex-preview-container-custom div, #handle-preview-container-custom div, #handle-preview-container-top-custom div{ width:448px; }
+.inner-shadow, #grillcloth-preview-container-custom div,#preview-container-div #valence-preview-container-custom div{ width:428px !important; margin-left:10px; margin-right:10px; }
+
 .Large-Burgundy-Piping-716H-x-316-Bead-with-Lip-8132411,
 .Large-Cocoa-Piping-12H-x-316-Bead-with-Lip-8132410,
 .Large-Cocoa-Piping-12H-x-316-Bead-with-Lip-8132410,
 .Large-Cream-Piping-12H-x-316-Bead-With-Lip-8132402,
 .Large-Gold-Piping-12H-x-316-Bead-with-Lip-1135001,
 .Large-Silver-Piping-12H-x-316-Bead-with-Lip-1135002,
-.Large-White-Piping-12H-x-316-Bead-with-Lip-1131402{ width:380px !important; }
+.Large-White-Piping-12H-x-316-Bead-with-Lip-1131402{ width:422px !important; }
 .Medium-Black-Piping-716H-x-18-Bead-with-Lip-8132405,
 .Medium-Gold-Piping-716H-x-18-Bead-with-Lip-8131401,
 .Medium-Silver-Piping-716H-x-18-Bead-with-Lip-8132401,
-.Medium-White-Piping-716H-x-18-Bead-with-Lip-8131402{ width:382px !important; }
+.Medium-White-Piping-716H-x-18-Bead-with-Lip-8131402{ width:424px !important; }
 
 
 /* pipings */
-#pipingm-preview-container-custom div{  margin-left:10px; margin-right:10px; }
-#pipingm2-preview-container-top-custom div, #pipingm2-preview-container-custom div, #pipingm3-preview-container-custom div{ width:365px; }
+#pipingm-preview-container-custom div{ width:424px; margin-left:10px; margin-right:10px; }
+#pipingm2-preview-container-top-custom div, #pipingm2-preview-container-custom div, #pipingm3-preview-container-custom div{ width:406px; }
 
 /* depth */
-#tolex-preview-container-top-custom div, #pipingm2-preview-container-top-custom div{ height:116px; }
-#front-cutout{ display:block; width:341px; margin-left:33px; height:27px; margin-top:-33px; }
-#handle-preview-container-top-custom div{ margin-top:-37px; }
+#tolex-preview-container-top-custom div, #pipingm2-preview-container-top-custom div{ height:147px; }
+#top-cutout{ display:block; width:231px; margin-left:114px; height:35px; margin-top:-48px;
+    -webkit-border-radius: 3px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius: 3px;
+    -moz-border-radius-topleft: 0;
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    border-top-right-radius: 0; }
+#handle-preview-container-top-custom div{ margin-top:-23px; }

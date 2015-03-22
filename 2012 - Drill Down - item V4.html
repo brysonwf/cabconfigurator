@@ -1,0 +1,238 @@
+<!--
+
+
+drilldown item
+
+
+-->
+<td><table cellpadding="0" cellspacing="0" style="padding:0; margin:0;"><tr>
+<td width="100%" style="padding:0; margin:0;">
+<div class="item-drill-down">
+    <div class="pad">
+        <div class="info">
+            <h1><%=getCurrentAttribute('item','storedisplayname')%></h1>
+            <div class="stock-status"><%=getCurrentAttribute('item','stockstatusmessagehtml')%></div>
+            <div id="price" class="price no-quantity"><%=getCurrentAttribute('item', 'salesPriceDrilldownHtml')%><a class="view-quantity-pricing">View Quantity Pricing</a></div>
+            <script type="text/javascript">
+                $(document).ready( function(){
+                    $('.view-quantity-pricing').click( function(){
+                        if ($(this).html() == 'Hide Quantity Pricing'){
+                            $('#price').addClass('no-quantity');
+                            $(this).html('View Quantity Pricing');
+                        }else{
+                            $('#price').removeClass('no-quantity');
+                            $(this).html('Hide Quantity Pricing');
+                        }
+                    });
+                });
+            </script>
+            <script language='JavaScript'>
+                var cartQuantity = $('.quantity-in-cart').html();
+                $('.quantity-in-cart').remove();
+                var each = $('.each').html();
+                $('.each').remove();
+                var eachHTML = '';
+                if (each != null){
+                    eachHTML = ' at '+each;
+                }
+                if (cartQuantity != null) {
+                    document.write('<div class="quantity-in-cart">'+cartQuantity+eachHTML+' <a href="http://www.mojotone.com/cart/">View Cart</a></div>');
+                }
+            </script>
+            <script language='JavaScript'>
+                var quantityavailable="<%=getCurrentAttribute('item','quantityavailable')%>";
+                var saleunit = '<%=getCurrentAttribute("item","saleunit","Each")%>';
+                /*if (quantityavailable > 0) {
+                 document.write('<div class="item-weight">'+quantityavailable+' <span>available. Sold per</span> '+saleunit+'</div>');
+                 }else{*/
+                document.write('<div class="item-weight"><span>Per:</span> '+saleunit+'</div>');
+                //}
+            </script>
+            <div class="featured-description"><%=getCurrentAttribute('item','featureddescription')%>&nbsp;<span style="color:#000;"><%=getCurrentAttribute('item','custitemampkitdisclaimer')%></span></div>
+            <div style="display:<%=getCurrentAttribute('item','custitemclearance')%>;" class="clearance"><div></div></div>
+            <!-- AddThis Button BEGIN -->
+            <div class="addthis_toolbox addthis_default_style ">
+                <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+                <a class="addthis_button_tweet"></a>
+                <a class="addthis_button_pinterest_pinit"></a>
+                <a class="addthis_counter addthis_pill_style"></a>
+            </div>
+            <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+            <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=mojotone"></script>
+            <!-- AddThis Button END -->
+            <div id="stock-notification">
+                <label>Email me when item is back in stock:</label>
+                <input id="stock-notification-id" type="hidden" name="itemid" value="<%=getCurrentAttribute('item','itemid')%>" />
+                <input id="stock-notification-name" type="hidden" name="name" value="<%=getCurrentAttribute('item','storedisplayname2')%>" />
+                <input id="stock-notification-email" type="text" name="email" value="<%=getCurrentAttribute('customer','email')%>" />
+                <a id="stock-notification-button" href="#">Submit</a>
+            </div>
+            <!-- ADD-TO-CART -->
+            <form method='post' name='form<%=getCurrentAttribute('item', 'internalid')%>' id='form<%=getCurrentAttribute('item', 'internalid')%>' onsubmit='return checkmandatory<%=getCurrentAttribute('item', 'internalid')%>();' action='/app/site/backend/additemtocart.nl'>
+            <div class="add-to-cart-form">
+                <div class="button-col">
+                    <div class="pad">
+                        <div class="add-to-cart-options">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td><%=getCurrentAttribute('item','addtocartoptionshtml')%></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="drill-down-or-price-match">
+                            <div class="add-to-cart-drill-down">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <%=getCurrentAttribute('item','addToCartDrilldownHtml')%>
+                                </table>
+                            </div>
+                            <div class="pricematch"><a class="show-pricematch-form" href="http://mojostuff.com/feedback/pricematch.php?item=<%=getCurrentAttribute('item','itemid')%>&email=<%=getCurrentAttribute('customer','email')%>">Pricematch</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form><!-- /ADD-TO-CART -->
+            <a style="display:none;" class="view-more" href="#more-information">More Information</a>
+        </div>
+        <div class="image">
+            <div class="gallery">
+                <a id="main-image" class="main" href="<%=getCurrentAttribute('item','storedisplayimage')%>"><%=getCurrentAttribute('item','storedisplayimagehtml')%></a>
+            </div>
+            <div class="sub-gallery"></div>
+        </div>
+        <style type="text/css">
+            <%=getCurrentAttribute('item','custitemcabinetoptionscabconfigstyles')%>
+        </style>
+        <script type="text/javascript">
+
+            //photo stuff
+            var mainImageHref = $('.gallery #main-image').attr('href');
+            var mainImageHTML = $('.gallery #main-image').html();
+
+
+            var custitemimage1 = "<%=getCurrentAttribute('item','custitemimage1')%>";
+            var custitemimage1thumb = "<%=getCurrentAttribute('item','custitemimage1thumb')%>";
+            if (custitemimage1 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+mainImageHref+'">'+mainImageHTML+'</a>');
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage1+'"><img src="'+custitemimage1thumb+'"/></a>');
+            }
+
+            var custitemimage2 = "<%=getCurrentAttribute('item','custitemimage2')%>";
+            var custitemimage2thumb = "<%=getCurrentAttribute('item','custitemimage2thumb')%>";
+            if (custitemimage2 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage2+'"><img src="'+custitemimage2thumb+'"/></a>');
+            }
+
+            var custitemimage3 = "<%=getCurrentAttribute('item','custitemimage3')%>";
+            var custitemimage3thumb = "<%=getCurrentAttribute('item','custitemimage3thumb')%>";
+            if (custitemimage3 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage3+'"><img src="'+custitemimage3thumb+'"/></a>');
+            }
+
+            var custitemimage4 = "<%=getCurrentAttribute('item','custitemimage4')%>";
+            var custitemimage4thumb = "<%=getCurrentAttribute('item','custitemimage4thumb')%>";
+            if (custitemimage4 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage4+'"><img src="'+custitemimage4thumb+'"/></a>');
+            }
+
+            var custitemimage5 = "<%=getCurrentAttribute('item','custitemimage5')%>";
+            var custitemimage5thumb = "<%=getCurrentAttribute('item','custitemimage5thumb')%>";
+            if (custitemimage5 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage5+'"><img src="'+custitemimage5thumb+'"/></a>');
+            }
+
+            var custitemimage6 = "<%=getCurrentAttribute('item','custitemimage6')%>";
+            var custitemimage6thumb = "<%=getCurrentAttribute('item','custitemimage6thumb')%>";
+            if (custitemimage6 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage6+'"><img src="'+custitemimage6thumb+'"/></a>');
+            }
+
+            var custitemimage7 = "<%=getCurrentAttribute('item','custitemimage7')%>";
+            var custitemimage7thumb = "<%=getCurrentAttribute('item','custitemimage7thumb')%>";
+            if (custitemimage7 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage7+'"><img src="'+custitemimage7thumb+'"/></a>');
+            }
+
+            var custitemimage8 = "<%=getCurrentAttribute('item','custitemimage8')%>";
+            var custitemimage8thumb = "<%=getCurrentAttribute('item','custitemimage8thumb')%>";
+            if (custitemimage8 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage8+'"><img src="'+custitemimage8thumb+'"/></a>');
+            }
+
+            var custitemimage9 = "<%=getCurrentAttribute('item','custitemimage9')%>";
+            var custitemimage9thumb = "<%=getCurrentAttribute('item','custitemimage9thumb')%>";
+            if (custitemimage9 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage9+'"><img src="'+custitemimage9thumb+'"/></a>');
+            }
+
+            var custitemimage10 = "<%=getCurrentAttribute('item','custitemimage10')%>";
+            var custitemimage10thumb = "<%=getCurrentAttribute('item','custitemimage10thumb')%>";
+            if (custitemimage10 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage10+'"><img src="'+custitemimage10thumb+'"/></a>');
+            }
+
+            var custitemimage11 = "<%=getCurrentAttribute('item','custitemimage11')%>";
+            var custitemimage11thumb = "<%=getCurrentAttribute('item','custitemimage11thumb')%>";
+            if (custitemimage11 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage11+'"><img src="'+custitemimage11thumb+'"/></a>');
+            }
+
+            var custitemimage12 = "<%=getCurrentAttribute('item','custitemimage12')%>";
+            var custitemimage12thumb = "<%=getCurrentAttribute('item','custitemimage12thumb')%>";
+            if (custitemimage12 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage12+'"><img src="'+custitemimage12thumb+'"/></a>');
+            }
+
+            var custitemimage13 = "<%=getCurrentAttribute('item','custitemimage13')%>";
+            var custitemimage13thumb = "<%=getCurrentAttribute('item','custitemimage13thumb')%>";
+            if (custitemimage13 != ''){
+                $('.sub-gallery').append('<a class="sub" href="'+custitemimage13+'"><img src="'+custitemimage13thumb+'"/></a>');
+            }
+
+            $('.sub-gallery a').click( function(){
+                var href = $(this).attr('href');
+                var thumb = $(this).html();
+                $('.gallery #main-image').attr('href', href);
+                $('.gallery #main-image').html(thumb);
+                return false;
+            });
+
+        </script>
+        <style type="text/css">
+            #main-image{ height:140px; float:left; width:100%; }
+            #main-image img{ max-height:140px; }
+            .sub-gallery{ float:left; clear:both; width:100%; }
+            .sub-gallery .sub{ float:left; padding:3px; margin:10px 8px 0 0; border:1px solid #c4c4c4; width:50px; }
+            .sub-gallery .sub a{ max-width:100%; height:auto; }
+            .sub-gallery .sub img{ max-width:100%; height:auto; }
+        </style>
+    </div>
+</div>
+</div>
+<div id="more-information" class="white-box details-box">
+    <div class="pad">
+        <h4 >#<span class="item-number"><%=getCurrentAttribute('item','itemid')%></span></h4>
+        <div class="item-weight"><span>Weight:</span> <%=getCurrentAttribute("item","weight","N/A")%> <%=getCurrentAttribute("item","weightunit","")%></div>
+        <div class="brief-description">
+            <%=getCurrentAttribute('item','storedescription')%><br />
+            <%=getCurrentAttribute('item','storedetaileddescription')%>
+        </div>
+    </div>
+</div>
+<div class="related-items">
+    <h3>Related Items</h3>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <%=getCurrentAttribute('item','allrelateditemshtml')%>
+        </tr>
+    </table>
+</div>
+</td>
+
+
+<!--
+
+
+/drilldown item
+
+
+-->
