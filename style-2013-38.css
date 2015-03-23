@@ -1,0 +1,1548 @@
+html, body { min-width:1000px; color:#666; padding:0; margin:0; font-size: 62.5%; /* Resets 1em to 10px */ height:100%; width:100%; font-size:12px; font-family:Arial, Helvetica, sans-serif; background-color:#595959; background-image:url(img2013/bg-grainy-black.jpg); float: left; width: 100%; }
+
+a { color:#3366CC; }
+a:hover { color:#DD4B39 !important; }
+body .category-list-table table{ border-spacing:0 !important; border-collapse:collapse !important; padding:0; }
+body .category-list-table table td{ border-spacing:0 !important; border-collapse:collapse !important; padding:0; }
+
+img{ border:0; }
+table{ padding:0 !important; margin:0 !important; border-spacing:0 !important; }
+tr{ padding:0; margin:0; border-spacing:0 !important; }
+td{ padding:0; margin:0; border-spacing:0 !important; }
+.checkout .td-content{ }
+.checkout .content-pad{ }
+.extcartbordershaded{ padding:2px 5px !important;  }
+.extcarttotalshaded{ padding:2px 5px !important; }
+.extcart{ padding:12px 0 !important; }
+.extcartborder{ padding:2px 5px !important; }
+.extcarttotal{ padding:2px 5px !important; }
+.cart-table-container{ }
+
+#div__title{ width:100%;  margin:0; padding:0; }
+#div__label{ width:100%; margin:0; padding:0; }
+#div__body{ margin:0 !important; padding:10px 0; color:#333; background-color:#eeeeee; }
+#div__header { padding:0; margin:0; }
+#div__header a { text-decoration:none; }
+#div__footer{ background-color:#000000; }
+
+.page-margin{ margin:0 auto; width:990px; padding:0 5px; }
+
+input, select, textarea { border:1px solid #999; }
+.smalltext, .text, .smalltextnolink, .bglttext { font-size: 13px !important; }
+td.smalltextnolink span.smalltextnolink a.smalltextnolink{ padding-top:5px !important; }
+.bglttext{ font-size:10px !important; }
+.pageinationbar{ background-color:#fff; width:100%; }
+.sortbar { background-color:#fff; }
+.sortbar a { text-decoration:none; text-transform:uppercase; font-size:11px; }
+.sort { padding:2px 10px; }
+.pageination{  }
+.addthis_button_facebook_like{ padding-left:0 !important; }
+
+/* end base content */
+
+.topbanner{ float:left; clear:both; width:100%; text-align:center; padding-bottom:4px; border-bottom:1px solid #999; background-color:#666; }
+#twitter-div{ float:left; clear:both; width:100%; text-align:center; }
+
+#header{ float:left; width:100%; background-image:url(img2013/bg-shadow-header.png); background-position:bottom; background-repeat:repeat-x; }
+
+#logo{ padding:0; margin:0; float:left; width:191px; height:120px; }
+
+#tagline{ float:left; width:200px; font-size:16px; font-style:italic; color:#ffffff; width:260px; margin:10px 0 0 20px; height:34px; }
+#tagline-navigation{ float:left; width:502px; margin:2px 0 0 20px; padding:0; height:25px !important; }
+#tagline-navigation a{ float:left; margin-left:15px; }
+#tagline-navigation a.f{ margin-left:0; }
+
+#login-div{ float:left; width:514px; font-size:14px; margin-right:5px; }
+#login-div .level{ font-weight:bold; }
+#login-div .signout-button{ background-image:none; padding:0 0 0 5px; margin:0; color:#aeadad; }
+#login-email{ float:right; margin-right:10px; color:#fff; padding:5px 0; }
+#login-email a{ color:#fff; }
+#cart-total{ float:right; padding:0 4px; background-color:#17c200; text-shadow:0 1px 1px #c6f5bf; height:27px; 
+:visible; margin-right:10px; }
+#cart-total div{ color:#212121; float:left; padding:5px 0; }
+#cart-total img{ float:left; position:relative; margin-right:5px; }
+#nav-help{ float:right; font-size:14px; padding:0; color:red; padding:5px 0; }
+
+#upsale-div{ width:416px; list-style:none; margin:0; white-space:no-wrap; float:right; padding-right:2px; padding-top:10px;}
+#upsale-div li{ float:right; background-image:url(/img/bullet-blue.png); padding-left:13px; margin-left:7px; background-position:center left; background-repeat:no-repeat; }
+#upsale-div li a { color:#999999; }
+#upsale-div li.gift-card{ padding:0; margin:0; background-image:none; }
+
+.social-media{ float:left; padding:0; margin:4px 0 0 20px; list-style:none; }
+.social-media li{ float:left; padding:0 0 0 3px; margin:0; }
+
+
+#site-nav{ list-style:none; float:right; width:800px; margin:0; padding:12px 2px 7px 0; text-align:right; }
+#site-nav li{ display:inline-block; white-space:nowrap; cursor:pointer; background-image:url(/img/bullet-blue.png); padding-left:13px; margin-left:7px; background-position:center left; background-repeat:no-repeat; }
+#site-nav li a{ float:left; color:#888888; }
+#site-nav li.amp-parts{ padding:0; margin:0; background-image:none; }
+
+#nav{ list-style:none; float:left; width:781px; margin:5px 0 0 13px; padding:0; font-size:15px; }
+#nav li{ padding:0; margin:0 0 0 4px; float:left; cursor:pointer; background-position:top left; background-repeat:no-repeat; border:0; }
+#nav li a{ float:left; color:#fff; height:33px; border:0; padding:9px 0 0 0; text-align:center; text-transform:uppercase; background-position:bottom; background-repeat:repeat-x; }
+#nav li.f{ margin-left:0; }
+#nav li a:hover{ color:#fff !important; text-shadow: -0 0 0 #fff; }
+#nav li.current_page_item a{ color:#fff !important; }
+
+#nav li.phone-number{ margin-left:14px; }
+#nav li.phone-number span{ margin-left:5px; }
+
+#nav li.shop a{ width:56px; background-image:url(img2013/bg-nav-blue.gif); }
+#nav li.kits a{ width:46px; background-image:url(img2013/bg-nav-green.gif); }
+#nav li.cabinets a{ width:86px; background-image:url(img2013/bg-nav-orange.gif); }
+#nav li.pickups a{ width:78px; background-image:url(img2013/bg-nav-red.gif); }
+#nav li.speakers a{ width:92px; background-image:url(img2013/bg-nav-yellow.gif); }
+#nav li.artists a{ width:78px; background-image:url(img2013/bg-nav-grey.gif); }
+#nav li.phone-number span{ color:#ccc; }
+#nav li#search{ float:right; padding:2px; margin-right:0px; width:auto; background-color:#fff; border:1px solid #000000; }
+#search form{ float:left; width:auto; white-space:no-wrap; padding:0; }
+#search input{ border:none; float:left; background-color:transparent; margin:0; font-size:15px !important; }
+#search #search-form-input{ padding:6px; width:230px; background-color:#fff; height:16px; }
+#search #search-form-submit{ float:right; padding:5px 2px; width:19px; color:#666; cursor:pointer; height:18px; } 
+#search #search-form-submit:hover{ color:#999; }
+
+
+
+#nav li .sub-div{ width:1px; float:left; height:1px; overflow:visible; clear:both; position:relative; z-index:99; }
+#nav li .sub{ float:left; clear:both; display:none; width:230px; position:relative; z-index:98; box-shadow: 0 10px 40px #000000; margin-left:-1px; overflow:visible; }
+#nav li.opened .menubg-top{ display:block; }
+#nav li .sub.active{ }
+#nav li .menubg-top{ display:none; position: relative; float:left; width:56px; background-color:#5277ab; height:7px; margin-top:-7px; z-index:99; }
+#nav li .sub .menuborder{ float:left; width:100%; background-color:#FFF; }
+#nav li .sub .menubg{ clear:both; float:left; margin:0 1px 1px 1px; border-left:10px solid #5277ab; width:218px; padding:0; background-color:#ebeff5; }
+#nav li .sub ul{ padding:0; margin:0; list-style:none; float:left; width:100%; }
+#nav li .sub ul.related{ background-color:#fff; margin-top:10px; padding-bottom:10px; }
+#nav li .sub ul li{ padding:0; margin:0; list-style:none; float:left; clear:both; width:100%; padding-right:10px; }
+#nav li .sub ul li.h{ font-size:11px; text-transform:uppercase; padding-top:10px; }
+#nav li .sub ul li.t{ margin-top:20px; }
+#nav li .sub ul li a{ color:#212121; padding:4px 10px; margin:1px 0; width:198px; height:auto !important; text-transform:none; font-size:14px; text-align:left; background-image:none; }
+#nav li .sub ul li a:hover{ color:#212121 !important; background-color:#FFF; }
+
+
+#nav li .loading-div{ float:left; width:0; height:0; position:relative; margin-left:229px; z-index:99; overflow:visible; }
+#nav li .loading-div .sub2{ background-color:#ffffff; display:block; }
+#nav li .loading-div ul{ padding:0; margin:0; list-style:none; float:left; width:100%; }
+#nav li .loading-div ul.related{ background-color:#fff; margin-top:10px; padding-bottom:10px; }
+#nav li .loading-div ul li{ padding:0; margin:0; list-style:none; float:left; clear:both; width:100%; padding-right:10px; }
+#nav li .loading-div ul li.h{ font-size:11px; text-transform:uppercase; padding-top:10px; }
+#nav li .loading-div ul li.t{ margin-top:20px; }
+#nav li .loading-div ul li a{ color:#212121; padding:4px 10px; margin:1px 0; width:198px; height:auto !important; text-transform:none; font-size:14px; text-align:left; background-image:none; }
+#nav li .loading-div ul li a:hover{ color:#212121 !important; background-color:#FFF; }
+
+#nav li .loading-div .container{ float:left; width:220px; padding-bottom:10px;  }
+
+
+#nav li.kits .sub{ width:203px; }
+#nav li.kits  .menubg-top{ width:46px; background-color:#52ab52; }
+#nav li.kits .sub .menubg{ border-left:10px solid #52ab52; width:191px !important; background-color:#e2efe2; }
+#nav li.kits .sub ul li a{ padding:4px 10px; width:171px; }
+
+#nav li.cabinets .sub{ width:264px; }
+#nav li.cabinets  .menubg-top{ width:86px; background-color:#df8b30; }
+#nav li.cabinets .sub .menubg{ border-left:10px solid #df8b30; width:252px !important; background-color:#f3e8dc; }
+#nav li.cabinets .sub ul{ width:50%; float:left; clear:none; }
+#nav li.cabinets .sub ul.related{ padding-left:5%; width:45%; }
+#nav li.cabinets .sub ul li a{ padding:4px 10px; width:105px; }
+#nav li.cabinets .sub ul:nth-child(2) li a{ width:94px; }
+
+#nav li.speakers .sub{ width:216px; }
+#nav li.speakers  .menubg-top{ width:92px; background-color:#dfcc30; }
+#nav li.speakers .sub .menubg{ border-left:10px solid #dfcc30; width:204px !important; background-color:#fdfae1; }
+#nav li.speakers .sub ul{ width:50%; float:left; clear:none; }
+#nav li.speakers .sub ul.related{ padding-left:5%; width:45%; }
+#nav li.speakers .sub ul li a{ padding:4px 10px; width:184px; }
+#nav li.speakers .sub ul:nth-child(2) li a{ width:94px; }
+
+#nav li.speakers .loading-div{ margin-left:215px; }
+
+
+#nav li.pickups .sub{ width:264px; }
+#nav li.pickups  .menubg-top{ width:78px; background-color:#df3030; }
+#nav li.pickups .sub .menubg{ border-left:10px solid #df3030; width:252px !important; background-color:#f3e8dc; }
+#nav li.pickups .sub ul{ width:50%; float:left; clear:none; }
+#nav li.pickups .sub ul.related{ padding-left:5%; width:45%; }
+#nav li.pickups .sub ul li a{ padding:4px 10px; width:105px; }
+#nav li.pickups .sub ul:nth-child(2) li a{ width:94px; }
+
+
+#nav li .sub2-div{ width:1px; float:left; height:1px; overflow:visible; clear:both; position:relative; z-index:10; }
+#nav li .sub2{ float:left; clear:both; display:none; width:220px; position:relative; z-index:10; -webkit-box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.76); -moz-box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.76); box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.76); }
+#nav li li:hover .sub2{ }
+#nav li .sub2-div .menu2bg{ clear:both; float:left; margin:1px; width:218px; padding:0; background-color:#ebeff5; }
+#nav li.speakers .sub2-div .menu2bg{ background-color:#fdfae1; }
+
+
+#nav li .sub3-div{ width:1px; float:left; height:1px; overflow:visible; clear:both; position:relative; z-index:10; }
+#nav li .sub3{ float:left; clear:both; display:none; width:220px; position:relative; z-index:10; box-shadow: 0 10px 40px #000000; margin-top:-7px; margin-left:100px; }
+#nav li li li:hover .sub3{}
+#nav li .sub3-div .menu3bg{ clear:both; float:left; margin:1px; width:218px; padding:0; background-color:#ebeff5; }
+
+.ui-autocomplete { z-index:10 !important; }
+
+#main-categories{ float:left; clear:both; width:100%; max-width:100%; list-style:none; margin:0; background-color: #595959; padding:0; overflow:hidden; height:18px; }
+#main-categories li{ display:inline; }
+#main-categories li a{ text-decoration:none; text-transform:uppercase; float:left; padding:2px 10px; font-size:11px; color:#ccc; }
+
+
+#free-shipping{ float:left; width:100%; padding-bottom:10px; text-align:center; }
+#free-shipping a{ text-decoration:none; font-weight:bold; }
+
+
+/* breadcrumb */
+#breadcrumb{ float:left; clear:both; font-size:14px; width:620px; color:#6a6868; padding:20px 40px; background-color:#fbfbfb; }
+#breadcrumb .pad{ padding:0; }
+#breadcrumb a{ font-size:14px; color:#3366CC; }
+#breadcrumb a:hover{ font-size:14px; }
+
+#hidden-breadcrumb{ display:none; }
+
+.homepage #breadcrumb{ display:none; }
+
+.facebook-link{ float:right; width:239px; }
+.facebook-link a{ float:left; width:237px; margin-top:10px; padding:2px 0; border:1px solid #3d6dbf; -moz-border-radius: 2px; border-radius:2px; background-color:#dcdcde; text-align:center; }
+/* /breadcrumb */
+
+/* /header */
+
+
+
+/*footer */
+#div__footer{ }
+#div__footer table{ }
+#footer{ float:left; clear:both; width:100%; padding:0 0 30px 0; background-image:url(img2013/bg-shadow-footer.png); background-position:top; background-repeat:repeat-x; }
+
+#footer a{ text-decoration:none; color:#969696 !important; }
+#footer a:hover{ text-decoration:underline; }
+#footer .col1{ float:left; width:600px; }
+#footer .col2{ float:left; width:285px; margin-left:80px; margin-top:17px; }
+#footer .col2 a{ color:#CCC !important; }
+
+#copyright{ padding:20px 0 0 0; float:left; width:100%;  }
+
+#copyright p{ padding:0; margin:0; line-height:16px; }
+#footer-nav{ padding:30px 0 10px 0; width:100%; float:left; margin:0; list-style:none; }
+#footer-nav li{ float:left; white-space:nowrap; padding:0 7px 0 12px; background-image:url(/img/bullet.png); background-position:center left; background-repeat:no-repeat; margin:0; }
+#footer-nav li.firstli{ background-image:none; padding-left:0; }
+#footer-nav li a{ float:left; font-weight:bold; }
+#footer-nav li a:hover{ text-decoration:underline; }
+
+#footer-nav-callouts{ padding:0 0 10px 0; width:100%; float:left; margin:0; list-style:none; }
+#footer-nav-callouts li{ float:left; white-space:nowrap; padding:0 7px 0 12px; background-image:url(/img/bullet.png); background-position:center left; background-repeat:no-repeat; margin:0; }
+#footer-nav-callouts li.firstli{ background-image:none; padding-left:0; }
+#footer-nav-callouts li a{ float:left; font-weight:bold; }
+#footer-nav-callouts li a:hover{ text-decoration:underline; }
+
+#payment-icons{ float:left; width:100%; padding:10px 0 0 0; margin:0; list-style:none; }
+#payment-icons li{ float:left; padding:0; margin:0; margin-right:2px; }
+#payment-icons li img{ max-height:35px; width:100%; width:auto; }
+#payment-icons li.ssl{ padding-top:2px; }
+#payment-icons li.ssl img{ max-height:28px; width:100%; width:auto; }
+/* /footer */
+
+
+
+
+
+/* shopping cart page */
+#carttable{ }
+#div__body .listtexthl{ border:none; border-bottom:3px solid #fff; padding:5px !important; border-top:1px solid #ddd; background-color:#fff; }
+#div__body .texttable{ border:none; border-bottom:3px solid #fff; padding:5px !important; font-size:12px; border-top:1px solid #ddd; background-color:#fff; }
+#div__body .texttablert{ border:none; border-bottom:3px solid #fff; padding:5px !important; border-top:1px solid #ddd; background-color:#fff; }
+#div__body .texttablectr{ border:none; border-bottom:3px solid #fff; padding:5px !important; border-top:1px solid #ddd; background-color:#fff; }
+#div__body .texttablectr img{  max-width:100px; max-height:50px; height:auto !important; }
+
+body #additionalfieldstable{ width:100%; }
+body #additionalfieldstable td{ vertical-align:top; }
+body #additionalfieldstable #custbody_order_notes{ width:773px; float:left; margin-bottom:10px; }
+body #additionalfieldstable #custbody_back_order_status{ float:left;margin-bottom:10px; }
+body #additionalfieldstable #custbody7{ float:left; margin-bottom:10px; }
+
+.errortext{ background-color:#FFF4F4; border:1px solid #F00; padding:10px 10px 0 10px; -moz-border-radius: 3px; border-radius:3px; font-size:12px; }
+#carttable .errortext{ background-color:#fff; font-size:11px; border:0; padding:0; }
+
+#estimated-shipping-disclamer{ padding:10px; border:1px solid #ddd; background-color:#EEE; -moz-border-radius: 3px; border-radius:3px; margin-bottom:10px; }
+#estimated-shipping-disclamer h3{ margin-top:0; }
+#estimated-shipping-disclamer p{ margin-bottom:0; }
+.checkoutprogresstext{ font-size:15px; color:#333; padding:20px 40px; background-color:#FBFBFB; width:840px; }
+
+#handle_cartMainPortlet input#checkout{ font-size:13px; margin-right:10px !important; -moz-border-radius: 3px; border-radius:3px; padding:3px 5px !important; float:left; }
+#handle_cartMainPortlet input#cancel{ font-size:13px; -moz-border-radius: 3px; border-radius:3px; padding:3px 5px !important; font-weight:normal; float:left; background-color:#fff;  }
+#handle_cartMainPortlet input#recalc{ font-size:13px; -moz-border-radius: 3px; border-radius:3px; padding:3px 5px !important; font-weight:normal;  float:left; background-color:#fff; margin-left:10px !important; }
+#handle_cartMainPortlet input:hover{ border-color:#000; }
+
+#tbl_submitter, #tbl_fauxsubmit, #tbl_register, #tbl_change{ } 
+
+#tbl_continue input#continue , #tbl_fauxsubmit input#fauxsubmit, #tbl_submitter input#submitter, #tbl_register input#register, #tbl_change input#change, #tbl_checkout input#checkout, span#tbl_cancel input#cancel, 
+#tbl_recalc input#recalc{ font-size:13px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding:3px 5px !important; margin:10px 10px 20px 0; float:left; background-color:#FFE599; font-weight:bold; background-color:#ffff18; box-shadow:inset 0 -10px 20px #edb309; }
+
+#tbl_change input#change, #tbl_cancel input#cancel, 
+#tbl_recalc input#recalc{ background-color:#fff !important; box-shadow:none !important;  }
+
+#tbl_change input#change, span#tbl_cancel input#cancel{ margin:10px 0 0 0 !important; }
+#tbl_recalc input#recalc{ margin:10px 0 0 10px; }
+
+#tbl_use input#use{ font-size:13px; -moz-border-radius: 3px; border-radius:3px; padding:3px 5px; font-weight:normal;  float:left; background-color:#FFE599; margin-top:10px; font-weight:bold; }
+#tbl_edit input#edit, #tbl_delete input#delete{ font-size:13px; -moz-border-radius: 3px; border-radius:3px; padding:3px 5px; font-weight:normal;  float:left; background-color:#fff; margin-top:10px; margin-left:10px;  }
+
+.paypal-noadd-message, .backorder-message-div{ float:left; padding-top:11px; padding-right:10px; }
+#tbl_submitter .paypal-disabled, #tbl_submitter .backorder-disabled{ font-style:italic; color:#666; }
+
+#carttableheader td{ font-size:11px !important; background-color:#DDDDDD; }
+
+#custbody_back_order_status{ width:360px; }
+div.backorder-message{ float:left; clear:both; font-size:13px; padding:10px; border:1px solid #b6b2b2 ;background-color:#FFE599; font-weight:bold; background-color:#ffff18; box-shadow:inset 0 -10px 20px #edb309; margin:0 0 10px 0; width:338px; white-space:normal !important; border-top:none; }
+/* end shopping cart page */
+
+
+
+
+/*sidebar*/
+
+.sidebar-advertisment{ float:left; clear:both; width:100%; margin-top:10px; text-align:center; }
+.sidebar-advertisment-left{ float:left; clear:both; width:130px; margin-right:10px; margin-top:10px; text-align:center; }
+.sidebar-advertisment-right{ float:left; width:130px; margin-top:10px; text-align:center; }
+.sidebar-advertisment img{ }
+.hasShadow{ position:relative; margin-left:-3px; }
+
+
+.support-callout{ float:left; width:248px; padding:5px 0; margin:10px 0 0 0; border:1px solid #fff; line-height:22px; color:#fff; }
+.support-callout li{ float:left; width:190px; padding:0; margin:0 0 0 28px; }
+.support-callout a{ text-decoration:none; }
+
+	#dod-div-loader { height:0; overflow:hidden; visibility:hidden; }
+	#dod-div { float:left; width:250px; padding:10px 10px 0 10px; background-image:url(http://mojotone.com/img/DOD-banner-repeat.jpg); background-position:top left; background-repeat:repeat-y; }	
+	#dod-image { width:100%; text-align:right; float:left; min-height:115px; }
+	#dod-image img { width:auto !important; height:auto; max-width:230px; padding:0 10px; max-height:115px !important; }	
+	#dod-h{ font-weight:bold; width:100%; float:left; text-align:center; text-transform:uppercase; }
+	#dod-title-bg { width:240px; text-align:center; padding:5px; float:left; clear:both; position:relative; margin-top:-30px; background-image:url(http://mojotone.com/img2013/bg-dod-text.png); color:#ffffff;  }	
+	#dod-title { min-height: 31px; width:100%; text-align:center; padding:0; float:left; clear:both; color:#ffffff; font-size:12px; }	
+	#dod-price-line { text-align: center; color: #F00; font-weight: bold; clear:both; float: left; text-align: center; color: #fff; width: 65px; z-index: 15; position: relative; margin-top: -59px; margin-left:4px; }
+	#dod-price-line div{ display:inline-block; }
+    #dod-price .quantity-in-cart{
+        display:none;
+    }
+	#dod-buy-now{ text-align:center; }
+	#dod-buy-now .add-to-cart-quantity-html{ margin-left:39px; }
+	#dod-quantity{ width:100%; text-align:center; }
+	#dod-top{ float:left; clear:both; width:100%; background-image:url(http://mojotone.com/img/DOD-banner-top.jpg); background-position:top left; background-repeat:no-repeat; height:49px; }
+	#dod-bottom{ margin:0 0 0 0; float:left; clear:both; width:100%; background-image:url(http://mojotone.com/img/DOD-border-bottom.jpg  ); background-position:top left; background-repeat:no-repeat; height:11px; }
+	.sold-out-div{ float:left; clear:both; width:100%; height:0; overflow:visible; }
+	.sold-out{ height:100px; float:left; width:100%; z-index:99; position:relative; background-image:url(http://mojotone.com/img/soldout.png); background-position:center; background-repeat:no-repeat; display:none; }
+
+
+.burst-div { height:0; width:100%; overflow:visible; float:left; } 
+#burst-8 {
+    background: red;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    text-align: center;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20eg); z-index:5;
+}
+#burst-8:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 70px;
+    background: red;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg); z-index:5;
+}
+
+.burst-8-shadow{ box-shadow:1px 1px 5px #000000; }
+.burst-8-shadow:before { box-shadow:1px 1px 5px #000000; } 
+
+
+
+/*end sidebar*/
+
+
+
+
+
+
+
+
+/* content */
+.content-td{ padding:0; margin:0; width:100%; }
+.content{ float:left; width:700px; margin:0 10px 0 5px; background-image:none !important; }
+.sidebar-right{ float:left; width:270px; margin-right:5px; padding-bottom:20px; }
+
+.checkout .content, .shopping-cart-page .content{ width:980px; }
+.checkout .sidebar-right, .shopping-cart-page .sidebar-right{ display:none; }
+
+.shopping-cart-page .category-detail-description, .shopping-cart-page #breadcrumb, .checkout #breadcrumb{ width:900px !important; }
+
+.nlcolumncontents{  padding:0; margin:0; width:100%; }
+.bg{ float:left; width:100%; width:958px; padding:10px; background-color:#FFF; border: 1px solid #DFE0E0; -moz-border-radius: 3px; border-radius:3px; }
+
+
+/* category header */
+.category-info { float:left; clear:both; width:100%; }
+.category-store-image{ text-align:center; background-color:#FBFBFB; }
+.category-store-image img, .category-info img{ max-width:700px; height:auto; }
+.category-detail-description{ float:left; clear:both; font-size:14px; width:620px !important; padding:0 40px 20px 40px !important; background-color:#fbfbfb !important; }
+.category-description{ float:left; clear:both; max-width:100%; font-size:14px; padding:20px 0; }
+.category-detail-description h1, .item-info-drill-down h1, .category-detail-description h2, .item-info-drill-down h2{ font-weight:normal; margin:0; padding:0 0 0 0; font-size:18px; }
+.category-detail-description h4, .category-description h4{ clear:both; float:left; width:100%; font-weight:normal; margin:0; padding:0 0 0 0; color:#999; }
+.category-detail-description h3{ clear:both; float:none; width:100%; }
+
+.category-detail-description h1, .category-detail-description h2{ padding-top:20px; }
+.category-detail-description .category-header h2{ padding-top:0; }
+
+.category-header{ float:left; margin:0; list-style:none; width:100%; padding:20px 0 0 0; margin:0; }
+.category-header li{ float:right; padding:0; margin:0; list-style:none; }
+.category-header li.title{ float:left; }
+.category-header li.title h1{ padding:0; font-weight:normal; font-size:1.5em; padding:0; margin:0; }
+.category-header a{ float:left; padding:5px 0 0 30px; text-decoration:none; font-size:12px; }
+
+.box-2-col{ float:left; clear:both; width:618px; padding:10px 0; margin:0 0 0 0; list-style:none; border:1px solid #b1b1b2; background-color:#dcdcde;-webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; overflow:hidden;-moz-box-shadow:inset 0 0px 1px #b6b6b6; -webkit-box-shadow:inset 0 0px 1px  #b6b6b6; box-shadow:inset 0 0px 1px #b6b6b6; }
+.box-2-col li{ float:left; margin:0; width:308px; background-position:top left; background-repeat:no-repeat; }
+.box-2-col li h3{ font-size:14px; margin:0; padding:0; }
+.box-2-col li h3 a{ padding:10px 10px 0 10px; text-decoration:none; margin:0; float:left; width:288px; text-align:center; color:#3f3f3f; }
+.box-2-col li p{ padding:0; margin:0; float:left; clear:both; width:100%; text-align:center; font-size:13px; }
+.box-2-col li p a{ padding:0 10px 10px 10px; color:#3f3f3f; text-decoration:none; float:left; width:288px; }
+.box-2-col li.special-project, .box-2-col li.f{ border-right:1px solid #fff; }
+.box-2-col li.small-partst, .box-2-col li:nth-child(2){ border-left:1px solid #9b9b9d; }
+
+.box-3col{ float:left; clear:both; width:100%; padding:0; margin:10px 0 0 0; list-style:none; }
+.box-3col li{ background-color:#fff; float:left; padding:0; margin:0 0 0 10px; border:1px solid #d7d7d7; border-top:0; border-bottom:1px solid #b6b6b6; color:#999; width:198px; height:65px; background-position:top center; background-repeat:no-repeat; -moz-box-shadow: 0 0px 1px #b6b6b6; -webkit-box-shadow: 0 0px 1px  #b6b6b6; box-shadow: 0 0px 1px #b6b6b6; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+.box-3col li.f{ margin-left:0; }
+.box-3col li h3{ float:left; width:100%; padding:0; margin:0; }
+.box-3col li h3 a{ float:left; width:100%; text-decoration:none; color:#4d4d4d; text-align:center; padding:13px 0 5px 0; font-size:14px; }
+.box-3col li p{ float:left; clear:both; width:100%; padding:0; margin:0; color:#666666; }
+.box-3col li p a{ float:left; clear:both; width:100%; padding:0; margin:0; height:35px; color:#666666; text-decoration:none; text-align:center; }
+
+.box-4col{ float:left; clear:both; width:100%; padding:0; margin:10px 0; list-style:none; }
+.box-4col li{ background-color:#fff; float:left; padding:0 10px; margin:0 0 0 8px; border:1px solid #d7d7d7; border-top:0; border-bottom:1px solid #b6b6b6; color:#999; width:127px; height:66px; background-position:top center; background-repeat:no-repeat; -moz-box-shadow: 0 0px 1px #b6b6b6; -webkit-box-shadow: 0 0px 1px  #b6b6b6; box-shadow: 0 0px 1px #b6b6b6; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+.box-4col li.f{ margin-left:0; }
+.box-4col li h3{ float:left; width:100%; padding:0; margin:0; }
+.box-4col li h3 a{ float:left; width:100%; text-decoration:none; color:#4d4d4d; text-align:center; padding:10px 0 5px 0; font-size:13px !important; padding:17px 0 !important; }
+.box-4col li p{ float:left; clear:both; width:100%; padding:0; margin:0; color:#666666; }
+.box-4col li p a{ float:left; clear:both; width:100%; padding:0; margin:0; height:30px; color:#666666; text-decoration:none; text-align:center; }
+
+.banner-sub{ height:108px; float:left; clear:both; width:700px; overflow:hidden; padding:0; margin:0 0 0 -40px; position:relative; }
+.banner-sub .banner{ float:left; clear:both; width:100%; }
+.banner-sub a { display: block; width:100%; height: 108px; top: 0; left: 0; }
+.banner-sub a img { display: block; width:100%; height: auto; top: 0; left: 0 }
+
+.banner-bottom-bg{ float:left; clear:both; width:100%; background-image:url(/img/bg-home.png); background-position:top center; background-repeat:no-repeat; }
+
+
+.related{ float:left; width:100%; clear:both; padding:0; margin:10px 0 0 0 ; list-style:none; }
+.related li{ float:right; padding:0; margin:0; list-style:none; }
+.related li.title{ float:left; }
+.related a{ float:left; padding:5px 0 5px 30px; text-decoration:none; }
+
+
+
+
+
+
+/*support*/
+	.support-box-4-col{ float:left; clear:both; width:100%; padding:0; margin:0 0 0 0; list-style:none; }
+	.support-box-4-col li{ float:left; background-color:#ffffff; padding:0; margin:0 0 0 8px; border:1px solid #d7d7d7; border-top:1px solid #efefef; border-bottom:1px solid #b6b6b6; color:#999; width:147px; height:150px; background-position:top center; background-repeat:no-repeat; -moz-support-box-shadow: 0 0px 1px #b6b6b6; -webkit-support-box-shadow: 0 0px 1px  #b6b6b6; support-box-shadow: 0 0px 1px #b6b6b6; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+	.support-box-4-col li.f{ margin-left:0; }
+	.support-box-4-col li h3{ font-size:23px; font-weight:normal; margin:0; padding:0; float:left; width:137px; padding:0 5px; }
+	.support-box-4-col li h3 a{ float:left; width:100%; text-decoration:none; color:#4d4d4d; text-align:center; padding:15px 0 5px 0;}
+	.support-box-4-col li p{ float:left; clear:both; width:100%; padding:0; margin:0; color:#666666; }
+	.support-box-4-col li p a{ float:left; clear:both; width:137px; padding:0 5px; margin:0; height:150px; color:#666666; text-decoration:none; text-align:center; }
+	.support-box-4-col li.contact-us{ background-image:url(http://mojotone.com/img/cat-contact.jpg); }
+	.support-box-4-col li.customer-service{ background-image:url(); }
+	.support-box-4-col li.shipping-information{ background-image:url(http://mojotone.com/img/cat-information.jpg); }
+	.support-box-4-col li.amplifier-parts-knowledge-base{ background-image:url(http://mojotone.com/img/cat-knowledge-amp-kits.jpg); }
+	.support-box-4-col li.guitar-parts-knowledge-base{ }
+	
+	.col5{ float:left; clear:both; width:100%; padding:0; margin:20px 0 0 0; list-style:none; }
+	.col5 li{ background-color:#fff; float:left; padding:0 10px; margin:0 0 10px 10px; height:108px; border:1px solid #d7d7d7; border-top:0; border-bottom:1px solid #b6b6b6; color:#999; width:94px; background-position:top center; background-repeat:no-repeat; -moz-support-box-shadow: 0 0px 1px #b6b6b6; -webkit-support-box-shadow: 0 0px 1px  #b6b6b6; support-box-shadow: 0 0px 1px #b6b6b6; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+	.col5 li.f{ margin-left:0; }
+	.col5 li h3 { margin:0; padding:0; }
+	.col5 li h3 a{ float:left; width:100%; text-decoration:none; color:#4d4d4d; text-align:center; padding:15px 0;}
+	.col5 li p{ float:left; clear:both; width:100%; padding:0; margin:0; color:#666666; }
+	.col5 li p a{ float:left; clear:both; width:100%; padding:0; margin:0; height:170px; color:#666666; text-decoration:none; text-align:center; }
+
+	.support-box-6-col{ float:left; clear:both; width:618px; padding:0; margin:20px 0 0 0; list-style:none; border:1px solid #dcdcdc; border-left:0; background-color:#fff;-webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; overflow:hidden; }
+	.support-box-6-col li{ float:left; padding:0; margin:0; border-left:1px solid #dcdcdc; width:102px; background-position:bottom center; background-repeat:no-repeat; background-size:100% auto; }
+	.support-box-6-col li h3{ font-size:13px; margin:0; }
+	.support-box-6-col li h3 a{ text-decoration:none; height:90px; padding:0 5px; width:92px; margin:15px 0; float:left; text-align:center; color:#333; }
+	.support-box-6-col li.video-tutorials{ background-image:url(http://mojotone.com/img/cat-video-tutorials.jpg); }
+	.support-box-6-col li.dealer-accounts{ background-image:url(http://mojotone.com/img/cat-dealer-accounts.jpg); }
+	.support-box-6-col li.product-distribution{ background-image:url(http://mojotone.com/img/cat-product-distribution.jpg); }
+	.support-box-6-col li.disclaimer{ background-image:url(http://mojotone.com/img/cat-disclaimer.jpg); }
+	.support-box-6-col li.free-shipping{ background-image:url(http://mojotone.com/img/cat-free-shipping.jpg); }
+	.support-box-6-col li.about-mojotone{ background-image:url(http://mojotone.com/img/cat-about.jpg); }
+	
+	.support-box-2-col{ float:left; clear:both; width:618px; padding:10px 0; margin:20px 0 0 0; list-style:none; border:1px solid #b1b1b2; background-color:#dcdcde;-webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; overflow:hidden;-moz-support-box-shadow:inset 0 0px 1px #b6b6b6; -webkit-support-box-shadow:inset 0 0px 1px  #b6b6b6; support-box-shadow:inset 0 0px 1px #b6b6b6; }
+	.support-box-2-col li{ float:left; padding:10px 0; margin:0; width:308px; background-position:top left; background-repeat:no-repeat; }
+	.support-box-2-col li h3{ font-size:18px; margin:0; }
+	.support-box-2-col li h3 a{ text-decoration:none; margin:0; float:left; width:100%; text-align:center; color:#3f3f3f; }
+	.support-box-2-col li p{ padding:0; margin:0; float:left; clear:both; width:100%; text-align:center; font-size:13px; }
+	.support-box-2-col li p a{ color:#3f3f3f; text-decoration:none; }
+	.support-box-2-col li.one{ border-right:1px solid #fff; }
+	.support-box-2-col li.two{ border-left:1px solid #9b9b9d;  }
+	
+	/*end support*/
+
+
+
+
+
+/*Home Page*/
+
+.mojo-store-sidebar-left .more-parts{ padding:0; margin:0; list-style:none; float:left; clear:both; width:100%; }
+.mojo-store-sidebar-left .more-parts li{ margin:0; list-style:none; background-color:#fff; padding:10px; width:168px; float:left; margin-top:10px; border:1px solid #d7d7d7; border-top:1px solid #efefef; border-bottom:1px solid #b6b6b6; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+.mojo-store-sidebar-left .more-parts li a{ float:left; width:100%; font-size:16px; text-decoration:none; padding-bottom:9px; border-bottom:1px solid #ddd; margin-bottom:10px; }
+.mojo-store-sidebar-left .more-parts li ul{ padding:0; margin:0; list-style:none; float:left; width:100%; }
+.mojo-store-sidebar-left .more-parts li ul li{ width:100%; padding:0; margin:0; border:0; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; -webkit-border-radius:0; -moz-border-radius:0; border-radius:0; }
+.mojo-store-sidebar-left .more-parts li ul li a{ font-weight:normal; color:#444343; font-size:14px; padding:0; margin:1px 0 0 0; border:0; }
+.mojo-store-sidebar-left .more-parts li ul li a:visited{ color:#707070; }
+
+.home-page-bg .col1{ float:left; width:190px; margin:20px 0; display:none; }
+.home-page-bg .col2{ float:left; width:100%; }
+.home-page-bg .col3{ float:left; width:120px; margin:20px 0 20px 0; display:none;  }
+
+.mojotone-phone-numbers{ margin-bottom:10px; font-size:14px; float:left; background-color:#4172BF; color:#fff; text-align:center; padding:7px 10px; line-height:20px; width:248px; background-position:center; text-shadow: 0 2px 4px #000;border:1px solid #2958aa; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+.mojotone-phone-numbers a{ text-decoration:none; color:#fff; }
+.phoneicon{ font-size:16px; font-weight:bold; }
+.featuredcategories{ float:left; width:100%; list-style:none; padding:0; margin:0 0 0 0; }
+.featuredcategories li{ float:left; width:100%; text-decoration:none; padding:0 0 0 0;  margin:0; }
+.featuredcategories a{ padding:10px; float:left; width:168px; font-size:17px; text-decoration:none; background-color:#fff;border:1px solid #d7d7d7; border-top:1px solid #efefef; border-bottom:1px solid #b6b6b6; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+
+.mainproducts{ float:left; width:100%; list-style:none; padding:20px 0 0 0; margin:0; background-color:#fbfbfb; }
+.mainproducts li{ float:left; width:100%; text-decoration:none; padding:0 0 20px 0; margin:0; height:40px; }
+.mainproducts .h{ font-size:24px; float:left; width:auto; text-decoration:none; padding:11px 0 0 0; margin:0; font-weight:normal; line-height:26px; }
+.mainproducts .h a{ text-decoration:none; }
+.mainproducts a.p{ text-decoration:none; color:#888; font-size:11px; float:left; width:auto; text-decoration:none; padding:20px 0 0 10px; }
+.mainproducts a.i{ float:left; height:40px; width:75px; text-align:center; }
+.mainproducts a.i img{ border:0; max-height:40px; height:auto; max-width:75px; width:auto; }
+
+.calloutcategories{ float:left; width:100%; text-align:center; list-style:none; padding:0; margin:10px 0; }
+.calloutcategories li{ display:inline-block; width:auto; text-decoration:none; padding:0 10px; margin:0; }
+.calloutcategories a{ float:left; width:100%; font-size:12px; text-decoration:none; padding:0; }
+
+.alternativeproducts{ float:left; width:100%; list-style:none; padding:0; margin:0; }
+.alternativeproducts li{ float:left; width:100%; text-decoration:none; padding:0; margin:0; }
+.alternativeproducts a{ float:left; width:100%; font-size:15px; padding:5px 0; text-decoration:none; color:#999; }
+
+.home-page-bg a.free-ship-banner{ margin-top:5px; width:118px !important; }
+
+.banner-index{ height:190px; float:left; clear:both; width:700px; overflow:hidden; padding:0; position:relative; margin:0 0 0 -40px; }
+.banner-index a { display: block; float:left; width: 100%; height:auto !important; top: 0; left: 0 }
+.banner-index img{ display:block; width:100%; height:auto; }
+.banner-index h2{ display:none; }
+
+.content-nobox{ margin-bottom:0px !important; }
+
+/*end home page*/
+
+
+
+/*amp kits*/
+
+#amp-kits-page-content{ float:left; clear:both; margin:15px 0 0 0; width:100%; }	
+#amp-kits-page-content .col1{ float:left; clear:both; width:360px; padding:20px 20px 0 0; }
+#amp-kits-page-content .col2{ float:left; width:240px; }
+
+/*end amp kits*/
+
+
+/*cabinets*/
+
+#sub-page-content{ float:left; clear:both; color:#4f5457; font-size:12px; margin:20px 0 0 0; font-size:13px; width:100%; }	
+#sub-page-content .col1{ float:left; clear:both; width:360px; padding-right:20px; }
+#sub-page-content .col2{ float:left; width:240px; }
+#sub-page-content .col3{ float:left; width:240px; display:none; }
+
+
+/*end cabeints*/
+
+
+
+
+/*pickup-banner*/
+
+.pickup-banner{ width:663px !important; background-repeat:no-repeat; padding:95px 30px 10px 10px !important; position:relative; margin-left:-42px; margin-top:10px; background-size:100% auto; background-position:bottom center !important }
+.mojo-pickup-categories{ width:706px !important; position:relative; margin-left:-43px; }
+.mojo-pickup-categories-footer{ width:706px !important; position:relative; margin-left:-43px; background-size:100% auto; }
+/*end pickup banner*/
+
+
+
+/* Content Styles */
+
+
+
+
+
+
+
+
+/*category template */
+.category-info-td{ }
+.2col-table{ padding:0; margin:0; }
+.category-list-td{  float:none; clear:none; width:146px; padding:0; margin:0; }
+.category-list-table{ padding:0; margin:0; width:100%; }
+.item-list-td{ padding:0; margin:0; }
+.item-list-table{ width:700px; padding:0 !important; margin:0 !important; }
+.twocol-table .item-list-table{ width:558px; }
+
+.category-list{float:left; width:135px; padding-top:0; padding:10px 5px 0 0; }
+.category-list tr{ height:auto !important; }
+.item-list tr{ height:auto !important; }
+.item-list tr td{ padding:0; margin:0; }
+.category-list > td > td > td, .item-list > td > td > td{ padding:0; margin:0;}
+.category-list h2{ font-weight:normal; margin:0; padding-bottom:15px; color:#666; }
+
+
+.category{ width:190px; font-size:12px; color:#666; padding:0 0 15px 0 !important; margin:0; }
+
+.category h3 { font-size:13px; float:left; width:100%; padding:0; margin:0; font-weight:normal; }
+.category h3 a { text-align:left; padding:0 0 5px 0; width:100%; float:left; text-decoration:none; font-weight:bold; }
+.category h3 a:hover { }
+
+.category .text{ float:left; clear:both; width:100%; display:none; color:#666; font-size:11px !important; }
+
+.category .nav{ display:block; float:left; width:100%; padding:0 0 0 0; margin:0; list-style:none; visibility:visible; }
+.category .nav ul{ float:left; width:100%; padding:0; margin:0; list-style:none; }
+.category .nav li{ float:left; width:100%; padding:0; margin:0; list-style:none; }
+.category .nav a{ text-decoration:none;  float:left; clear:both; width:95%; padding:1px 0; padding-left:5%; color:#5881d3; }
+
+.category-list-search{ float:left; width:620px; padding:10px 40px 40px 40px; margin:0 0 10px 0; background-color:#FFF; -moz-border-radius: 3px; border-radius:3px; }
+.category-list-search .category{ width:100%;  padding:20px 0 0 0 !important; }
+.category-list-search .image{ display:block; float:left; width:205px; padding:0; min-height:10px; text-align:center; display:none; }
+.category-list-search .image img{ max-width:120px; max-height:160px; padding:0; margin:0; }
+.category-list-search .info{ float:left; width:100%; padding:0; font-size:14px !important; }
+.category-list-search h3{ float:left; width:auto; margin:0; padding:0 7px 0 0; list-style:none; font-weight:bold; }
+.category-list-search h3 a{ float:left; width:100%; margin:0; padding:0; list-style:none; font-size:14px; text }
+.category-list-search h3 a:visited{ color:#90F; }
+.category-list-search .nav{ float:left; clear:both; width:100%; padding:0; margin:0; list-style:none; }
+.category-list-search .nav ul{ float:left; width:auto !important; padding:0; margin:0; list-style:none; }
+.category-list-search .nav li{ float:left; width:auto !important; padding:0; margin:5px 15px 0 0; list-style:none; }
+.category-list-search .nav li a{ float:left; width:100%; margin:0; padding:0; list-style:none; font-size:12px; }
+.category-list-search .nav li a:visited{ color:#90F; }
+.category-list-search .text{ display:inline-block; float:left; clear:none; width:auto; margin:0; padding:0; list-style:none; font-size:12px !important; }
+
+#newsletter-signup{ float:left; width:276px; margin-left:1px; height:28px; }
+#newsletter-signup h4{ padding:0; margin:0; }
+#newsletter-signup .field{ float:left; }
+#newsletter-signup .email, #newsletter-signup .name{ width:179px; color:#CCC; padding:2px; margin:0 0 0 1px; }
+#newsletter-signup .email{ border-left:0; border-right:0; }
+#newsletter-signup .email.active, .newsletter-signup .name.active{ color:#333; }
+#newsletter-signup input{ display:inline-block; }
+#newsletter-signup #_field307{ float:left; }
+#newsletter-signup #_field307 input{ padding:2px 10px; margin:0; }
+
+.advertisment{ display:block; float:left; clear:both; margin:30px 0 20px 0; }
+a.free-ship-banner{ margin-top:10px; color:#000 !important; font-size:25px; text-decoration:none; text-shadow: 0 1px 1px #fff; padding:10px 0 41px; float:left; width:188px; clear:both; text-align:center; background-image:url(/img/banner-freeship.jpg); background-position:bottom; background-repeat:no-repeat; background-color:#dd7c0c; border:1px solid #7b3e11;-moz-box-shadow: 0 0px 1px #b6b6b6; -webkit-box-shadow: 0 0px 1px  #b6b6b6; box-shadow: 0 0px 1px #b6b6b6; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+
+.category-list .advertisment{ display:none; }
+
+
+/* item list */
+.item-list{ float:left; clear:both; width:100%; }
+.item{ float:left; clear:both; width:700px; margin:0 0 10px 0; background-color:#fff; padding:0; }
+.twocol-table .item{ width:558px !important; }
+.item .info-table{ width:100%; }
+.item .image-col{ width:205px !important; }
+.item .clearance { float:left; clear:both; width:100%; height:1px; width:1px; overflow:visible; margin:13px 0 0 -21px; display:none; }
+.item .clearance div { background-image:url(http://www.mojotone.com/img/clearance.png); background-position:top left; background-repeat:no-repeat; width:110px; height:50px; position:relative; }
+.item .image{ float:left; margin:0; padding:0; text-align:center; background-color:#FFF; width:205px !important; }
+.item .image tr{ text-align:center; background-color:#FFF; width:205px !important; height:160px; }
+.item .image td{ text-align:center; background-color:#FFF; width:205px !important; height:160px; }
+.item .image img{ border:none; max-height:160px; width:auto !important;  height:auto !important; max-width:185px; }
+.item .description-col{ padding:0 10px 10px 10px !important; width:380px; }
+.twocol-table .description-col{ width:260px; }
+.item h3{ font-size:14px; float:left; width:100%; padding:0; margin:0; margin-bottom:5px; }
+.item h3 a{ text-decoration:none; padding-top:10px; float:left; clear:both; width:100%; }
+.item .item-number{ color:#777; padding-bottom:10px; }
+.item .description{ float:left; width:100%; padding:10px 0; margin:0; }
+.item .sales-price-list-html{ width:auto; margin:0 0 0 0; }  
+.item .sales-price-list-html br{ display:none; } 
+.item .sales-price-list-html table{ width:100%; }
+.item .sales-price-list-html table tr{ width:100%; }
+.item .sales-price-list-html .listheadernosort{ height:15px; background-color:#FFF !important; }
+.item .sales-price-list-html .price{ text-align:center; width:100%; font-weight:bold; background-color:#eff7ee; font-size:14px; padding:10px 0; text-align:center; }
+#div__body .item .texttable { border-bottom:0; }
+.item .quantity-in-cart{ font-weight:normal; float:left; font-size:14px; width:100%; padding:5px 0; text-align:center; background-color:#17c200; color:#ffffff; }
+.item .quantity-in-cart a{ color:#ffffff; }
+.item .each{ font-weight:normal; float:left; font-size:14px; width:100%; padding:5px 0; text-align:center; background-color:#17c200; color:#ffffff; }
+
+.item .info-table .unit{ background-color:#eff7ee; text-align:center; float:left; padding-bottom:3px; width:100%; }
+.item .info-table .weight{ text-align:center; float:left; padding-top:3px; width:100%; }
+
+
+.item .sales-price-list-html .listheadernosort{ padding:0; background-color:#FFF !important; display:none; }
+#div__body .item .texttable{ border-top:0 !important; background-color:#eff7ee; font-size:14px; padding:10px 0 !important; text-align:center; }
+.item .sales-price-list-html table{ width:100%; font-weight:bold;  }
+.item .sales-price-list-html table tr{ width:100%; }
+.item .sales-price-list-html table tr td:first-child, .item .sales-price-list-html table tr:nth-child(3), .item .sales-price-list-html table tr:nth-child(4), .item .sales-price-list-html table tr:nth-child(5), .item .sales-price-list-html table tr:nth-child(6){ display:none; }
+
+.item .add-to-cart-options{ padding:10px 0 0 10px; }
+.item .add-to-cart-options select, .item .add-to-cart-options input, .item .add-to-cart-options .smalltextnolink{ font-size:11px !important;  }
+.item .add-to-cart-options select{ width:100%; max-width:100px; }
+.add-to-cart-options td.smalltextnolink{ vertical-align:middle; }
+
+
+.item-list-cell-buttons{ width:100%; height:50px; background-color:#FAFAFA; }
+
+.item .social-links-div{ width:355px; padding-left:10px; }
+.item .social-links-div  .social-networking{ min-height:5px; float:left; clear:both; width:315px; padding-top:2px;  }
+.item a.go-to-top-link{ text-decoration:none; background-color:#D2D2D2; float:left; color:#fff; padding:4px; margin-top:2px; -moz-border-radius: 3px; border-radius: 3px; font-size:9px; text-transform:uppercase; }
+.item a.go-to-top-link:hover{  background-color:#666; }
+
+.item .item-list-cell-buttons .info{ text-align:right; width:150px }
+.item .item-weight{ text-align:right; padding-top:10px; color:#555; }
+
+
+.item .add-to-cart-div{ width:175px; }
+.item .add-to-cart-quantity-html{ }
+.item .add-to-cart-div .add-to-cart-input{ float:left; margin:0; }
+.item .add-to-cart-div .add-to-cart-input input{ float:left; margin:0; cursor:pointer; padding:1px 6px; -webkit-border-top-right-radius: 2px; -webkit-border-bottom-right-radius: 2px; -moz-border-radius-topright: 2px; -moz-border-radius-bottomright: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; }
+.item .add-to-cart-div input{ border-width:1px; font-size:13px !important; }
+
+.item .stock-status{ color:#F00; text-align:left; padding-left:20px !important; color:#F00; font-weight:bold; }
+.item .add-to-cart-html{ }
+
+
+.item .more-info-link{ width:170px; text-align:right; padding-right:20px !important; }
+.item .more-info-link a{ font-size:13px; text-decoration:none; background-color:#3366CC; color:#ffffff; padding:5px 10px; }
+.item .more-info-link a:hover{ }
+
+
+
+.knowledge-category-list{ padding:0; width:700px; float:left; clear:both; background-color:#FFF; }
+.knowledge-category-list .category{ width:620px; background-color:#fff; padding:20px 40px 0 40px !important; }
+.knowledge-category-list .category h2{ padding:0; margin:0; display:inline; }
+.knowledge-category-list .category h2 a{ text-decoration:none; }
+.knowledge-list{ padding:20px 0; background-color:#fff; }
+.knowledge-item{ clear:none; width:620px; padding:0 40px 10px 40px; border:0; -moz-border-radius:0; border-radius:0; margin:0;  }
+.knowledge-item .image{ float:left; width:100%; }
+
+
+.win-category-list{ padding:0 0 20px 0; width:700px; float:left; clear:both; background-color:#FFF; }
+.win-category-list .category{ width:620px; background-color:#fff; padding:20px 40px 0 40px !important; }
+.win-category-list .category h2{ padding:0; margin:0; display:inline; }
+.win-category-list .category h2 a{ text-decoration:none; }
+.win-category-list .category .text{ float:none; width:auto; display:inline; }
+.win-category-list .category .image{ text-align:center; float:left; clear:both; width:130px; height:65px; border: 1px solid #eee; margin-right: 10px; padding: 5px; }
+.win-category-list .category img{ max-width:130px; max-height:65px; height:auto; width:auto; }
+
+.win-category-list-2col{ padding:0 20px 20px 20px; width:660px; float:left; clear:both; background-color:#FFF; }
+.win-category-list-2col .category{ width:280px; background-color:#fff; padding:20px 20px 0 20px !important; }
+.win-category-list-2col .category h2{ padding:0; margin:0; display:inline; font-size:14px; }
+.win-category-list-2col .category h2 a{ text-decoration:none; }
+.win-category-list-2col .category .text{ float:none; width:auto; display:inline; }
+.win-category-list-2col .category .image{ text-align:center; float:left; clear:both; width:130px; height:50px; border: 1px solid #eee; margin-right: 10px; padding: 5px; }
+.win-category-list-2col .category img{ max-width:130px; max-height:40px; height:auto; width:auto; }
+
+.wiring-schematic-item h3{ float:left; width:415px; }
+.wiring-schematic-item .image{ float:left; widht:100px; }
+.wiring-schematic-item .large{ clear:both; }
+.wiring-schematic-item .comment{ }
+
+
+
+.topicon-category-list{ padding:15px 30px 15px 40px; width:630px; float:left; clear:both; background-color:#F5F5F5; }
+.topicon-category-list td{ padding:0; margin:0; }
+.topicon-category-list .category{ width:210px; float:left; margin:0 10px 0 0 !important; padding:0 0 3px 0 !important;   }
+.topicon-category-list .topicon-bg{ float:left; width:100%; }
+.topicon-category-list .category .image{ float:left; width:30px; height:34px; text-align:center; }
+.topicon-category-list .category .image img{ max-width:30px; width:auto; height:auto; max-height:34px; }
+.topicon-category-list .category .title{ float:left; width:100%; }
+.topicon-category-list .category h3{ float:left; margin:0; padding-left: 10px; width: 170px; padding-top:5px; }
+.topicon-category-list .category h3 a{ padding:0; margin:0; vertical-align:middle; display:table; float:left; width:100%; font-size:14px; font-weight:normal; }
+.topicon-category-list .category .p{ float:left; width:100%; padding-left:0; margin:0; }
+.topicon-category-list .category .nav{ display:none; }
+.topicon-list{ padding:20px 0; background-color:#fff; }
+.topicon-item{ clear:none; width:860px; padding:0 40px 10px 40px; border:0; -moz-border-radius:0; border-radius:0; margin:0;  }
+
+
+
+.item-list-featured{ background-color:#eeeeee; width:100%; }
+.item-list-featured td{ padding:0; margin:0; }
+.item-featured-td{ border:0; padding:0; margin:0; width:140px; text-align:center; }
+.item-featured{ float:left; background-color:#fff; border-right:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; width:139px; padding:1px 0 0 0; margin:0 0 0 0; -moz-border-radius: 3px; border-radius:3px; height:231px; overflow:hidden !important; }
+.item-featured h3.item-title{ font-size:13px; float:left; clear:both; width:100%; padding:0; margin:0; }
+.item-featured h3.item-title a{ color:#333; text-decoration:none; padding:3px 5px 0 5px; width:130px; float:left; height:80px; text-align:center; font-weight:normal; }
+.item-featured h3.item-title a:hover{ color:#333; }
+.item-featured .image-col{ width:100%; float:left; height:130px; }
+.item-featured .image{ float:left; margin-top:10px; width:100%; text-align:center; background-color:#FFF; overflow:hidden; }
+.item-featured .image a{ width:100% !important; }
+.item-featured .image img{ border:none; max-height:120px; width:auto !important; max-width:132px; }
+.item-featured .description-col{ float:left; width:118px; padding-top:10px; height:32px; }
+.item-featured .featured-description{ float:left; width:100%; text-align:center; font-weight:bold; color:#F00; padding-top:3px; height:15px; margin-top:-18px; position:relative; overflow:hidden; }
+.item-featured .description{ float:left; width:100%; padding:10px; margin:0; }
+.item-featured .sales-price-list-html{ float:left; width:100%; border-bottom:none; text-align:center; height:20px !important; overflow:hidden; }
+.item-featured .sales-price-list-html .listheadernosort{ padding:0; background-color:#FFF !important; display:none; }
+#div__body .item-featured .sales-price-list-html .texttable{ border-top:0 !important; padding:0 !important; }
+.item-featured .sales-price-list-html table{ width:100%; font-weight:bold; float:left; }
+.item-featured .sales-price-list-html table tr{ width:100%; }
+.item-featured .sales-price-list-html table tr td:first-child{ display:none; }
+
+.item-featured .sales-price-list-html .quantity-in-cart{ padding:5px 5px 0 5px; font-weight:normal; font-size:12px; }
+.item-featured .sales-price-list-html .each{ padding:5px; font-weight:normal; font-size:12px; display:none; }
+.item-featured .sales-price-list-html .quantity-in-cart{ display:none; }
+.item-featured .sales-price-list-html .price{ padding:0; width:100%; text-align:center; font-weight:bold; }
+
+.item-featured .add-to-cart-options{ float:left; clear:both; width:100%; border:0; }
+.item-featured .stock-status{ float:left; clear:both; width:100%; text-align:center; color:#F00; padding-top:10px; }
+.item-featured .add-to-cart-html{ float:left; }
+
+
+.item-list-cell-buttons-featured{ float:left; clear:both; width:100%;  }
+
+.item-featured .image-col .social-networking{ min-height:5px; float:left; clear:both; width:100%; padding-top:5px;  }
+
+.item-featured .more-info-link{ float:left; width:100%; text-align:center; white-space:nowrap; }
+.item-featured .more-info-link a{ font-size:13px; float:left; width:100%; padding:10px 0; text-decoration:none; color:#3366CC; border-top:1px solid #DFE0E0; background-color:#F1F1F1; }
+.item-featured .more-info-link a:hover{ background-color:#fff; }
+
+.item-featured .add-to-cart-div{ float:left; width:100%; text-align:left; }
+.item-featured .add-to-cart-div tr{ height:auto !important; padding:0; margin:0; vertical-align:top; }
+.item-featured .add-to-cart-quantity-html{ float:left; min-width:54px; }
+.item-featured .add-to-cart-quantity-html input{ float:left; height:19px; }
+.item-featured .add-to-cart-div .add-to-cart-input input{ float:left; margin:0; cursor:pointer; padding:1px 6px; -webkit-border-top-right-radius: 2px; height:25px; -webkit-border-bottom-right-radius: 2px; -moz-border-radius-topright: 2px; -moz-border-radius-bottomright: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; }
+.item-featured .add-to-cart-div input{ border-width:1px; font-size:13px !important; width:80px; }
+.item-featured .add-to-cart-div input#qty{ width:40px !important; margin-left:5px; }
+
+
+
+/* item drill down */
+.item-drill-down{ float:left; width:660px; padding:20px; background-color:#FFF; }
+
+.item-drill-down .image{ float:left; width:240px; padding:0; text-align:center; padding:0; }
+.item-drill-down .image img{ max-width:240px; height:auto; max-height:270px; }
+
+a#flag-image, a#flag-description{ text-align:center; float:left; clear:both; width:100%; padding-top:40px; text-decoration:none; color:#aaa; }
+
+.item-drill-down .info{ width:400px; float:right; padding:0 0 0 20px; }
+.item-drill-down h1{ font-weight:normal; margin:0; padding:0 0 5px 0; font-size:18px; }
+.item-drill-down h4{ float:left; clear:both; width:100%; padding:0 0 10px 0; margin:0; font-weight:normal; color:#666; }
+.item-drill-down .clearance { float:left; clear:both; width:100%; display:none; position:relative; margin-left:-301px; margin-top:-100px; height:0px; }
+.item-drill-down .clearance div { background-image:url(http://www.mojotone.com/img/clearance.png); background-position:top left; background-repeat:no-repeat; width:110px; height:50px; position:relative; }
+.item-drill-down .description{ float:left; clear:both; width:100%; }
+.details-box .brief-description{ float:left; clear:both; width:100%; padding:0 0 0 0; margin:0; line-height:17px; }
+.brief-description table{ float:left; clear:both; width:100% !important; border:1px solid #ffffff !important; margin-top:10px !important; }
+.brief-description tr{ background-color:#FFF; border-spacing:2px; border-color:#ffffff !important; }
+.brief-description td{ padding:5px !important; background-color:#ddd; border-color:#ffffff !important; }
+.details-box .brief-description img{ max-width:100% !important; height:auto; width:auto; }
+.item-drill-down .social-networking{ float:left; clear:both; width:100%; padding-top:30px; }
+.item-drill-down .add-to-cart-form{ float:left; clear:both; width:100%; margin-top:10px; background-size:100% auto; background-position:top center; background-repeat:no-repeat; }
+.item-drill-down .add-to-cart-options{ float:left; width:100%; padding-bottom:3px; }
+.item-drill-down .add-to-cart-options table table tr td{ padding-bottom:5px; width:auto; }
+.item-drill-down .add-to-cart-options select { width:auto; max-width:208px; }
+.item-drill-down .add-to-cart-options select, .item-drill-down .add-to-cart-options input, .item-drill-down .add-to-cart-options .smalltextnolink{ font-size:14px !important;  }
+.item-drill-down .add-to-cart-options .smalltextnolink{ width:150px; text-align:right; }
+.item-drill-down .price{ clear:both; float:left; width:100%; background-color:#eff7ee; padding:5px 20px; width:360px;  }
+.item-drill-down .price .price{ font-weight:bold; padding:0; font-size:18px; width:240px; }
+.item-drill-down .quantity-in-cart{ font-weight:normal; float:left; font-size:14px; width:360px; padding:5px 20px; background-color:#17c200; color:#ffffff; }
+.item-drill-down .quantity-in-cart a{ text-decoration:none; color:#fff; float:right; }
+.item-drill-down .price .each{ font-weight:normal; float:left; font-size:14px; width:243px; }
+
+
+.item-drill-down .price .listheadernosort{ padding:0; background-color:#FFF !important; display:none; }
+#div__body  .item-drill-down .texttable{ border-top:0 !important; padding:0 !important; background-color:#eff7ee; border:0; font-size:18px; }
+.item-drill-down .price{ font-weight:bold; font-size:18px; }
+.item-drill-down .price br{ display:none; }
+.item-drill-down .price table{ width:243px !important; float:left; }
+.item-drill-down .price table tr{ width:100%; }
+
+.item-drill-down .no-quantity table tr td:first-child, 
+.item-drill-down .no-quantity table tr:nth-child(3), 
+.item-drill-down .no-quantity table tr:nth-child(4), 
+.item-drill-down .no-quantity table tr:nth-child(5), 
+.item-drill-down .no-quantity table tr:nth-child(6){ <!-- display:none; --> }
+
+
+.view-quantity-pricing{ float:right; text-decoration:none; cursor:pointer; padding:3px 0; font-weight:normal; font-size:12px;display:none; }
+
+
+.item-drill-down .button-col{ float:left; width:100%; }
+.item-drill-down .stock-status{ color:#F00; width:100%; font-weight:bold; float:left; clear:both; width:100%; padding-bottom:10px; }
+.item-drill-down .drill-down-or-price-match{ padding-top:0; float:left; width:349px; margin-left:52px; }
+.details-box h4{ float:left; width:50%; }
+.details-box .item-weight{ float:left; width:50%; color:#666; font-weight:bold; padding-top:10px; padding-bottom:10px; text-align:right; }
+.details-box .item-weight span{ font-weight:normal; color:#999; }
+.item-drill-down .add-to-cart-drill-down{ float:left; width:220px;}
+.item-drill-down .add-to-cart-drill-down table{ height:32px; }
+.item-drill-down .add-to-cart-drill-down tr{ vertical-align:top; height:32px; }
+.item-drill-down .add-to-cart-drill-down tr td{ height:32px; }
+.item-drill-down .add-to-cart-quantity-html{ float:left; width:100%; height:32px; }
+.item-drill-down .add-to-cart-quantity-html input{ float:left; height:26px; }
+.item-drill-down .add-to-cart-drill-down input{ font-size:19px !important; }
+.item-drill-down .add-to-cart-drill-down .add-to-cart-input{ float:left; width:100%; }
+.item-drill-down .add-to-cart-drill-down .add-to-cart-input input{ float:left; cursor:pointer; border:1px solid #ccc; color:#000; background-color:#ffff18; box-shadow:inset 0 -10px 20px #edb309; padding:2px 6px; -webkit-border-top-right-radius: 2px; -webkit-border-bottom-right-radius: 2px; -moz-border-radius-topright: 2px; -moz-border-radius-bottomright: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; height:32px; }
+.item-drill-down .add-to-cart-drill-down .add-to-cart-input input:hover{ border-color:#333; }
+.item-drill-down .view-more { float:right; padding:5px 10px; background:#36C; color:#fff; clear:both; margin-top:10px; text-decoration:none; }
+
+
+.item-drill-down  .featured-description{ font-weight:bold; color:#F00; padding:10px 0; float:left; clear:both; width:100%; }
+.featured-description{ font-weight:bold; color:#F00; }
+
+
+
+
+.pricematch{ float:left; padding:10px 0 0 10px; }
+.pricematch a{ text-decoration:none; }
+
+.item-drill-down #stock-notification{ display:none; float:left; width:100%; border-top:1px solid #DFE0E0; padding-top:10px; margin-top:10px; }
+.item-drill-down #stock-notification input{ background-color:#EEE; padding:1px 5px; }
+.item-drill-down #stock-notification a{ text-decoration:none; }
+
+.tabs{ float:left; clear:both; width:958px; margin-top:10px; }
+
+.item-info-drill-down{ float:left; clear:both; width:700px; padding:0 0; background-color:#fff; }
+.item-info-drill-down .pad{ padding:20px 40px; float:left; width:620px; }
+.item-info-drill-down h1 { margin-bottom:10px; }
+.item-info-drill-down h2{ padding-top:0; }
+.item-info-drill-down .category-description{ padding-top:0; }
+.item-info-drill-down .image{ float:right; clear:both; width:100%; text-align:center; }
+.item-info-drill-down .image img{ max-width:100%; width:auto; height:auto; }
+.item-info-drill-down .description-col{ width:100%; float:left; clear:both; }
+.item-info-drill-down .breif-descirption{ float:left; clear:both; width:100%; }
+.item-info-drill-down .description{ float:left; clear:both; width:100%; }
+.item-info-drill-down .social-networking{ float:left; clear:both; padding-top:20px; }
+
+.detailed-description{ float:left; clear:both; width:950px; padding:0 5px; padding-bottom:3px;  }
+
+.related-items{ float:left; clear:both; width:670px; margin-top:5px; padding:10px 20px 10px 10px; background-color:#fff; font-size:13px; }
+.related-items h3{ padding:0 0 10px 10px; margin:0; font-weight:normal; }
+.related-item-cell{ min-width:134px !important; }
+.related-item-cell .image{ text-align:left; height:60px !important; height: auto; max-height:60px !important; max-width: 100px; text-align: left; width: auto; }
+.related-item-cell .image a{ float:none; width:60px !important; height:60px !important; vertical-align:middle; padding:0; margin:0; }
+.related-item-cell .image img{ max-width:100%; height:auto; max-height:60px !important; width:auto; }
+.related-item-cell .text{ padding:0; width:100%; }
+.related-item-cell-alt { border-left:1px solid #CCC; border-right:1px solid #CCC; }
+.related-item-cell-table{ }
+.related-item-cell h4{  margin:0; padding:0; font-weight:normal; float:left; clear:both; width:100%; margin-bottom:5px; }
+.related-item-cell a{ text-decoration:none; color:#333; }
+.related-item-cell a:hover{ text-decoration:underline; }
+.related-items-sales-price{ float:left; clear:both; width:100%; padding-top:5px; font-weight:bold; }
+.related-item-cell-image{ height:100px; width:100%; background-color:#FFF; border:1px solid #999; text-align:center; vertical-align:middle; }
+.related-item-cell-more-info-button{ text-decoration:none; background-color:#D4D0C8; border: 1px solid #999; padding:1px 0; float:left; width:100px; text-align:center; }
+.related-item-cell-more-info-button:hover{ background-color:#E3E0DB; }
+.related-item-cell .add-to-cart-options{ float:left; clear:both; width:100%; padding-top:5px; }
+.related-item-cell .add-to-cart-list{ float:left; clear:both; width:100%; padding-top:5px; }
+
+.related-item-cell .sales-price-list-html{ float:left; width:100%; border-bottom:none; text-align:center; height:20px !important; overflow:hidden; }
+.related-item-cell .sales-price-list-html .listheadernosort{ padding:0; background-color:#FFF !important; display:none; }
+#div__body .related-item-cell .sales-price-list-html .texttable{ border-top:0 !important; padding:0 !important; }
+.related-item-cell .sales-price-list-html table{ width:100%; font-weight:bold; float:left; border:none; }
+.related-item-cell .sales-price-list-html table tr{ width:100%; border:none; text-align:left; }
+.related-item-cell .sales-price-list-html table tr td:first-child{ display:none; }
+.related-item-cell .sales-price-list-html .price{ padding:0; width:100%; font-weight:bold; text-align:left; }
+
+
+.related-item-list tr{ height:auto !important; }
+.related-item-list a{ height:auto !important; font-size:12px; text-decoration:none; float:left; width:100%; padding:3px 0; }
+
+.white-box{ float:left; clear:both; width:660px; padding:20px; margin-top:5px; background-color:#fff; font-size:13px; min-height:5px;  }
+.white-box h3.heading{ color:#999; padding:0 0 10px 0; margin:0; }
+#disqus_thread{ float:left; clear:both; width:100%; padding-top:20px; }
+.white-box #dsq-global-toolbar{ margin-top:0 !important; }
+.details-box{ }
+
+#custcol10{ width:100px; }
+
+.item-drill-down .add-to-cart-options .smalltextul{ font-size:14px; }
+
+/* item drill down */
+
+
+/* login page */
+#name_fs_lbl, #retemail_fs_lbl, #retpwd_fs_lbl, #company_fs_lbl, #email_fs_lbl, #pwd_fs_lbl, #newpwd2_fs_lbl, #currentpassword_fs_lbl, #email2_fs_lbl, #password_fs_lbl, #password2_fs_lbl, #hint_fs_lbl, #otherrefnum_fs_lbl{ float:left !important; width:100%; padding-bottom:13px; vertical-align:top; }
+
+#name_fs, #retemail_fs, #retpwd_fs, #company_fs, #email_fs, #pwd_fs, #newpwd2_fs, #currentpassword_fs, #email2_fs, #password_fs, #password2_fs, #hint_fs, #otherrefnum_fs{ float:left !important; width:100%; padding-bottom:10px; font-size:13px !important; vertical-align:top; }
+
+#partner_fs_lbl{ float:left; width:100%; font-size:13px !important; padding-bottom:3px; }
+
+#partner_fs,  
+{ float:left; width:100%; font-size:13px !important; }
+
+#name_fs_lbl a, #retemail_fs_lbl a, #retpwd_fs_lbl a, #company_fs_lbl a, #email_fs_lbl a, #pwd_fs_lbl a, #newpwd2_fs_lbl a, #hint_fs_lbl a, #partner_fs_lbl a, #retpwd_fs_lbl a, #newpwd2_fs_lbl a, #currentpassword_fs_lbl a, #email2_fs_lbl a, #password_fs_lbl a, #password2_fs_lbl a, #otherrefnum_fs_lbl a, #name_fs #name, #retemail_fs input, #retpwd_fs input, #company_fs input, #email_fs input, #pwd_fs input, #newpwd2_fs input, #hint_fs input, #partner_fs input, #retpwd_fs input, #otherrefnum_fs input { font-size:13px !important; }
+
+#retemail, #retpwd{ font-size:13px !important;}
+
+#otherrefnum_fs input{ font-size:13px !important; padding:2px; float:left; border:1px solid #b6b2b2; }
+
+.inputreq, .input{ font-size:13px !important; padding:2px; float:left; border:1px solid #b6b2b2; }
+.nlbutton{ font-size:13px !important; padding:1px !important; float:left; border:1px solid #b6b2b2; }
+/* end login page */
+
+
+/* shipping page*/
+.greytitle{ float:left; clear:both; width:100%; padding:20px 0; font-weight:normal; white-space:nowrap; }
+.important-message{ float:left; clear:both; width:100%; padding-bottom:10px; font-weight:normal; color:#F00; }
+.shipping-method-h{ float:left; clear:both; width:100%; padding-bottom:5px; }
+.shipping-carrier-dropdown-table{ padding:0; margin:0; background-color:#fff; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; padding-bottom:15px; margin-bottom:10px; float:left; clear:both; width:100%; border:1px solid #ccc; }
+#div__body .shipping-carrier-dropdown-table td{ padding:4px 18px 0 14px; font-size:14px; }
+#div__body tr.shipping-carrier-dropdown { height:35px !important; width:400px; }
+#div__body tr.shipping-carrier-dropdown td{ font-size:16px; font-weight:normal !important; height:35px !important; background-color:#ffff18; box-shadow:inset 0 -10px 20px #edb309; width:360px; padding:0 20px 20px 20px; border-bottom-color:#999; }
+#shippingcarrierselect{ font-size:20px !important; width:360px; float:none; }
+#div__body .shipping-carrier-dropdown-table .smalltext{ padding-top:10px; }
+#div__body .shipping-carrier-dropdown-table .smalltext input{ margin-left:10px; }
+
+#div__body td .custbodysegas_tshirt_size-dropdown{ }
+#div__body td .custbodysegas_tshirt_size-dropdown td{ padding:5px 0; background-color:#FFE599; border:1px solid #DFA62F; -moz-border-radius-topright: 3px; border-top-right-radius:3px; -moz-border-radius-bottomright: 3px; border-bottom-right-radius:3px; border-left:0; }
+#div__body td .custbodysegas_tshirt_size-dropdown td.smalltextnolink{ padding:5px 0; background-color:#FFE599; border:1px solid #DFA62F; -moz-border-radius-topright: 0; border-top-right-radius:0; -moz-border-radius-bottomright: 0; border-bottom-right-radius:0; -moz-border-radius-topleft: 3px; border-top-left-radius:3px; -moz-border-radius-bottomleft: 3px; border-bottom-left-radius:3px; border-right:0;  }
+
+#custbodysegas_tshirt_size_fs{ float:left; }
+
+#close-t-shirt{ float:left; position:relative; margin-top:-262px; }
+#free-ship-consumers-only{ float:left; position:fixed; top:0; left:auto; right:auto; width:519px; margin-left:0px; padding:300px 0 100px 0; }
+
+.coupon-text{ float:left; padding:2px; }
+
+#shippingmethodtable{ text-align:left !important; }
+.extcartborder{ padding:10px 0; }
+.extcartbordershaded{ padding:10px 0; }
+
+#fedexfooter{ width: 980px!important; float: left; background-color: #ffffff; padding: 10px 0; border: 1px solid #ddd; margin-bottom:10px; }
+#fedexfooter img{ margin-right:20px; }
+#uspsfooter{ width: 980px!important; float: left; background-color: #ffffff; padding: 10px 0; border: 1px solid #ddd; margin-bottom:10px; }
+#uspsfooter img{ margin-right:20px; }
+#upsfooter{ width: 980px!important; float: left; background-color: #ffffff; padding: 10px 0; border: 1px solid #ddd; margin-bottom:10px; }
+#upsfooter img{ margin-right:20px; }
+/* end shipping */
+
+
+
+/*my account page*/
+body.myaccount #div__body{ margin-left:auto !important; margin-right:auto !important; }
+.pt_body{ padding:0; margin:0; background-color:transparent; border:0; }
+.pt_end, .pt_head, .bntLT, .bntRT, .bntLB, .bntRB{ display:none !important; }
+.pt_title{ left:0; position:relative; float:left; white-space:nowrap; top:0; color:#333; text-transform:uppercase; font-size:25px; font-weight:normal; padding-bottom:20px; }
+
+.bntBgB{ background-image:none !important; }
+
+body.myaccount #tbl_submitter input#submitter{ margin-top:0; border:1px solid #333; background-image:none; }
+body.myaccount #tbl_cancel input#cancel{ border:1px solid #333 !important;  font-size:13px; -moz-border-radius: 3px; border-radius:3px; padding:3px 5px; background-image:none; }
+body.myaccount .textboldnolink{ padding:20px 0 10px 0 !important; font-size:1.5em; font-weight:normal; }
+body.myaccount .smalltextbnolink{ padding:0 0 10px 0 !important; }
+body.myaccount .bglt{ background-color:#F8F8F8; }
+
+body.myaccount #breadcrumb{ width:860px; }
+body.myaccount .content{ width:940px; }
+body.myaccount .sidebar-right{ display:none; }
+
+#emailsubscribe_fs, #emailsubscribe_fs_lbl{ display:none; }
+
+
+
+
+
+
+
+/*  cabinet configurator  */
+
+#add-to-cart-no-options-message{ display:none; float:left; width:100%; padding-top:32px; margin-top:-32px; }
+#add-to-cart-no-options-message.active{ display:block; }
+#add-to-cart-no-options-message div{ visibility:hidden; background-color:#F00; color:#FFF; padding:10px; }
+#add-to-cart-no-options-message div.active{ visibility:visible;}
+#add-to-cart-no-options-message div a{ cursor:pointer; color:#F00; padding:2px 5px; background-color:#CCC; }
+
+
+#cabpreview{ float:left; clear:both; width:470px; }
+.cabpreview-col{ float:left; clear:both; width:470px; }
+#cabpreviw-options{ float:left; width:170px; margin-left:20px; }
+#cabpreviw-options .sort-options{ float:left; width:100%; padding-bottom:5px; }
+#cabpreviw-options .sort-options a{ margin-left:36px; color:#999; cursor:pointer; }
+#cabpreviw-options .sort-options a:first-child{ margin-left:0; }
+#cabpreviw-options .sort-options a.active{ color:#000; }
+#cabpreviw-options .sort-options a:hover{ color:#000; }
+#view-button{ float: left; background-color: #ccc; color: #333; padding: 3px 0; width: 67px; text-align: center; cursor: pointer; position: relative; margin-left: -510px; margin-top:20px; }
+#view-button:hover{ color: #333 !important; }
+
+.greyarrow{ float: left; width: 23px; cursor: pointer; font-weight: bold; font-size: 23px; background-color: #ccc; color: #fff; padding: 2px 0; line-height: 18px; text-align:center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.greyarrow:hover{ background-color:#666; color:#fff !important; }
+
+
+.cabpreview-options-h{ float:left; text-align:center; width:100%; margin:10px 0; }
+.cabpreview-options-h a{ }
+#cabpreviw-options h3, .cabpreview-options-h h3{ width:124px; float:left; padding:0; margin:10px 0; font-weight:normal; color:#666; text-align:center; }
+#cabpreviw-options .cabpreview-options-h h3, #gc-options .cabpreview-options-h h3{ margin:0; }
+.cab-config-message{ float:left; clear:both; width:100%; color:#666; margin:10px 0 40px 0; text-align:center; }
+
+
+#handle-button-div{ float:left; position:relative; margin-left:-470px; width:470px; margin-top: 19px; }
+#handle-button-div h3{ margin-top: 3px; }
+#handlePrev{ margin-left:128px; }
+#handleNext{ }
+
+#feet-button-div{ float:left; position: relative; margin-top: 372px; margin-left:-470px; width:470px; }
+#feet-button-div h3{ margin-top: 3px; }
+#feetPrev{ margin-left:128px; }
+#feetNext{ }
+
+.tolexSwatch{ background-position: center; float:left; width:20px; height:20px; margin:0 0 1px 1px; cursor:pointer; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.tolexSwatch.active{ box-shadow:1px 1px 5px #000; }
+.tolexSwatch.active div{ background-image:url(http://mojotone.com/img2013/check-transparent.png); background-position:center; background-repeat:no-repeat; float:left; height:20px; width:20px; }
+.tolexSwatchDiv{ float:left; width:100%; }
+
+.grillclothSwatch{ background-position: center; float:left; width:20px; height:20px; margin:0 0 1px 1px; cursor:pointer; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.grillclothSwatch.active{ box-shadow:1px 1px 5px #000; }
+.grillclothSwatch.active div{ background-image:url(http://mojotone.com/img2013/check-transparent.png); background-position:center; background-repeat:no-repeat; float:left; height:20px; width:20px; }
+.grillclothSwatchDiv{ float:left; width:100%; }
+
+body .pipingSwatch{ background-position: center; float:left; margin:0 0 0 4px; height:20px; cursor:pointer; padding:5px; border:none !important; }
+.pipingSwatch .pipe{ -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; float:left; border:none !important; }
+body .pipingSwatch.active{ }
+body .pipingSwatch .check{ display:none; position:relative; background-image:url(http://mojotone.com/img2013/check-transparent.png); background-position:center; background-repeat:no-repeat; float:left; height:20px; width:20px; margin-top: -15px; clear: both; }
+body .pipingSwatch.active .check{ display:block;  }
+.pipingSwatchDiv{ float:left; width:100%; }
+.pipingSwatchDiv div .pipe{ background-color:#000; height:10px; width:20px; box-shadow:1px 1px 1px #000; }
+.pipingSwatchDiv .Small-Black-Piping-332-Bead-No-Lip-8132420 .pipe{ background-color:#000; }
+.pipingSwatchDiv .Small-Gold-Piping-332-Bead-No-Lip-1131400 .pipe{ background-color:#C2964F; }
+.pipingSwatchDiv .Small-Silver-Piping-332-Bead-No-Lip-8132416 .pipe{ background-color:#9A9B9F; }
+.pipingSwatchDiv .Small-White-Piping-332-Bead-No-Lip-8132415 .pipe{ background-color:#EFF1F0; }
+.pipingSwatchDiv .Stock .pipe{ box-shadow:none !important; background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/stock.jpg) !important; background-size:auto auto !important; background-position:center; width:20px; }
+
+body .baffleSwatch{ background-position: center; float:left; margin:0 0 0 4px; cursor:pointer; padding:5px; border:none !important; height:25px !important; width:auto !important; }
+.baffleSwatch .pipe{ -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; float:left; border:none !important; }
+body .baffleSwatch.active{  }
+body .baffleSwatch .check{ display:none; position:relative; margin-top:-20px; background-image:url(http://mojotone.com/img2013/check-transparent.png); background-position:center; background-repeat:no-repeat; float:left; height:20px; width:20px; margin-top: -15px; clear: both; }
+body .baffleSwatch.active .check{ display:block;  }
+.baffleSwatchDiv{ float:left; width:100%; }
+.baffleSwatchDiv div .pipe{ background-color:#000; height:10px; width:20px; box-shadow:1px 1px 1px #000; }
+.baffleSwatchDiv .Small-Black-Piping-332-Bead-No-Lip-8132420 .pipe{ background-color:#000; }
+.baffleSwatchDiv .Large-Burgundy-Piping-716H-x-316-Bead-with-Lip-8132411 .pipe{ background-color:#280007; height:16px; }
+.baffleSwatchDiv .Large-Cocoa-Piping-12H-x-316-Bead-with-Lip-8132410 .pipe{ background-color:#684424; height:16px; }
+.baffleSwatchDiv .Large-Cocoa-Piping-12H-x-316-Bead-with-Lip-8132410 .pipe{ background-color:#684424; height:16px; }
+.baffleSwatchDiv .Large-Cream-Piping-12H-x-316-Bead-With-Lip-8132402 .pipe{ background-color:#98876B; height:16px; }
+.baffleSwatchDiv .Large-Gold-Piping-12H-x-316-Bead-with-Lip-1135001 .pipe{ background-color:#C2964F; height:16px; }
+.baffleSwatchDiv .Large-Silver-Piping-12H-x-316-Bead-with-Lip-1135002 .pipe{ background-color:#C1BDBA; height:16px; }
+.baffleSwatchDiv .Large-White-Piping-12H-x-316-Bead-with-Lip-1131402 .pipe{ background-color:#F6F6F6; height:16px; }
+
+.baffleSwatchDiv .Medium-Black-Piping-716H-x-18-Bead-with-Lip-8132405{ padding:8px 5px; }
+.baffleSwatchDiv .Medium-Black-Piping-716H-x-18-Bead-with-Lip-8132405.active{ }
+.baffleSwatchDiv .Medium-Black-Piping-716H-x-18-Bead-with-Lip-8132405 .pipe{ background-color:#1D1D1D; }
+
+.baffleSwatchDiv .Medium-Gold-Piping-716H-x-18-Bead-with-Lip-8131401{ padding:8px 5px; }
+.baffleSwatchDiv .Medium-Gold-Piping-716H-x-18-Bead-with-Lip-8131401.active{ }
+.baffleSwatchDiv .Medium-Gold-Piping-716H-x-18-Bead-with-Lip-8131401 .pipe{ background-color:#D2B780; }
+
+.baffleSwatchDiv .Medium-Silver-Piping-716H-x-18-Bead-with-Lip-8132401{ padding:8px 5px; }
+.baffleSwatchDiv .Medium-Silver-Piping-716H-x-18-Bead-with-Lip-8132401.active{ }
+.baffleSwatchDiv .Medium-Silver-Piping-716H-x-18-Bead-with-Lip-8132401 .pipe{ background-color:#CECECE; }
+
+.baffleSwatchDiv .Medium-White-Piping-716H-x-18-Bead-with-Lip-8131402{ padding:8px 5px; }
+.baffleSwatchDiv .Medium-White-Piping-716H-x-18-Bead-with-Lip-8131402.active{ }
+.baffleSwatchDiv .Medium-White-Piping-716H-x-18-Bead-with-Lip-8131402 .pipe{ background-color:#F6F6F6;  }
+
+.baffleSwatchDiv .Stock .pipe{ box-shadow:none !important; background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/stock.jpg) !important; background-size:auto auto !important; background-position:center; width:20px; }
+
+
+
+#preview-container-top-div{ margin: 60px auto 50px auto; height:200px; display:none; }
+.cab-config #preview-container-top-div{ display:block; }
+#handle-preview-container-top-custom{ margin-top: 54px; }
+#preview-container-div{ margin: 60px auto 50px auto; min-height:200px; display:none; }
+.cab-config #preview-container-div{ display:block; }
+.preview-container-div h3{ float:left; clear:both; padding:0; margin:0; width:100%; font-weight:normal; text-align:left; margin-bottom:5px; font-size:12px; text-transform:uppercase; color:#333; }
+#preview-container-div h3{ height:44px; }
+.preview-container-div.active{ display:block; }
+.preview-container-custom{ float:left; clear:both; width:100%; margin-top:10px; height:0; overflow:visible; margin-top:0; }
+.preview-main div{ height:200px; width:250px; float:left; background-position:top left; }
+.preview-top div{ height:100px; width:250px; float:left; background-position:top left; }
+.preview-bottom div{ height:100px; width:250px; float:left; background-position:top left; }
+.inner-shadow{ float:left; -moz-box-shadow:inset 1px 1px 5px #000; -webkit-box-shadow:inset 1px 1px 5px #000; box-shadow:inset 1px 1px 5px #000; width:240px; height:190px; margin:5px; }
+#preview-container-top-div .inner-shadow{ display:none; float:left; -moz-box-shadow:inset 1px 1px 5px #000; -webkit-box-shadow:inset 1px 1px 5px #000; box-shadow:inset 1px 1px 5px #000; width:240px; height:190px; margin:5px; }
+
+#front-cutout{ display:none; box-shadow:inset 1px 1px 2px #000000; float:left; margin:0 auto; background-color:#FFF; width:150px; margin-left:50px; height:40px; margin-top:-31px; position:relative; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; -moz-border-radius-topleft: 3px; -moz-border-radius-topright: 3px; border-top-left-radius: 3px; border-top-right-radius: 3px; }
+#top-cutout{ margin-top:-50px; box-shadow:inset 1px 1px 2px #000000; float:left; display:none; width:150px; background-color:#fff; height:34px; margin-left:50px;-webkit-border-bottom-right-radius: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-bottomright: 3px; -moz-border-radius-bottomleft: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; }
+
+
+#tolex-preview-container-custom div{ background-size:450px auto; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -moz-box-shadow: 1px 1px 2px #000; -webkit-box-shadow: 1px 1px 2px #000; box-shadow: 1px 1px 2px #000; }
+#grillcloth-preview-container-custom div{ background-size:428px auto; margin:5px; width:240px; height:190px; }
+#piping-preview-container-custom div{ width:218px; height:0; margin:100px 10px 10px 10px; border-left:none !important; border-right:none !important; border-bottom:none; }
+#pipingm-preview-container-custom div{ margin:5px; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; }
+#pipingm2-preview-container-custom div{ width:210px; height:5px; margin:0 20px; border-top:none !important; border-bottom:none !important; }
+#pipingm3-preview-container-custom div{ width:210px; height:5px; margin:195px 20px 0 20px; border-top:none !important; border-bottom:none !important; }
+#preview-container-div #valence-preview-container-custom div{ height:0; margin:10px 5px 0 5px; border-top:none !important; border-right:none !important; border-left:none !important; }
+#handle-preview-container-custom div{ background-size:auto 32px; position:relative; margin-top:-60px; background-position:bottom center !important; background-repeat:no-repeat; height:60px; }
+#preview-container-div #feet-preview-container-custom div{ background-size:63px auto; background-position:bottom left !important; background-repeat:no-repeat; width:122px; height:213px; margin-left:8px; }
+#preview-container-div #feet2-preview-container-custom div{ background-size:63px auto; background-position:bottom right !important; background-repeat:no-repeat; margin-left:100px; width:143px; height:213px; }
+
+.preview-container-data{ float:left; clear:both; width:100%; height:0; position:relative; visibility:hidden; }
+
+
+#tolex-preview-container-top-custom div{ background-size:450px auto; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -moz-box-shadow: 1px 1px 2px #000; -webkit-box-shadow: 1px 1px 2px #000; box-shadow: 1px 1px 2px #000; }
+#grillcloth-preview-container-top-custom div{ background-size:428px auto; margin:10px; width:180px; height:180px; }
+#pipingm-preview-container-top-custom div{ display:none; margin:5px; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; }
+#pipingm2-preview-container-top-custom div{ width:208px; height:100px; margin:0 20px; border-top:none !important; border-bottom:none !important; }
+#preview-container-div #valence-preview-container-top-custom div{ width:180px !important; height:0; margin:10px 10px 0 10px; height:40px !important; border-top:none; border-right:none; border-left:none; }
+#handle-preview-container-top-custom div{ background-size:auto 92px; position: relative; margin-top: -39px; margin-left: 3px; background-position: top center !important; background-repeat: no-repeat; }
+#preview-container-div #feet-preview-container-top-custom div{ background-size:16px auto; background-position:bottom center !important; background-repeat:no-repeat; width:100px; height:209px; }
+#preview-container-div #feet2-preview-container-top-custom div{ background-size:16px auto; background-position:bottom center !important; background-repeat:no-repeat; margin-left:100px; width:100px; height:209px; }
+
+
+
+
+
+
+
+.Black-Carpet{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/5142001.jpg) !important; }
+.British-Style-Black-Elephant-7312500{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312500.jpg) !important; }
+.British-Style-Black-Levant-7310101{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310101.jpg) !important; }
+.British-Style-Green-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310500g.jpg) !important; }
+.British-Style-Orange-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310003.jpg) !important; }
+.British-Style-Purple-Elephant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312500p.jpg) !important; }
+.British-Style-Purple-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310500p.jpg) !important; }
+.British-Style-Red-Elephant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312500r.jpg) !important; }
+.British-Style-Red-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310500r.jpg) !important; }
+.British-Style-Silver-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310004.jpg) !important; }
+.British-Style-White-Elephant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312500w.jpg) !important; }
+.British-Style-White-Levant-7310500w{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310500w.jpg) !important; }
+.British-Tan-Levant-7310510{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310510.jpg) !important; }
+.Fender-Black-7310001{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310001.jpg) !important; }
+.Fender-Style-Rough-Blonde{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7311001.jpg) !important; }
+.Fender-Style-Rough-Brown{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7311002.jpg) !important; }
+.Fender-Style-Seafoam-Green{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7311004.jpg) !important; }
+.Fender-Style-Smooth-Blonde{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310002.jpg) !important; }
+.Fender-Style-Smooth-Brown{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7311003.jpg) !important; }
+.Fender-Style-Tweed-Brown-Stripe-Coated-8300001{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/8300001.jpg) !important; }
+.Fender-Style-Tweed-Olive-Stripe-Coated-8300005{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/8300005.jpg) !important; }
+.GibsonMesa-Style-Smooth-Black{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/6310101.jpg) !important; }
+.Mojotone-Black-Comet{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310231.jpg) !important; }
+.Mojotone-Black-Patchwork{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310230.jpg) !important; }
+.Mojotone-Black-Snakeskin{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310215.jpg) !important; }
+.Mojotone-Black-Western{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312116.jpg) !important; }
+.Mojotone-Blue-Sparkle-7310240{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310240.jpg) !important; }
+.Mojotone-Brown-Alligator{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310220.jpg) !important; }
+.Mojotone-Brown-Ostrich{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310235.jpg) !important; }
+.Mojotone-Brown-Western{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312115.jpg) !important; }
+.Mojotone-Burgundy-Snakeskin{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310216.jpg) !important; }
+.Mojotone-Carolina-Blue{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312001.jpg) !important; }
+.Mojotone-Cocoa-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310000.jpg) !important; }
+.Mojotone-Gray-Sparkle{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310250.jpg) !important; }
+.Mojotone-Ivory-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312110.jpg) !important; }
+.Mojotone-Navy-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312100.jpg) !important; }
+.Mojotone-Plum-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312105.jpg) !important; }
+.Mojotone-Red-Sparkle{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310245.jpg) !important; }
+.Mojotone-Rough-Black-7312002{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312002.jpg) !important; }
+.Mojotone-Rough-Orange{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310255.jpg) !important; }
+.Mojotone-Rough-Red{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312003.jpg) !important; }
+.Mojotone-Snakeskin{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310210.jpg) !important; }
+.Mojotone-Teal-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312004.jpg) !important; }
+.Mojotone-Tan-Digital-Camouflage{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/6310151.jpg) !important; }
+.Mojotone-Vanilla-Taurus{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310155.jpg) !important; }
+.Mojotone-White-Sparkle-7310241{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310241.jpg) !important; }
+.Mojotone-Wine-Taurus-8312111{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/8312111.jpg) !important; }
+.Tweed-Pattern-Lite-Brown-Striped-tolex{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/8300002.jpg) !important; }
+.Vox-Fawn-Style{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312601.jpg) !important; }
+.VoxHiwatt-Style-Black{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312600.jpg) !important; }
+.VoxHiwatt-Style-Orange{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312625.jpg) !important; }
+.VoxHiwatt-Style-Red{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312610.jpg) !important; }
+.VoxHiwatt-Style-White{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312620.jpg) !important; }
+.Marshall-Vintage-Black-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310102.jpg) !important; }
+
+.Mojotone-Tan-Digital-Camouflage-6310151{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/6310151.jpg) !important; }
+.Mojotone-GreyBlack-Digital-Camouflage-6310150{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/6310150.jpg) !important; }
+.VoxHiwatt-Style-Navy-7312101{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312101.jpg) !important; }
+.Mojotone-White-Buffalo-7312118{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312118.jpg) !important;  }
+.Mojotone-Brown-Buffalo-7312119{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312119.jpg) !important; }
+.Mojotone-Small-Grain-Green-Pimple-7312117{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312117.jpg) !important; }
+.Mojotone-Ocean-Sparkle-7310252{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310252.jpg) !important; }
+.Mojotone-Gold-Sparkle-7310242{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7310242.jpg) !important; }
+.Ampeg-Navy-Checkered-Board-6310102{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/6310102.jpg) !important; }
+.Mojotone-Black-Carbon-Fiber-7312635{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312635.jpg) !important; }
+.Mojotone-Gunmetal-Carbon-Fiber-7312630{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/7312630.jpg) !important; }
+
+
+.Ampeg-Style-AGED-BlueSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000002a.jpg) !important; }
+.Ampeg-Style-BlackSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000001.jpg) !important; }
+.Ampeg-Style-BlueSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000002.jpg) !important; }
+.British-Bluesbreaker-Style-Re-Issue{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000006.jpg) !important; }
+.British-Style-Black-6000008{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000008.jpg) !important; }
+.British-Style-Black-and-Tan{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000004n.jpg) !important; }
+.British-Style-Small-Weave-Cane{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000009.jpg) !important; }
+.Cane-6000003{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000003.jpg) !important; }
+.Fender-Style-Aged-BlackWhiteSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6300001.jpg) !important; }
+.Fender-Style-Aged-BlueWhiteSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6300002.jpg) !important; }
+.Fender-Style-Beige-Brown{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6301002.jpg) !important; }
+.Fender-Style-Beige-Brown-w-Gold-Stripe{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6301003.jpg) !important; }
+.Fender-Style-Black-6301008{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6301008.jpg) !important; }
+.Fender-Style-BlackWhiteSilver-6301005{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6301005.jpg) !important; }
+.Fender-Style-BlueWhiteSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6301006.jpg) !important; }
+.Fender-Style-Old-Brown-6302000{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6302000.jpg) !important; }
+.Fender-Style-Oxblood{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6301004.jpg) !important; }
+.Fender-Style-Oxblood-w-Gold-Stripe{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6301001.jpg) !important; }
+.Fender-Style-TurquoiseWhiteSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6301007.jpg) !important; }
+.Large-Check-6000007n{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000007n.jpg) !important; }
+.Mesa-Style-Black-Small-Weave-Cane-6000011{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000011.jpg) !important; }
+.Mojotone-Black-and-Tan-6302020{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6302020.jpg) !important; }
+.Mojotone-Black-and-Tan-w-Gold-Stripe-6000010{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000010.jpg) !important; }
+.Mojotone-Black-Matrix-6302010{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6302010.jpg) !important; }
+.Mojotone-Loose-Weave-White-Cane{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6100009.jpg) !important; }
+.Mojotone-Oxblood-Variant-lighter-oxblood{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6301004sp.jpg) !important; }
+.Mojotone-Silver-Matrix-6302015{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6302015.jpg) !important; }
+.MojoWeave-BlackBlue{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000015.jpg) !important; }
+.MojoWeave-BlackBlue{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000015.jpg) !important; }
+.Salt-and-Pepper-6000005{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/6000005.jpg) !important; }
+
+.Small-Black-Piping-332-Bead-No-Lip-8132420{ border:1px solid #000 !important; }
+.Small-Gold-Piping-332-Bead-No-Lip-1131400{ border:1px solid #C2964F !important; }
+.Small-Silver-Piping-332-Bead-No-Lip-8132416{ border:1px solid #9A9B9F !important; }
+.Small-White-Piping-332-Bead-No-Lip-8132415{ border:1px solid #EFF1F0 !important; }
+
+
+.Large-Burgundy-Piping-716H-x-316-Bead-with-Lip-8132411{ border:3px solid #280007 !important; }
+.Large-Cocoa-Piping-12H-x-316-Bead-with-Lip-8132410{ border:3px solid #684424 !important; }
+.Large-Cocoa-Piping-12H-x-316-Bead-with-Lip-8132410{ border:3px solid #684424 !important; }
+.Large-Cream-Piping-12H-x-316-Bead-With-Lip-8132402{ border:3px solid #98876B !important; }
+.Large-Gold-Piping-12H-x-316-Bead-with-Lip-1135001{ border:3px solid #C2964F !important; }
+.Large-Silver-Piping-12H-x-316-Bead-with-Lip-1135002{ border:3px solid #C1BDBA !important; }
+.Large-White-Piping-12H-x-316-Bead-with-Lip-1131402{ border:3px solid #F6F6F6 !important; }
+.Medium-Black-Piping-716H-x-18-Bead-with-Lip-8132405{ border:2px solid #1D1D1D !important; }
+.Medium-Gold-Piping-716H-x-18-Bead-with-Lip-8131401{ border:2px solid #D2B780 !important; }
+.Medium-Silver-Piping-716H-x-18-Bead-with-Lip-8132401{ border:2px solid #CECECE !important; }
+.Medium-White-Piping-716H-x-18-Bead-with-Lip-8131402{ border:2px solid #F6F6F6 !important; }
+
+
+
+#preview-container-div .Alternate-Black-Strap-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9047000a.png) !important; }
+#preview-container-div .Ampeg-Style-Large-Navy-Blue-Leather-Handle-w-Hardware{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220007.png) !important; }
+#preview-container-div .Ampeg-Old-Style-Raised-Black-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5221400.png) !important; }
+#preview-container-div .AmpegMesa-Style-Large-Black-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220005.png) !important; }
+#preview-container-div .Black-Fender-Dog-Bone-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9046000bl.png) !important; }
+#preview-container-div .Black-Plastic-Strap-Handle-w-Black-Metal-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220101.png) !important; }
+#preview-container-div .Black-Plastic-Strap-Handle-with-Chrome-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9047000.png) !important; }
+#preview-container-div .Black-Plastic-Strap-with-Gold-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220101.png) !important; }
+#preview-container-div .Fender-Brown-Dog-Bone-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9046000.png) !important; }
+#preview-container-div .Fender-Style-Brown-Plastic-Strap-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/4944000.png) !important; }
+#preview-container-div .Fender-Style-Flat-Brown-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9045000.png) !important; }
+#preview-container-div .Fender-Style-Raised-Brown-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9045000r.png) !important; }
+#preview-container-div .Hiwatt-Style-Strap-Handle-with-Chrome-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220001.png) !important; }
+#preview-container-div .Large-Brown-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220006.png) !important; }
+#preview-container-div .Large-Plastic-Strap-Handle-with-Black-Plastic-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220100.png) !important; }
+#preview-container-div .Vintage-Style-Plastic-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9048000.png) !important; }
+#preview-container-div .Vox-Molded-Rubber-Handle-with-logo{ background-image:url(http://mojostuff.com/cabconfigimg/handle/6220100.png) !important; }
+#preview-container-div .Vox-Style-Replica-Handle-no-logo{ background-image:url(http://mojostuff.com/cabconfigimg/handle/6220101.png) !important; }
+
+#preview-container-top-div .Alternate-Black-Strap-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/9047000a.png) !important; }
+#preview-container-top-div .Ampeg-Style-Large-Navy-Blue-Leather-Handle-w-Hardware{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/5220007.png) !important; }
+#preview-container-top-div .Ampeg-Old-Style-Raised-Black-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/5221400.png) !important; }
+#preview-container-top-div .AmpegMesa-Style-Large-Black-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/5220005.png) !important; }
+#preview-container-top-div .Black-Fender-Dog-Bone-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/9046000bl.png) !important; }
+#preview-container-top-div .Black-Plastic-Strap-Handle-w-Black-Metal-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/5220101.png) !important; }
+#preview-container-top-div .Black-Plastic-Strap-Handle-with-Chrome-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/9047000.png) !important; }
+#preview-container-top-div .Black-Plastic-Strap-with-Gold-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/5220101.png) !important; }
+#preview-container-top-div .Fender-Brown-Dog-Bone-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/9046000.png) !important; }
+#preview-container-top-div .Fender-Style-Brown-Plastic-Strap-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/4944000.png) !important; }
+#preview-container-top-div .Fender-Style-Flat-Brown-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/9045000.png) !important; }
+#preview-container-top-div .Fender-Style-Raised-Brown-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/9045000r.png) !important; }
+#preview-container-top-div .Hiwatt-Style-Strap-Handle-with-Chrome-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/5220001.png) !important; }
+#preview-container-top-div .Large-Brown-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/5220006.png) !important; }
+#preview-container-top-div .Large-Plastic-Strap-Handle-with-Black-Plastic-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/5220100.png) !important; }
+#preview-container-top-div .Vintage-Style-Plastic-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/9048000.png) !important; }
+#preview-container-top-div .Vox-Molded-Rubber-Handle-with-logo{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/6220100.png) !important; }
+#preview-container-top-div .Vox-Style-Replica-Handle-no-logo{ background-image:url(http://mojostuff.com/cabconfigimg/handletop/6220101.png) !important; }
+
+.handleSwatchDiv .Alternate-Black-Strap-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9047000a.png) !important; }
+.handleSwatchDiv .Ampeg-Style-Large-Navy-Blue-Leather-Handle-w-Hardware{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220007.png) !important; }
+.handleSwatchDiv .Ampeg-Old-Style-Raised-Black-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5221400.png) !important; }
+.handleSwatchDiv .AmpegMesa-Style-Large-Black-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220005.png) !important; }
+.handleSwatchDiv .Black-Fender-Dog-Bone-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9046000bl.png) !important; }
+.handleSwatchDiv .Black-Plastic-Strap-Handle-w-Black-Metal-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220101.png) !important; }
+.handleSwatchDiv .Black-Plastic-Strap-Handle-with-Chrome-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9047000.png) !important; }
+.handleSwatchDiv .Black-Plastic-Strap-with-Gold-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220101.png) !important; }
+.handleSwatchDiv .Fender-Brown-Dog-Bone-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9046000.png) !important; }
+.handleSwatchDiv .Fender-Style-Brown-Plastic-Strap-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/4944000.png) !important; }
+.handleSwatchDiv .Fender-Style-Flat-Brown-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9045000.png) !important; }
+.handleSwatchDiv .Fender-Style-Raised-Brown-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9045000r.png) !important; }
+.handleSwatchDiv .Hiwatt-Style-Strap-Handle-with-Chrome-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220001.png) !important; }
+.handleSwatchDiv .Large-Brown-Leather-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220006.png) !important; }
+.handleSwatchDiv .Large-Plastic-Strap-Handle-with-Black-Plastic-End-Caps{ background-image:url(http://mojostuff.com/cabconfigimg/handle/5220100.png) !important; }
+.handleSwatchDiv .Vintage-Style-Plastic-Handle{ background-image:url(http://mojostuff.com/cabconfigimg/handle/9048000.png) !important; }
+.handleSwatchDiv .Vox-Molded-Rubber-Handle-with-logo{ background-image:url(http://mojostuff.com/cabconfigimg/handle/6220100.png) !important; }
+.handleSwatchDiv .Vox-Style-Replica-Handle-no-logo{ background-image:url(http://mojostuff.com/cabconfigimg/handle/6220101.png) !important; }
+.handleSwatchDiv .Stock{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/stock.jpg) !important; }
+
+
+
+.Fender-Style-3-Prong-Feet-4-34W-x-716H-6130002{ background-image:url(http://mojostuff.com/cabconfigimg/feet/6130002.png) !important; }
+.Fender-Style-Chrome-Glides-w-Screws--4-1W-x-38H-9000000{ background-image:url(http://mojostuff.com/cabconfigimg/feet/9000000.png) !important; }
+.Mojotone-Large-Rubber-Feet-4-pack-1-12W-x-34H-9000001{ background-image:url(http://mojostuff.com/cabconfigimg/feet/9000001.png) !important; }
+.Mojotone-Small-Rubber-Feet-pack-of-4-1-12W-x-38H-5243001{ background-image:url(http://mojostuff.com/cabconfigimg/feet/5243001.png) !important; }
+.Old-Fender-Style-Nail-In-Feet--4-78W-x-1-18H-6130001{ background-image:url(http://mojostuff.com/cabconfigimg/feet/6130001.png) !important; }
+.feetSwatchDiv .Stock{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/stock.jpg) !important; background-size:auto auto !important; }
+
+
+
+
+
+
+.tolexSwatchDiv .Black-Carpet{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/5142001.jpg) !important; }
+.tolexSwatchDiv .British-Style-Black-Elephant-7312500{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312500.jpg) !important; }
+.tolexSwatchDiv .British-Style-Black-Levant-7310101{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310101.jpg) !important; }
+.tolexSwatchDiv .British-Style-Green-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310500g.jpg) !important; }
+.tolexSwatchDiv .British-Style-Orange-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310003.jpg) !important; }
+.tolexSwatchDiv .British-Style-Purple-Elephant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312500p.jpg) !important; }
+.tolexSwatchDiv .British-Style-Purple-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310500p.jpg) !important; }
+.tolexSwatchDiv .British-Style-Red-Elephant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312500r.jpg) !important; }
+.tolexSwatchDiv .British-Style-Red-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310500r.jpg) !important; }
+.tolexSwatchDiv .British-Style-Silver-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310004.jpg) !important; }
+.tolexSwatchDiv .British-Style-White-Elephant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312500w.jpg) !important; }
+.tolexSwatchDiv .British-Style-White-Levant-7310500w{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310500w.jpg) !important; }
+.tolexSwatchDiv .British-Tan-Levant-7310510{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310510.jpg) !important; }
+.tolexSwatchDiv .Fender-Black-7310001{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310001.jpg) !important; }
+.tolexSwatchDiv .Fender-Style-Rough-Blonde{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7311001.jpg) !important; }
+.tolexSwatchDiv .Fender-Style-Rough-Brown{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7311002.jpg) !important; }
+.tolexSwatchDiv .Fender-Style-Seafoam-Green{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7311004.jpg) !important; }
+.tolexSwatchDiv .Fender-Style-Smooth-Blonde{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310002.jpg) !important; }
+.tolexSwatchDiv .Fender-Style-Smooth-Brown{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7311003.jpg) !important; }
+.tolexSwatchDiv .Fender-Style-Tweed-Brown-Stripe-Coated-8300001{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/8300001.jpg) !important; }
+.tolexSwatchDiv .Fender-Style-Tweed-Olive-Stripe-Coated-8300005{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/8300005.jpg) !important; }
+.tolexSwatchDiv .GibsonMesa-Style-Smooth-Black{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/6310101.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Black-Comet{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310231.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Black-Patchwork{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310230.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Black-Snakeskin{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310215.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Black-Western{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312116.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Blue-Sparkle-7310240{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310240.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Brown-Alligator{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310220.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Brown-Ostrich{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310235.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Brown-Western{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312115.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Burgundy-Snakeskin{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310216.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Carolina-Blue{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312001.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Cocoa-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310000.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Gray-Sparkle{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310250.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Ivory-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312110.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Navy-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312100.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Plum-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312105.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Red-Sparkle{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310245.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Rough-Black-7312002{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312002.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Rough-Orange{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310255.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Rough-Red{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312003.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Snakeskin{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310210.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Teal-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312004.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Tan-Digital-Camouflage{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/6310151.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Vanilla-Taurus{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310155.jpg) !important; }
+.tolexSwatchDiv .Mojotone-White-Sparkle-7310241{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310241.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Wine-Taurus-8312111{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/8312111.jpg) !important; }
+.tolexSwatchDiv .Tweed-Pattern-Lite-Brown-Striped-tolex{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/8300002.jpg) !important; }
+.tolexSwatchDiv .Vox-Fawn-Style{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312601.jpg) !important; }
+.tolexSwatchDiv .VoxHiwatt-Style-Black{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312600.jpg) !important; }
+.tolexSwatchDiv .VoxHiwatt-Style-Orange{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312625.jpg) !important; }
+.tolexSwatchDiv .VoxHiwatt-Style-Red{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312610.jpg) !important; }
+.tolexSwatchDiv .VoxHiwatt-Style-White{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312620.jpg) !important; }
+.tolexSwatchDiv .Marshall-Vintage-Black-Levant{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310102.jpg) !important; }
+
+.tolexSwatchDiv .Mojotone-Tan-Digital-Camouflage-6310151{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/6310151.jpg) !important; }
+.tolexSwatchDiv .Mojotone-GreyBlack-Digital-Camouflage-6310150{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/6310150.jpg) !important; }
+.tolexSwatchDiv .VoxHiwatt-Style-Navy-7312101{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312101.jpg) !important; }
+.tolexSwatchDiv .Mojotone-White-Buffalo-7312118{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312118.jpg) !important;  }
+.tolexSwatchDiv .Mojotone-Brown-Buffalo-7312119{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312119.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Small-Grain-Green-Pimple-7312117{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312117.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Ocean-Sparkle-7310252{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310252.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Gold-Sparkle-7310242{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7310242.jpg) !important; }
+.tolexSwatchDiv .Ampeg-Navy-Checkered-Board-6310102{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/6310102.jpg) !important; }
+.tolexSwatchDiv .Stock{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/stock.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Black-Carbon-Fiber-7312635{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312635.jpg) !important; }
+.tolexSwatchDiv .Mojotone-Gunmetal-Carbon-Fiber-7312630{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/7312630.jpg) !important; }
+
+
+
+.grillclothSwatchDiv .Ampeg-Style-AGED-BlueSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000002a.jpg) !important; }
+.grillclothSwatchDiv .Ampeg-Style-BlackSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000001.jpg) !important; }
+.grillclothSwatchDiv .Ampeg-Style-BlueSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000002.jpg) !important; }
+.grillclothSwatchDiv .British-Bluesbreaker-Style-Re-Issue{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000006.jpg) !important; }
+.grillclothSwatchDiv .British-Style-Black-6000008{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000008.jpg) !important; }
+.grillclothSwatchDiv .British-Style-Black-and-Tan{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000004n.jpg) !important; }
+.grillclothSwatchDiv .British-Style-Small-Weave-Cane{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000009.jpg) !important; }
+.grillclothSwatchDiv .Cane-6000003{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000003.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-Aged-BlackWhiteSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6300001.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-Aged-BlueWhiteSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6300002.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-Beige-Brown{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6301002.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-Beige-Brown-w-Gold-Stripe{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6301003.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-Black-6301008{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6301008.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-BlackWhiteSilver-6301005{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6301005.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-BlueWhiteSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6301006.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-Old-Brown-6302000{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6302000.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-Oxblood{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6301004.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-Oxblood-w-Gold-Stripe{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6301001.jpg) !important; }
+.grillclothSwatchDiv .Fender-Style-TurquoiseWhiteSilver{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6301007.jpg) !important; }
+.grillclothSwatchDiv .Large-Check-6000007n{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000007n.jpg) !important; }
+.grillclothSwatchDiv .Mesa-Style-Black-Small-Weave-Cane-6000011{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000011.jpg) !important; }
+.grillclothSwatchDiv .Mojotone-Black-and-Tan-6302020{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6302020.jpg) !important; }
+.grillclothSwatchDiv .Mojotone-Black-and-Tan-w-Gold-Stripe-6000010{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000010.jpg) !important; }
+.grillclothSwatchDiv .Mojotone-Black-Matrix-6302010{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6302010.jpg) !important; }
+.grillclothSwatchDiv .Mojotone-Loose-Weave-White-Cane{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6100009.jpg) !important; }
+.grillclothSwatchDiv .Mojotone-Oxblood-Variant-lighter-oxblood{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6301004sp.jpg) !important; }
+.grillclothSwatchDiv .Mojotone-Silver-Matrix-6302015{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6302015.jpg) !important; }
+.grillclothSwatchDiv .MojoWeave-BlackBlue{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000015.jpg) !important; }
+.grillclothSwatchDiv .MojoWeave-BlackBlue{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000015.jpg) !important; }
+.grillclothSwatchDiv .Salt-and-Pepper-6000005{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/6000005.jpg) !important; }
+.grillclothSwatchDiv .Mojotone-Black-Carbon-Fiber-7312635{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/7312635.jpg) !important; }
+.grillclothSwatchDiv .Mojotone-Gunmetal-Carbon-Fiber-7312630{ background-image:url(http://mojostuff.com/cabconfigimg/grillcloth/20x20/7312630.jpg) !important; }
+.grillclothSwatchDiv .Stock{ background-image:url(http://mojostuff.com/cabconfigimg/tolex/20x20/stock.jpg) !important; }
+
+
+
+
+/*guitar configurator */
+#gc-bg{ float:left; clear:both; width:400px; min-height:550px; background-image:url(http://www.mojotone.com/guitarconfig/guitar-bg.jpg); background-size: auto 550px; background-repeat: no-repeat; background-position:center; }
+#gc-bg div div{ float:left; clear:both; width:100%; min-height:550px; background-size: auto 550px; background-repeat: no-repeat; background-position:center; }
+#gc-pg, #gc-trem, #gc-knob, #gc-strat,  #gc-stratcolor, #gc-stratwithhum, #gc-humbucker, #gc-switch, #gc-switchcolor{ float:left; width:100%; height:0; overflow:visible; }
+
+#gc-pg div{ }
+
+#gc-options{ float:left; width:220px; margin-left:40px; }
+
+
+
+.guardSwatch{ background-position: center; float:left; width:40px; height:40px; margin:0 0 1px 1px; cursor:pointer; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-size:100% auto; }
+.guardSwatch.active{ box-shadow:1px 1px 5px #000; }
+.guardSwatch.active div{ background-image:url(http://mojotone.com/img2013/check-transparent.png); background-position:center; background-repeat:no-repeat; float:left; height:20px; width:20px; }
+.guardSwatchDiv{ float:left; width:100%; }
+
+.knobSwatch{ background-position: -281px -405px; float:left; width:40px; height:40px; margin:0 0 1px 1px; cursor:pointer; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.knobSwatch.active{ box-shadow:1px 1px 5px #000; }
+.knobSwatch.active div{ background-image:url(http://mojotone.com/img2013/check-transparent.png); background-position:center; background-repeat:no-repeat; float:left; height:20px; width:20px; }
+.knobSwatchDiv{ float:left; width:100%; }
+
+.stratSwatch{ background-position: -281px -405px; float:left; width:40px; height:40px; margin:0 0 1px 1px; cursor:pointer; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.stratSwatch.active{ box-shadow:1px 1px 5px #000; }
+.stratSwatch.active div{ background-image:url(http://mojotone.com/img2013/check-transparent.png); background-position:center; background-repeat:no-repeat; float:left; height:20px; width:20px; }
+.stratSwatchDiv{ float:left; width:100%; }
+
+.stratcolorSwatch{ background-position: -120px -673px; background-size: auto 500px; float:left; width: 91px; height: 29px; margin:0 0 1px 1px; cursor:pointer; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.stratcolorSwatch.active{ box-shadow:1px 1px 5px #000; }
+.stratcolorSwatch.active div{ background-image:url(http://mojotone.com/img2013/check-transparent.png); background-position:center; background-repeat:no-repeat; float:left; height:20px; width:20px; }
+.stratcolorSwatchDiv{ float:left; width:100%; }
+
+.switchcolorSwatch{ background-position: -349px -383px; float:left; width: 20px; height: 20px; margin:0 0 1px 1px; cursor:pointer; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.switchcolorSwatch.active{ box-shadow:1px 1px 5px #000; }
+.switchcolorSwatch.active div{ background-image:url(http://mojotone.com/img2013/check-transparent.png); background-position:center; background-repeat:no-repeat; float:left; height:20px; width:20px; }
+.switchcolorSwatchDiv{ float:left; width:100%; }
+
+
+
+/*pickguards*/
+.Fender-Mint-Green-3-Ply-2112081{ background-image:url(http://mojostuff.com/guitarconfig/pickguard/2112081.png); }
+.Fender-Squier-White-3-Ply-2119005 {  background-image:url(http://mojostuff.com/guitarconfig/pickguard/2119005.png); }
+
+/*knobs*/
+.White-2112267-2112266{ background-image:url(http://mojostuff.com/guitarconfig/knob/2112266.png); }
+.Blue-2112343-2112318{ background-image:url(http://mojostuff.com/guitarconfig/knob/2112343.png); }
+
+
+/*pickups*/
+.Classic--strat-classic-Set-of-3{ background-image:url(http://mojostuff.com/guitarconfig/pickguard/classic.png); }
+.Classic--strat-classic-Set-of-3{ background-image:url(http://mojostuff.com/guitarconfig/pickguard/classic.png); }
+
+
+/*knobs*/
+#stratcolor-options .White, #gc-stratcolor .White{ background-image:url(http://mojostuff.com/guitarconfig/coverstrat/white.png); }
+#stratcolor-options .Black, #gc-stratcolor .Black{ background-image:url(http://mojostuff.com/guitarconfig/coverstrat/black.png); }
+
+
+/*switch*/
+#switchcolor-options .White, #gc-switchcolor .White{ background-image:url(http://mojostuff.com/guitarconfig/switch/white.png); }
+#switchcolor-options .Red, #gc-switchcolor .Red{ background-image:url(http://mojostuff.com/guitarconfig/switch/red.png); }

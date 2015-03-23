@@ -835,6 +835,7 @@ drilldown item
             var cabDepth = inchToPxModifer*<%=getCurrentAttribute('item','custitemcabconfigdepth')%>;
             var cabChassis = inchToPxModifer*<%=getCurrentAttribute('item','custitemcabconfigchassis')%>;
 
+            var cabHasGrill = "<%=getCurrentAttribute('item','custitemcabconfighasgrill')%>";
 
             var cabLipT = inchToPxModifer*<%=getCurrentAttribute('item','custitemcustitemcabconfiglip')%>;
             var cabLipR = inchToPxModifer*<%=getCurrentAttribute('item','custitemcustitemcabconfiglipr')%>;
@@ -854,50 +855,79 @@ drilldown item
 
 
             $mainContainer = $('#preview-container-div, #preview-container-top-div');
+
+            $topCutout = $('#top-cutout');
+
             $tolexDiv = $('#tolex-preview-container-custom-subdiv');
+            $tolexTopDiv = $('#tolex-preview-container-top-custom-subdiv');
+
             $feetDiv = $('#feet-preview-container-custom-subdiv');
             $feetDivBoth = $('#feet-preview-container-custom-subdiv, #feet2-preview-container-custom-subdiv');
-            $topCutout = $('#top-cutout');
+            $rightFootDiv = $('#feet2-preview-container-custom-subdiv');
+
+            $pipingValance = $('#valence-preview-container-custom-subdiv');
+            $pipingCenter = $('#piping-preview-container-custom-subdiv');
+            $pipingFront = $('#pipingm-preview-container-custom-subdiv');
+            $pipingFrontTop = $('#pipingm2-preview-container-custom-subdiv');
+            $pipingFrontBottom = $('#pipingm3-preview-container-custom-subdiv');
+            $pipingTop = $('#pipingm2-preview-container-top-custom-subdiv');
+
             $handleDiv = $('#handle-preview-container-custom-subdiv');
             $handleTopDiv = $('#handle-preview-container-top-custom-subdiv');
+
             $innerShadowDiv = $('.inner-shadow, #grillcloth-preview-container-custom-subdiv');
+            $grillClothTop = $('#grillcloth-preview-container-top-custom-subdiv');
 
-            $mainContainer.css('height',(cabHeight+80)+'px');
+            $mainContainer.css('height',(cabHeight)+'px');
 
-            $('#feet-button-div').css('margin-top',(cabHeight+134)+'px');
+            $('#feet-button-div').css('margin-top',(cabHeight+100)+'px');
 
-            $tolexDiv.css('height',(cabHeight+34)+'px');
+            $tolexDiv.css('height',(cabHeight)+'px');
             $tolexDiv.css('background-image','url('+cabDefaultTolex+')');
+
+            $tolexTopDiv.css('height',(cabDepth)+'px');
+            $pipingTop.css('height',(cabDepth)+'px');
+            $pipingTop.css('width',(cabWidth-40)+'px');
+            $tolexTopDiv.css('background-image','url('+cabDefaultTolex+')');
 
             $('#grillcloth-preview-container-custom-subdiv').css('background-image','url('+cabDefaultGrillCloth+')');
 
             $feetDivBoth.css('background-image','url('+cabDefaultFeet+')');
-            $feetDivBoth.css('height',(cabHeight+53)+'px');
+            $feetDivBoth.css('height',(cabHeight+20)+'px');
 
-            $feetDiv.css('height',(cabHeight+53)+'px');
             $feetDiv.css('margin-left','0px');
-            $feetDiv.css('margin-left',(cabWidth-40)+'px');
-
-
-            $tolexDiv.css('height',(cabDepth+13)+'px');
-            $tolexDiv.css('background-image','url('+cabDefaultTolex+')');
+            $rightFootDiv.css('margin-left',(cabWidth-140)+'px');
 
             $topCutout.css('width',(cabWidth+25)+'px');
             $topCutout.css('margin-left',(50)+'px');
-
 
             $handleDiv.css('background-image','url('+cabDefaultHandle+')');
             $handleTopDiv.css('background-image','url('+cabDefaultHandleTop+')');
             $handleTopDiv.css('margin-top',((cabDepth/2)-100)+'px');
 
 
-            $('#preview-container-top-div, #preview-container-div, #tolex-preview-container-top-custom-subdiv, #tolex-preview-container-custom-subdiv, #handle-preview-container-custom-subdiv, #handle-preview-container-top-custom-subdiv').css('width',(cabWidth+100)+'px');
+            $('#preview-container-top-div, #preview-container-div, #tolex-preview-container-top-custom-subdiv, #tolex-preview-container-custom-subdiv, #handle-preview-container-custom-subdiv, #handle-preview-container-top-custom-subdiv').css('width',(cabWidth)+'px');
 
-            $innerShadowDiv.css('width',(cabWidth+80)+'px');
-            $innerShadowDiv.css('height',(cabHeight-26)+'px');
-            $innerShadowDiv.css('margin-left',(10)+'px');
-            $innerShadowDiv.css('margin-right',(10)+'px');
-            $innerShadowDiv.css('margin-top',(30)+'px');
+            $innerShadowDiv.css('width',(cabWidth-(cabLipR+cabLipL))+'px');
+            $innerShadowDiv.css('height',(cabHeight-(cabLipT+cabLipB))+'px');
+            $innerShadowDiv.css('margin-left',(cabLipL)+'px');
+            $innerShadowDiv.css('margin-right',(cabLipR)+'px');
+            $innerShadowDiv.css('margin-top',(cabLipT)+'px');
+
+            $pipingFrontTop.css('width',(cabWidth-40)+'px');
+            $pipingFrontTop.css('height',(cabLipT)+'px');
+
+            $pipingFront.css('width',(cabWidth-(cabLipR+cabLipL))+'px');
+            $pipingFront.css('height',(cabHeight-(cabLipT+cabLipB))+'px');
+            $pipingFrontBottom.css('margin-top',(cabHeight-cabLipB)+'px');
+            $pipingFrontBottom.css('width',(cabWidth-40)+'px');
+            $pipingFrontBottom.css('height',(cabLipB)+'px');
+
+            $grillClothTop.hide();
+
+
+            $pipingValance.css('width',(cabWidth-(cabLipR+cabLipL))+'px');
+            $pipingCenter.css('width',(cabWidth-(cabLipR+cabLipL))+'px');
 
         });
     </script>
