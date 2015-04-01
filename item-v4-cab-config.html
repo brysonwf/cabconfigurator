@@ -1,0 +1,825 @@
+<!--
+
+
+drilldown item
+
+
+-->
+<td><table cellpadding="0" cellspacing="0" style="padding:0; margin:0;"><tr>
+    <td width="100%" style="padding:0; margin:0;">
+
+        <div id="more-information" class="white-box details-box">
+            <div class="pad">
+                <div style="float:left; width:300px;">
+                    <div class="image">
+                        <div class="gallery">
+                            <a id="main-image" class="main" href="<%=getCurrentAttribute('item','storedisplayimage')%>"><%=getCurrentAttribute('item','storedisplayimagehtml')%></a>
+                        </div>
+                        <div class="sub-gallery"></div>
+                    </div>
+                    <script type="text/javascript">
+
+                        //photo stuff
+                        var mainImageHref = $('.gallery #main-image').attr('href');
+                        var mainImageHTML = $('.gallery #main-image').html();
+
+
+                        var custitemimage1 = "<%=getCurrentAttribute('item','custitemimage1')%>";
+                        var custitemimage1thumb = "<%=getCurrentAttribute('item','custitemimage1thumb')%>";
+                        if (custitemimage1 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+mainImageHref+'">'+mainImageHTML+'</a>');
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage1+'"><img src="'+custitemimage1thumb+'"/></a>');
+                        }
+
+                        var custitemimage2 = "<%=getCurrentAttribute('item','custitemimage2')%>";
+                        var custitemimage2thumb = "<%=getCurrentAttribute('item','custitemimage2thumb')%>";
+                        if (custitemimage2 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage2+'"><img src="'+custitemimage2thumb+'"/></a>');
+                        }
+
+                        var custitemimage3 = "<%=getCurrentAttribute('item','custitemimage3')%>";
+                        var custitemimage3thumb = "<%=getCurrentAttribute('item','custitemimage3thumb')%>";
+                        if (custitemimage3 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage3+'"><img src="'+custitemimage3thumb+'"/></a>');
+                        }
+
+                        var custitemimage4 = "<%=getCurrentAttribute('item','custitemimage4')%>";
+                        var custitemimage4thumb = "<%=getCurrentAttribute('item','custitemimage4thumb')%>";
+                        if (custitemimage4 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage4+'"><img src="'+custitemimage4thumb+'"/></a>');
+                        }
+
+                        var custitemimage5 = "<%=getCurrentAttribute('item','custitemimage5')%>";
+                        var custitemimage5thumb = "<%=getCurrentAttribute('item','custitemimage5thumb')%>";
+                        if (custitemimage5 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage5+'"><img src="'+custitemimage5thumb+'"/></a>');
+                        }
+
+                        var custitemimage6 = "<%=getCurrentAttribute('item','custitemimage6')%>";
+                        var custitemimage6thumb = "<%=getCurrentAttribute('item','custitemimage6thumb')%>";
+                        if (custitemimage6 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage6+'"><img src="'+custitemimage6thumb+'"/></a>');
+                        }
+
+                        var custitemimage7 = "<%=getCurrentAttribute('item','custitemimage7')%>";
+                        var custitemimage7thumb = "<%=getCurrentAttribute('item','custitemimage7thumb')%>";
+                        if (custitemimage7 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage7+'"><img src="'+custitemimage7thumb+'"/></a>');
+                        }
+
+                        var custitemimage8 = "<%=getCurrentAttribute('item','custitemimage8')%>";
+                        var custitemimage8thumb = "<%=getCurrentAttribute('item','custitemimage8thumb')%>";
+                        if (custitemimage8 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage8+'"><img src="'+custitemimage8thumb+'"/></a>');
+                        }
+
+                        var custitemimage9 = "<%=getCurrentAttribute('item','custitemimage9')%>";
+                        var custitemimage9thumb = "<%=getCurrentAttribute('item','custitemimage9thumb')%>";
+                        if (custitemimage9 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage9+'"><img src="'+custitemimage9thumb+'"/></a>');
+                        }
+
+                        var custitemimage10 = "<%=getCurrentAttribute('item','custitemimage10')%>";
+                        var custitemimage10thumb = "<%=getCurrentAttribute('item','custitemimage10thumb')%>";
+                        if (custitemimage10 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage10+'"><img src="'+custitemimage10thumb+'"/></a>');
+                        }
+
+                        var custitemimage11 = "<%=getCurrentAttribute('item','custitemimage11')%>";
+                        var custitemimage11thumb = "<%=getCurrentAttribute('item','custitemimage11thumb')%>";
+                        if (custitemimage11 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage11+'"><img src="'+custitemimage11thumb+'"/></a>');
+                        }
+
+                        var custitemimage12 = "<%=getCurrentAttribute('item','custitemimage12')%>";
+                        var custitemimage12thumb = "<%=getCurrentAttribute('item','custitemimage12thumb')%>";
+                        if (custitemimage12 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage12+'"><img src="'+custitemimage12thumb+'"/></a>');
+                        }
+
+                        var custitemimage13 = "<%=getCurrentAttribute('item','custitemimage13')%>";
+                        var custitemimage13thumb = "<%=getCurrentAttribute('item','custitemimage13thumb')%>";
+                        if (custitemimage13 != ''){
+                            $('.sub-gallery').append('<a class="sub" href="'+custitemimage13+'"><img src="'+custitemimage13thumb+'"/></a>');
+                        }
+
+                        $('.sub-gallery a').click( function(){
+                            var href = $(this).attr('href');
+                            var thumb = $(this).html();
+                            $('.gallery #main-image').attr('href', href);
+                            $('.gallery #main-image').html(thumb);
+                            return false;
+                        });
+
+                    </script>
+                    <style type="text/css">
+                        #main-image{ height:140px; float:left; width:100%; }
+                        #main-image img{ max-height:140px; }
+                        .sub-gallery{ float:left; clear:both; width:100%; }
+                        .sub-gallery .sub{ float:left; padding:3px; margin:10px 8px 0 0; border:1px solid #c4c4c4; width:50px; }
+                        .sub-gallery .sub a{ max-width:100%; height:auto; }
+                        .sub-gallery .sub img{ max-width:100%; height:auto; }
+                    </style>
+                </div>
+                <div style="float:left; width:360px;">
+                    <h4 >#<span class="item-number"><%=getCurrentAttribute('item','itemid')%></span></h4>
+                    <div class="item-weight"><span>Weight:</span> <%=getCurrentAttribute("item","weight","N/A")%> <%=getCurrentAttribute("item","weightunit","")%></div>
+                    <div class="brief-description">
+                        <%=getCurrentAttribute('item','storedescription')%><br />
+                        <%=getCurrentAttribute('item','storedetaileddescription')%>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item-drill-down cab-config">
+            <div class="pad">
+                <script>
+                    $(function() {
+                        $("#cabpreview").tabs();
+                        $('#view-button').click(function(){
+                            if ($(this).html() == 'View Top'){
+                                $('#cabpreview').tabs("select","#cabpreview-2");
+                                $(this).html('View Front');
+                            }else{
+                                $(this).html('View Top');
+                                $('#cabpreview').tabs("select","#cabpreview-1");
+                            }
+                        });
+                    });
+                </script>
+                <div class="info" style="width:100%; padding:0;">
+                    <h1><%=getCurrentAttribute('item','storedisplayname')%></h1>
+                    <div class="stock-status"><%=getCurrentAttribute('item','stockstatusmessagehtml')%></div>
+                    <div id="price" style="width:620px;" class="price no-quantity"><%=getCurrentAttribute('item', 'salesPriceDrilldownHtml')%><a class="view-quantity-pricing">View Quantity Pricing</a></div>
+                    <script type="text/javascript">
+                        $(document).ready( function(){
+                            $('.view-quantity-pricing').click( function(){
+                                if ($(this).html() == 'Hide Quantity Pricing'){
+                                    $('#price').addClass('no-quantity');
+                                    $(this).html('View Quantity Pricing');
+                                }else{
+                                    $('#price').removeClass('no-quantity');
+                                    $(this).html('Hide Quantity Pricing');
+                                }
+                            });
+                        });
+                    </script>
+                    <script language='JavaScript'>
+                        var cartQuantity = $('.quantity-in-cart').html();
+                        $('.quantity-in-cart').remove();
+                        var each = $('.each').html();
+                        $('.each').remove();
+                        var eachHTML = '';
+                        if (each != null){
+                            eachHTML = ' at '+each;
+                        }
+                        if (cartQuantity != null) {
+                            document.write('<div class="quantity-in-cart" style="width:620px;">'+cartQuantity+eachHTML+' <a href="http://www.mojotone.com/cart/">View Cart</a></div>');
+                        }
+                    </script>
+                    <script language='JavaScript'>
+                        var quantityavailable="<%=getCurrentAttribute('item','quantityavailable')%>";
+                        var saleunit = '<%=getCurrentAttribute("item","saleunit","Each")%>';
+                        /*if (quantityavailable > 0) {
+                         document.write('<div class="item-weight">'+quantityavailable+' <span>available. Sold per</span> '+saleunit+'</div>');
+                         }else{*/
+                        document.write('<div class="item-weight"><span>Per:</span> '+saleunit+'</div>');
+                        /*}*/
+                    </script>
+                    <div style="display:<%=getCurrentAttribute('item','custitemclearance')%>;" class="clearance"><div></div></div>
+                    <div id="stock-notification">
+                        <label>Email me when item is back in stock:</label>
+                        <input id="stock-notification-id" type="hidden" name="itemid" value="<%=getCurrentAttribute('item','itemid')%>" />
+                        <input id="stock-notification-name" type="hidden" name="name" value="<%=getCurrentAttribute('item','storedisplayname2')%>" />
+                        <input id="stock-notification-email" type="text" name="email" value="<%=getCurrentAttribute('customer','email')%>" />
+                        <a id="stock-notification-button" href="#">Submit</a>
+                    </div>
+                    <a class="view-more" href="#more-information" style="float:left;">More Information</a>
+                    <div class="featured-description"><%=getCurrentAttribute('item','featureddescription')%>&nbsp;<span style="color:#000;"><%=getCurrentAttribute('item','custitemampkitdisclaimer')%></span></div>
+                </div>
+
+                <div class="cabpreview-col">
+                    <div id="cabpreview">
+                        <ul style="display:none;">
+                            <li id="li-cabpreview-1"><a href="#cabpreview-1">Front View</a></li>
+                            <li id="li-cabpreview-2"><a href="#cabpreview-2">Top View</a></li>
+                        </ul>
+                        <div id="cabpreview-1">
+                            <div id="preview-container-div" class="preview-container-div">
+                                <div id="feet-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="feet2-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="tolex-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="grillcloth-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="piping-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="pipingm-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="pipingm2-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="pipingm3-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="valence-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="handle-preview-container-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div class="inner-shadow"></div>
+                                <div id="front-cutout"></div>
+                                <div id="rear-cutout"></div>
+                                <div id="cabshadow"></div>
+                            </div>
+                        </div>
+                        <div id="cabpreview-2">
+                            <div id="preview-container-top-div" class="preview-container-div">
+                                <div id="tolex-preview-container-top-custom" class="preview-container-custom preview-top"><div></div></div>
+                                <div id="grillcloth-preview-container-top-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="pipingm2-preview-container-top-custom" class="preview-container-custom preview-top"><div></div></div>
+                                <div id="pipingm-preview-container-top-custom" class="preview-container-custom preview-main"><div></div></div>
+                                <div id="handle-preview-container-top-custom" class="preview-container-custom preview-top"><div></div></div>
+                                <div class="inner-shadow"></div>
+                                <div id="top-cutout"></div>
+                                <div id="cabshadowtop"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cab-config-message">
+                        This  is only a computer simulation of what your cabinet will look like and not intended to be an exact representation.
+                    </div>
+                    <!-- ADD-TO-CART -->
+                    <form method='post' name='form<%=getCurrentAttribute('item', 'internalid')%>' id='form<%=getCurrentAttribute('item', 'internalid')%>' onsubmit='return checkmandatory<%=getCurrentAttribute('item', 'internalid')%>();' action='/app/site/backend/additemtocart.nl'>
+                    <div class="add-to-cart-form">
+                        <div class="button-col">
+                            <div class="pad">
+                                <div class="add-to-cart-options">
+                                    <table border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td><%=getCurrentAttribute('item','addtocartoptionshtml')%></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="drill-down-or-price-match" style="width:450px;">
+                                    <div class="add-to-cart-drill-down">
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <%=getCurrentAttribute('item','addToCartDrilldownHtml')%>
+                                        </table>
+                                    </div>
+                                    <a style="float:left; margin-left:10px;" href="" id="facebook-like-button"><img src="http://www.mojotone.com/img2013/button-facebook-like.jpg" alt="Like this Cabinet on Facebook" /></a>
+                                    <div class="pricematch"><a class="show-pricematch-form" href="http://mojostuff.com/feedback/pricematch.php?item=<%=getCurrentAttribute('item','itemid')%>&email=<%=getCurrentAttribute('customer','email')%>">Pricematch</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </form><!-- /ADD-TO-CART
+                <div id="add-to-cart-no-options-message">
+                	<div>
+                		Error, no options selected. Would you like to remove the custom cosmetics option?. <a class="ok">OK</a>
+                	</div>
+                </div> -->
+                </div>
+                <div id="cabpreviw-options">
+                    <a id="view-button">View Top</a>
+                    <div id="handle-button-div">
+                        <a id="handlePrev" class="greyarrow">&lt;</a>
+                        <h3>Handle</h3>
+                        <a id="handleNext" class="greyarrow">&gt;</a>
+                    </div>
+                    <div id="feet-button-div">
+                        <a id="feetPrev" class="greyarrow">&lt;</a>
+                        <h3>Feet</h3>
+                        <a id="feetNext" class="greyarrow">&gt;</a>
+                    </div>
+                    <div class="cabpreview-options-h"><a id="button-tolex-left" class="greyarrow">&lt;</a><h3>Tolex</h3><a id="button-tolex-right" class="greyarrow">&gt;</a></div>
+                    <div class="sort-options">
+                        <a id="sort-tolex-name" class="active">Name</a>
+                        <a id="sort-tolex-color">Color</a>
+                        <a id="sort-tolex-style">Style</a>
+                    </div>
+                    <div id="tolex-options-sort" style="display:none;"></div>
+                    <div id="tolex-options"></div>
+                    <div id="cabpreview-options-h-grillcloth"  class="cabpreview-options-h"><a id="button-grillcloth-left" class="greyarrow">&lt;</a><h3>Grill Cloth</h3><a id="button-grillcloth-right" class="greyarrow">&gt;</a></div>
+                    <div id="grillcloth-options"></div>
+                    <div id="cabpreview-options-h-piping" class="cabpreview-options-h"><a id="button-routepiping-left" class="greyarrow">&lt;</a><h3>Route Piping</h3><a id="button-routepiping-right" class="greyarrow">&gt;</a></div>
+                    <div id="piping-options"></div>
+                    <div id="cabpreview-options-h-baffle" class="cabpreview-options-h"><a id="button-bafflepiping-left" class="greyarrow">&lt;</a><h3>Baffle Piping</h3><a id="button-bafflepiping-right" class="greyarrow">&gt;</a></div>
+                    <div id="baffle-options"></div>
+                </div>
+                <style type="text/css">
+                    <%=getCurrentAttribute('item','custitemcabinetoptionscabconfigstyles')%>
+                </style>
+                <script type="text/javascript">
+                    jQuery.easing.easeOutQuart = function (x, t, b, c, d) {
+                        return -c * ((t=t/d-1)*t*t*t - 1) + b;
+                    };
+                    var regex = new RegExp(' ', 'g');
+                    var regex2 = new RegExp('\'', 'g');
+                    var regex3 = new RegExp('\/', 'g');
+                    var regex4 = new RegExp('\\(', 'g');
+                    var regex5 = new RegExp('\\)', 'g');
+                    var regex6 = new RegExp('\"', 'g');
+
+                    $('select[name="custcol40"]').change(function(){
+                        if ($(this).val() == 1){
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetoptionspiping').val('').change().parent().parent().parent().hide();
+                            $('#piping-preview-container').html('<h3></h3><div></div>');
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetoptionspiping_m').val('').change().parent().parent().parent().hide();
+                            $('#pipingm-preview-container').html('<h3></h3><div></div>');
+                            $(this).parent().parent().parent().parent().find('#custcolcabinettolexcolor').val('').change().parent().parent().parent().hide();
+                            $('#tolex-preview-container').html('<h3></h3><div></div>');
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetgrillcloth').val('').change().parent().parent().parent().hide();
+                            $('#grillcloth-preview-container').html('<h3></h3><div></div>');
+                            $(this).parent().parent().parent().parent().find('#custcolcabinethandle').val('').change().parent().parent().parent().hide();
+                            $('#handle-preview-container').html('<h3></h3><div></div>');
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetoptionsfeet').val('').change().parent().parent().parent().hide();
+                            $('#feet-preview-container').html('<h3></h3><div></div>');
+                            $('#add-to-cart-no-options-message').removeClass('active');
+                        }else if ($(this).val() == 2){
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetoptionspiping').parent().parent().parent().show();
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetoptionspiping_m').parent().parent().parent().show();
+                            $('.item-drill-down #custcolcabinetoptionspiping').change();
+                            $(this).parent().parent().parent().parent().find('#custcolcabinettolexcolor').parent().parent().parent().show();
+                            $('.item-drill-down #custcolcabinettolexcolor').change();
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetgrillcloth').parent().parent().parent().show();
+                            $('.item-drill-down #custcolcabinetgrillcloth').change();
+                            $(this).parent().parent().parent().parent().find('#custcolcabinethandle').parent().parent().parent().show();
+                            $('.item-drill-down #custcolcabinethandle').change();
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetoptionsfeet').parent().parent().parent().show();
+                            $('.item-drill-down #custcolcabinetoptionsfeet').change();
+                            $('#add-to-cart-no-options-message').addClass('active');
+                        }else if (($(this).val() == 4) || ($(this).val() == 5)){
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetoptionspiping').val('').parent().parent().parent().hide();
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetoptionspiping_m').val('').parent().parent().parent().hide();
+                            $('.item-drill-down #custcolcabinetoptionspiping').change();
+                            $(this).parent().parent().parent().parent().find('#custcolcabinettolexcolor').val('').parent().parent().parent().hide();
+                            $('.item-drill-down #custcolcabinettolexcolor').change();
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetgrillcloth').val('').parent().parent().parent().hide();
+                            $('.item-drill-down #custcolcabinetgrillcloth').change();
+                            $(this).parent().parent().parent().parent().find('#custcolcabinethandle').val('').parent().parent().parent().hide();
+                            $('.item-drill-down #custcolcabinethandle').change();
+                            $(this).parent().parent().parent().parent().find('#custcolcabinetoptionsfeet').val('').parent().parent().parent().hide();
+                            $('.item-drill-down #custcolcabinetoptionsfeet').change();
+                        }
+                    });
+
+
+                    //tolex options
+                    $('.item-drill-down #custcolcabinettolexcolor').change(function(){
+                        var searchString = $( '#custcolcabinettolexcolor option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        $('#tolex-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                        $('#tolex-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                        setCustomLink();
+                        if (searchString != ''){
+                            $('.tolexSwatchDiv div.active').removeClass('active');
+                            $('.tolexSwatchDiv div.'+searchString).addClass('active');
+                        }
+                    });
+                    var tolexOptions = '';
+                    $('#custcolcabinettolexcolor option').each(function(){
+                        var title = $(this).html();
+                        var searchString = $(this).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        if (searchString.trim() != ''){
+
+                            var searchStringClass = '';
+                            if (searchString.trim() == 'Stock'){
+                                searchStringClass = 'active';
+                            }else{
+                                searchStringClass = '';
+                            }
+                            tolexOptions += '<div id="option_'+$(this).val()+'" class="tolexSwatch '+searchString+' '+searchStringClass+'" title="'+searchString+'"><div></div></div>';
+                        }
+                    });
+                    $('#tolex-options').html('<div class="tolexSwatchDiv">'+tolexOptions+'</div>');
+                    $('.tolexSwatchDiv div').click(function(){
+                        $('#custcolcabinettolexcolor').val($(this).attr('id').split('_')[1]).change();
+                        $('select[name="custcol40"]').val(2).change();
+                        $('.tolexSwatchDiv div.active').removeClass('active');
+                        $(this).addClass('active');
+                    });
+                    $('#button-tolex-left').click(function(){
+                        if (($('.item-drill-down #custcolcabinettolexcolor option:selected').prev().val() == '') || ($('.item-drill-down #custcolcabinettolexcolor option:selected').val() == '')){
+                            $('.item-drill-down #custcolcabinettolexcolor').val($('.item-drill-down #custcolcabinettolexcolor option:last').val()).change();
+                        }else{
+                            $('.item-drill-down #custcolcabinettolexcolor').val($('.item-drill-down #custcolcabinettolexcolor option:selected').prev().val()).change();
+                        }
+                        var searchString = $( '#custcolcabinettolexcolor option[value='+$('.item-drill-down #custcolcabinettolexcolor option:selected').val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        $('.tolexSwatchDiv div.'+searchString).click();
+                    });
+                    $('#button-tolex-right').click(function(){
+                        $('.item-drill-down #custcolcabinettolexcolor').val($('.item-drill-down #custcolcabinettolexcolor option:selected').next().val()).change();
+                        var searchString = $( '#custcolcabinettolexcolor option[value='+$('.item-drill-down #custcolcabinettolexcolor option:selected').val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        $('.tolexSwatchDiv div.'+searchString).click();
+                    });
+
+                    $('#sort-tolex-name').click(function(){
+                        $('#tolex-options-sort').html('');
+                        $('.sort-options a.active').removeClass('active');
+                        $(this).addClass('active');
+                        var sortList = '54,4,5,6,7,8,9,10,11,12,13,14,15,16,1,17,18,19,20,21,2,22,63,23,24,25,26,27,28,58,29,30,31,32,33,55,34,61,64,35,36,56,37,38,39,40,41,57,42,62,43,44,59,45,46,53,47,48,49,60,50,51,52'.split(',');
+                        var length = sortList.length;
+                        var optionNumber;
+                        for (var i = 0; i < length; i++) {
+                            optionNumber = sortList[i];
+                            $('#tolex-options-sort').append($('#option_'+optionNumber));
+                        }
+                        $('.tolexSwatchDiv').html($('#tolex-options-sort').html());
+                        $('.tolexSwatchDiv div').click(function(){
+                            $('#custcolcabinettolexcolor').val($(this).attr('id').split('_')[1]).change();
+                            $('select[name="custcol40"]').val(2).change();
+                            $('.tolexSwatchDiv div.active').removeClass('active');
+                            $(this).addClass('active');
+                        });
+                    });
+                    $('#sort-tolex-color').click(function(){
+                        $('#tolex-options-sort').html('');
+                        $('.sort-options a.active').removeClass('active');
+                        $(this).addClass('active');
+                        var sortList = '31,12,46,38,11,41,51,40,8,50,33,28,18,30,58,21,29,16,20,17,35,55,47,2,62,7,56,57,42,43,19,32,36,27,60,54,9,10,37,25,63,39,1,6,5,22,26,24,4,23,49,64,61,34,13,44,48,52,59,15,45,14,53'.split(',');
+                        var length = sortList.length;
+                        var optionNumber;
+                        for (var i = 0; i < length; i++) {
+                            optionNumber = sortList[i];
+                            $('#tolex-options-sort').append($('#option_'+optionNumber));
+                        }
+                        $('.tolexSwatchDiv').html($('#tolex-options-sort').html());
+                        $('.tolexSwatchDiv div').click(function(){
+                            $('#custcolcabinettolexcolor').val($(this).attr('id').split('_')[1]).change();
+                            $('select[name="custcol40"]').val(2).change();
+                            $('.tolexSwatchDiv div.active').removeClass('active');
+                            $(this).addClass('active');
+                        });
+                    });
+                    $('#sort-tolex-style').click(function(){
+                        $('#tolex-options-sort').html('');
+                        $('.sort-options a.active').removeClass('active');
+                        $(this).addClass('active');
+                        var titles = 'Carpet,Tweed,Sparkle,Snakeskin,Elephant,Levant,Rough,Smooth,Vox,Fender,Carbonfiber,Camo,Western,Buffalo,Taurus,Other'.split(',');
+                        var sortList = 'b,4,b,2,47,b,38,56,27,34,45,55,b,42,25,31,b,5,9,11,14,b,6,7,8,10,12,13,15,16,33,35,36,37,43,b,17,18,39,40,41,b,20,21,22,b,48,49,60,50,51,52,b,1,19,b,63,64,b,62,61,b,26,30,b,58,59,b,46,44,b,54,23,24,28,29,32,57,53'.split(',');
+                        var length = sortList.length;
+                        var optionNumber;
+                        var title;
+                        var iB = 0;
+                        for (var i = 0; i < length; i++) {
+                            optionNumber = sortList[i];
+                            if (optionNumber == 'b'){
+                                title = titles[iB];
+                                $('#tolex-options-sort').append('<div style="width:100%; clear:both; float:left;">'+title+'</div>');
+                                iB++
+                            }else{
+                                $('#tolex-options-sort').append($('#option_'+optionNumber));
+                            }
+                        }
+                        $('.tolexSwatchDiv').html($('#tolex-options-sort').html());
+                        $('.tolexSwatchDiv div').click(function(){
+                            $('#custcolcabinettolexcolor').val($(this).attr('id').split('_')[1]).change();
+                            $('select[name="custcol40"]').val(2).change();
+                            $('.tolexSwatchDiv div.active').removeClass('active');
+                            $(this).addClass('active');
+                        });
+                    });
+
+
+
+                    //piping options
+                    $('.item-drill-down #custcolcabinetoptionspiping').change(function(){
+                        var searchString = $( '#custcolcabinetoptionspiping option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        if (searchString != ''){
+                            $('#piping-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                            $('#pipingm2-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                            $('#pipingm3-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+
+                            $('#piping-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                            $('#pipingm2-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                            $('#pipingm3-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                        }else{
+                            $('#piping-preview-container-custom').html('<div></div>');
+                            $('#pipingm2-preview-container-custom').html('<div></div>');
+                            $('#pipingm3-preview-container-custom').html('<div></div>');
+
+                            $('#piping-preview-container-top-custom').html('<div></div>');
+                            $('#pipingm2-preview-container-top-custom').html('<div></div>');
+                            $('#pipingm3-preview-container-top-custom').html('<div></div>');
+                        }
+                        setCustomLink();
+                        if (searchString != ''){
+                            $('.pipingSwatchDiv div.active').removeClass('active');
+                            $('.pipingSwatchDiv div.'+searchString).addClass('active');
+                        }
+                    });
+                    var pipingOptions = '';
+                    $('#custcolcabinetoptionspiping option').each(function(){
+                        var title = $(this).html();
+                        var searchString = $(this).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        if (searchString.trim() != ''){
+                            var searchStringClass = '';
+                            if (searchString.trim() == 'Stock'){
+                                searchStringClass = 'active';
+                            }else{
+                                searchStringClass = '';
+                            }
+                            pipingOptions += '<div id="option_'+$(this).val()+'" class="pipingSwatch '+searchString+' '+searchStringClass+'" title="'+searchString+'"><div class="pipe"></div><div class="check"></div></div>';
+                        }
+                    });
+                    $('#piping-options').html('<div class="pipingSwatchDiv">'+pipingOptions+'</div>');
+                    $('.pipingSwatchDiv div').click(function(){
+                        $('#custcolcabinetoptionspiping').val('').change();
+                        $('#custcolcabinetoptionspiping').val($(this).attr('id').split('_')[1]).change();
+                        $('select[name="custcol40"]').val(2).change();
+                        $('.pipingSwatchDiv div.active').removeClass('active');
+                        $(this).addClass('active');
+                    });
+                    $('#button-routepiping-left').click(function(){
+                        if (($('.item-drill-down #custcolcabinetoptionspiping option:selected').prev().val() == '') || ($('.item-drill-down #custcolcabinetoptionspiping option:selected').val() == '')){
+                            $('.item-drill-down #custcolcabinetoptionspiping').val($('.item-drill-down #custcolcabinetoptionspiping option:last').val()).change();
+                        }else{
+                            $('.item-drill-down #custcolcabinetoptionspiping').val($('.item-drill-down #custcolcabinetoptionspiping option:selected').prev().val()).change();
+                        }
+                        var searchString = $( '#custcolcabinetoptionspiping option[value='+$('.item-drill-down #custcolcabinetoptionspiping option:selected').val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        $('.pipingSwatchDiv div.'+searchString).click();
+                    });
+                    $('#button-routepiping-right').click(function(){
+                        $('.item-drill-down #custcolcabinetoptionspiping').val($('.item-drill-down #custcolcabinetoptionspiping option:selected').next().val()).change();
+                        var searchString = $( '#custcolcabinetoptionspiping option[value='+$('.item-drill-down #custcolcabinetoptionspiping option:selected').val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        $('.pipingSwatchDiv div.'+searchString).click();
+                    });
+
+
+
+
+                    $('.item-drill-down #custcolcabinetoptionspiping_m').change(function(){
+                        var title = $(this).html();
+                        var searchString = $( '#custcolcabinetoptionspiping_m option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        if (searchString != ''){
+                            $('#pipingm-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                            $('#pipingm-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                            $('#valence-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                        }else{
+                            $('#pipingm-preview-container-custom').html('<div></div>');
+                            $('#pipingm-preview-container-top-custom').html('<div></div>');
+                            $('#valence-preview-container-custom').html('<div></div>');
+                        }
+                        setCustomLink();
+                        if (searchString != ''){
+                            $('.baffleSwatchDiv div.active').removeClass('active');
+                            $('.baffleSwatchDiv div.'+searchString).addClass('active');
+                        }
+                    });
+                    var baffleOptions = '';
+                    $('#custcolcabinetoptionspiping_m option').each(function(){
+                        var searchString = $(this).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        if (searchString.trim() != ''){
+                            var searchStringClass = '';
+                            if (searchString.trim() == 'Stock'){
+                                searchStringClass = 'active';
+                            }else{
+                                searchStringClass = '';
+                            }
+                            baffleOptions += '<div id="option_'+$(this).val()+'" class="baffleSwatch '+searchString+' '+searchStringClass+'"  title="'+searchString+'"><div class="pipe"></div><div class="check"></div></div>';
+                        }
+                    });
+                    $('#baffle-options').html('<div class="baffleSwatchDiv">'+baffleOptions+'</div>');
+                    $('.baffleSwatchDiv div').click(function(){
+                        $('#custcolcabinetoptionspiping_m').val($(this).attr('id').split('_')[1]).change();
+                        $('select[name="custcol40"]').val(2).change();
+                        $('.baffleSwatchDiv div.active').removeClass('active');
+                        $(this).addClass('active');
+                    });
+                    $('#button-bafflepiping-left').click(function(){
+                        if (($('.item-drill-down #custcolcabinetoptionspiping_m option:selected').prev().val() == '') || ($('.item-drill-down #custcolcabinetoptionspiping_m option:selected').val() == '')){
+                            $('.item-drill-down #custcolcabinetoptionspiping_m').val($('.item-drill-down #custcolcabinetoptionspiping_m option:last').val()).change();
+                        }else{
+                            $('.item-drill-down #custcolcabinetoptionspiping_m').val($('.item-drill-down #custcolcabinetoptionspiping_m option:selected').prev().val()).change();
+                        }
+                        var searchString = $( '#custcolcabinetoptionspiping_m option[value='+$('.item-drill-down #custcolcabinetoptionspiping_m option:selected').val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        $('.baffleSwatchDiv div.'+searchString).click();
+                    });
+                    $('#button-bafflepiping-right').click(function(){
+                        $('.item-drill-down #custcolcabinetoptionspiping_m').val($('.item-drill-down #custcolcabinetoptionspiping_m option:selected').next().val()).change();
+                        var searchString = $( '#custcolcabinetoptionspiping_m option[value='+$('.item-drill-down #custcolcabinetoptionspiping_m option:selected').val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        $('.baffleSwatchDiv div.'+searchString).click();
+                    });
+
+
+
+
+
+                    //grill cloth options
+                    $('.item-drill-down #custcolcabinetgrillcloth').change(function(){
+                        var searchString = $( '#custcolcabinetgrillcloth option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        $('#grillcloth-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                        $('#grillcloth-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                        setCustomLink();
+                        if (searchString != ''){
+                            $('.grillclothSwatchDiv div.active').removeClass('active');
+                            $('.grillclothSwatchDiv div.'+searchString).addClass('active');
+                        }
+                    });
+                    var grillClothOptions = '';
+                    $('#custcolcabinetgrillcloth option').each(function(){
+                        var title = $(this).html();
+                        var searchString = $(this).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        if (searchString.trim() != ''){
+                            var searchStringClass = '';
+                            if (searchString.trim() == 'Stock'){
+                                searchStringClass = 'active';
+                            }else{
+                                searchStringClass = '';
+                            }
+                            grillClothOptions += '<div id="option_'+$(this).val()+'" class="grillclothSwatch '+searchString+' '+searchStringClass+'"  title="'+searchString+'"><div></div></div>';
+                        }
+                    });
+                    $('#grillcloth-options').html('<div class="grillclothSwatchDiv">'+grillClothOptions+'</div>');
+                    $('.grillclothSwatchDiv div').click(function(){
+                        $('#custcolcabinetgrillcloth').val($(this).attr('id').split('_')[1]).change();
+                        $('select[name="custcol40"]').val(2).change();
+                        $('.grillclothSwatchDiv div.active').removeClass('active');
+                        $(this).addClass('active');
+                    });
+                    $('#button-grillcloth-left').click(function(){
+                        if (($('.item-drill-down #custcolcabinetgrillcloth option:selected').prev().val() == '') || ($('.item-drill-down #custcolcabinetgrillcloth option:selected').val() == '')){
+                            $('.item-drill-down #custcolcabinetgrillcloth').val($('.item-drill-down #custcolcabinetgrillcloth option:last').val()).change();
+                        }else{
+                            $('.item-drill-down #custcolcabinetgrillcloth').val($('.item-drill-down #custcolcabinetgrillcloth option:selected').prev().val()).change();
+                        }
+                        var searchString = $( '#custcolcabinetgrillcloth option[value='+$('.item-drill-down #custcolcabinetgrillcloth option:selected').val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        $('.grillclothSwatchDiv div.'+searchString).click();
+                    });
+                    $('#button-grillcloth-right').click(function(){
+                        $('.item-drill-down #custcolcabinetgrillcloth').val($('.item-drill-down #custcolcabinetgrillcloth option:selected').next().val()).change();
+                        var searchString = $( '#custcolcabinetgrillcloth option[value='+$('.item-drill-down #custcolcabinetgrillcloth option:selected').val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        $('.grillclothSwatchDiv div.'+searchString).click();
+                    });
+
+
+
+
+                    //handle options
+                    $('.item-drill-down #custcolcabinethandle').change(function(){
+                        var searchString = $( '#custcolcabinethandle option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
+                        if (searchString != ''){
+                            $('#handle-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                            $('#handle-preview-container-top-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                        }else{
+                            $('#handle-preview-container-custom').html('<div></div>');
+                            $('#handle-preview-container-top-custom').html('<div></div>');
+                        }
+                        setCustomLink();
+                    });
+                    $('#handlePrev').click(function(){
+                        if (($('.item-drill-down #custcolcabinethandle option:selected').prev().val() == '') || ($('.item-drill-down #custcolcabinethandle option:selected').val() == '')){
+                            $('.item-drill-down #custcolcabinethandle').val($('.item-drill-down #custcolcabinethandle option:last').val()).change();
+                        }else{
+                            $('.item-drill-down #custcolcabinethandle').val($('.item-drill-down #custcolcabinethandle option:selected').prev().val()).change();
+                        }
+                        $('select[name="custcol40"]').val(2).change();
+                    });
+                    $('#handleNext').click(function(){
+                        $('.item-drill-down #custcolcabinethandle').val($('.item-drill-down #custcolcabinethandle option:selected').next().val()).change();
+                        $('select[name="custcol40"]').val(2).change();
+                    });
+
+
+                    // feet options
+                    $('.item-drill-down #custcolcabinetoptionsfeet').change(function(){
+                        var searchString = $( '#custcolcabinetoptionsfeet option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'').replace(regex6,'');
+                        if (searchString != ''){
+                            $('#feet-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                            $('#feet2-preview-container-custom').html('<div class="active"></div>').find('div').addClass(searchString);
+                        }else{
+                            $('#feet-preview-container-custom').html('<div></div>');
+                            $('#feet2-preview-container-custom').html('<div></div>');
+                        }
+                        setCustomLink();
+                    });
+                    $('#feetPrev').click(function(){
+                        if (($('.item-drill-down #custcolcabinetoptionsfeet option:selected').prev().val() == '') || ($('.item-drill-down #custcolcabinetoptionsfeet option:selected').val() == '')){
+                            $('.item-drill-down #custcolcabinetoptionsfeet').val($('.item-drill-down #custcolcabinetoptionsfeet option:last').val()).change();
+                        }else{
+                            $('.item-drill-down #custcolcabinetoptionsfeet').val($('.item-drill-down #custcolcabinetoptionsfeet option:selected').prev().val()).change();
+                        }
+                        $('select[name="custcol40"]').val(2).change();
+                    });
+                    $('#feetNext').click(function(){
+                        $('.item-drill-down #custcolcabinetoptionsfeet').val($('.item-drill-down #custcolcabinetoptionsfeet option:selected').next().val()).change();
+                        $('select[name="custcol40"]').val(2).change();
+                    });
+
+                    $('#add-to-cart-no-options-message').hover(
+                            function(){
+
+                                var customTolex = $('#custcolcabinettolexcolor').val();
+                                var customGrillcloth = $('#custcolcabinetgrillcloth').val();
+                                var customHandle = $('#custcolcabinethandle').val();
+                                var customFeet = $('#custcolcabinetoptionsfeet').val();
+
+                                var customRoutePiping = 'true';
+                                var customBafflePiping = 'true';
+                                if ($('#custcolcabinetoptionspiping').length != 0){
+                                    customRoutePiping = $('#custcolcabinetoptionspiping').val();
+                                    customBafflePiping = $('#custcolcabinetoptionspiping_m').val();
+                                }
+
+                                if ((customTolex == '') || (customTolex == 53)){
+                                    if ((customGrillcloth == '') || (customGrillcloth == 32)){
+                                        if ((customHandle == '') || (customHandle == 20)){
+                                            if ((customFeet == '') || (customFeet == 12)){
+                                                if ((customRoutePiping == '') || (customRoutePiping == 16)){
+                                                    if ((customBafflePiping == '') || (customBafflePiping == 5)){
+                                                        $('#add-to-cart-no-options-message div').addClass('active');
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                            },function(){
+                                $('#add-to-cart-no-options-message div').removeClass('active');
+                            }
+                    );
+                    $('#add-to-cart-no-options-message .ok').click(function(){
+                        $('select[name="custcol40"]').val(1).change();
+                    });
+
+                    function setCustomLink(){
+                        location.hash = "c=y+t="+$("#custcolcabinettolexcolor").val()+
+                        "+g="+$("#custcolcabinetgrillcloth").val()+
+                        "+f="+$("#custcolcabinetoptionsfeet").val()+
+                        "+h="+$("#custcolcabinethandle").val()+
+                        "+r="+$("#custcolcabinetoptionspiping").val()+
+                        "+b="+$("#custcolcabinetoptionspiping_m").val();
+                        updateFacebookButton();
+                    }
+                    function updateFacebookButton(){
+                        var encodedURL = encodeURIComponent($(window.location).attr('href'));
+                        var coverImageShare = encodeURIComponent('http://www.mojotone.com/img2013/facebook-custom-cab-icon.jpg');
+                        var caption = '&nbsp;';
+                        var description = 'Check out the custom cabinet configurator at mojotone.com';
+
+                        /*
+                         if ($('select[name="custcol40"]').val() == 2){
+                         description = 'Check out the custom cabinet I just created at Mojotone.com! Options: '+$('#custcolcabinettolexcolor option:selected').text()+
+                         ', '+$('#custcolcabinetgrillcloth option:selected').text()+
+                         ', '+$('#custcolcabinetgrillcloth option:selected').text()+
+                         ', '+$('#custcolcabinethandle option:selected').text()+
+                         ', '+$('#custcolcabinetoptionsfeet option:selected').text();
+
+                         if ($('#custcolcabinetoptionspiping option:selected').text() != ''){
+                         description += ', '+$('#custcolcabinetoptionspiping option:selected').text();
+                         }
+
+                         if ($('#custcolcabinetoptionspiping_m option:selected').text() != ''){
+                         description += ', '+$('#custcolcabinetoptionspiping_m option:selected').text();
+                         }
+                         }
+                         */
+
+                        var redirect_uri = encodedURL;
+                        $('#facebook-like-button').attr('href','https://www.facebook.com/dialog/feed?app_id=672191746126917&link='+encodedURL+'&picture='+coverImageShare+'&caption='+caption+'&description='+description+'&redirect_uri='+encodedURL+'');
+                    }
+
+                    $(document).ready(function(){
+                        //on load check for variables
+                        if (window.location.hash){
+                            //custom=yes+tolex=8+grillcloth=6+feet=7+handle=8+route=16+baffle=9
+                            var hash = window.location.hash.split('+');
+                            if (hash[0].split('=')[1] = 'yes'){
+                                $('select[name="custcol40"]').val(2).change();
+                                $('.item-drill-down #custcolcabinettolexcolor').val(hash[1].split('=')[1]).change();
+                                $('.item-drill-down #custcolcabinetoptionspiping').val(hash[5].split('=')[1]).change();
+                                $('.item-drill-down #custcolcabinetoptionspiping_m').val(hash[6].split('=')[1]).change();
+                                $('.item-drill-down #custcolcabinetgrillcloth').val(hash[2].split('=')[1]).change();
+                                $('.item-drill-down #custcolcabinethandle').val(hash[4].split('=')[1]).change();
+                                $('.item-drill-down #custcolcabinetoptionsfeet').val(hash[3].split('=')[1]).change();
+                            }
+                        }
+                        updateFacebookButton();
+                    });
+
+                    $(document).ready(function(){
+                        var cabOfMonth = "<%=getCurrentAttribute('item','custitemcabofthemonth')%>";
+                        if (cabOfMonth == 'Yes'){
+                            $('#custcol40 option:nth-child(2)').html('Custom Cosmetics +0');
+                        }
+                    });
+
+                </script>
+                <style type="text/css">
+                    #main-image{ float:left; width:100%; }
+                    #main-image img{ max-width:260px; }
+                    .sub-gallery{ float:left; clear:both; width:100%; }
+                    .sub-gallery .sub{ float:left; padding:3px; margin:10px 8px 0 0; border:1px solid #c4c4c4; width:50px; }
+                    .sub-gallery .sub a{ max-width:100%; height:auto; }
+                    .sub-gallery .sub img{ max-width:100%; height:auto; }
+                    .facebook-like-button{ cursor:pointer; }
+                </style>
+            </div>
+        </div>
+        <div class="related-items">
+            <h3>Related Items</h3>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <%=getCurrentAttribute('item','allrelateditemshtml')%>
+                </tr>
+            </table>
+        </div>
+    </td>
+
+    <!--
+
+
+    /drilldown item
+
+
+    -->
