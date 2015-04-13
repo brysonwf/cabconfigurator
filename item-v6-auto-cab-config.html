@@ -388,8 +388,8 @@ drilldown item
         //tolex options
         $('.item-drill-down #custcolcabinettolexcolor').change(function(){
             var searchString = $( '#custcolcabinettolexcolor option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
-            $('#tolex-preview-container-custom').find('div').addClass('active').addClass(searchString);
-            $('#tolex-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
+            $('#tolex-preview-container-custom').find('div').removeClass().addClass(searchString);
+            $('#tolex-preview-container-top-custom').find('div').removeClass().addClass(searchString);
             setCustomLink();
             if (searchString != ''){
                 $('.tolexSwatchDiv div.active').removeClass('active');
@@ -506,13 +506,13 @@ drilldown item
         $('.item-drill-down #custcolcabinetoptionspiping').change(function(){
             var searchString = $( '#custcolcabinetoptionspiping option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
             if (searchString != ''){
-                $('#piping-preview-container-custom').find('div').addClass('active').addClass(searchString);
-                $('#pipingm2-preview-container-custom').find('div').addClass('active').addClass(searchString);
-                $('#pipingm3-preview-container-custom').find('div').addClass('active').addClass(searchString);
+                $('#piping-preview-container-custom').find('div').removeClass().addClass(searchString);
+                $('#pipingm2-preview-container-custom').find('div').removeClass().addClass(searchString);
+                $('#pipingm3-preview-container-custom').find('div').removeClass().addClass(searchString);
 
-                $('#piping-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
-                $('#pipingm2-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
-                $('#pipingm3-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
+                $('#piping-preview-container-top-custom').find('div').removeClass().addClass(searchString);
+                $('#pipingm2-preview-container-top-custom').find('div').removeClass().addClass(searchString);
+                $('#pipingm3-preview-container-top-custom').find('div').removeClass().addClass(searchString);
             }else{
                 $('#piping-preview-container-custom-subdiv').removeClass();
                 $('#pipingm2-preview-container-custom-subdiv').removeClass();
@@ -572,9 +572,9 @@ drilldown item
             var title = $(this).html();
             var searchString = $( '#custcolcabinetoptionspiping_m option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
             if (searchString != ''){
-                $('#pipingm-preview-container-custom').find('div').addClass('active').addClass(searchString);
-                $('#pipingm-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
-                $('#valence-preview-container-custom').find('div').addClass('active').addClass(searchString);
+                $('#pipingm-preview-container-custom').find('div').removeClass().addClass(searchString);
+                $('#pipingm-preview-container-top-custom').find('div').removeClass().addClass(searchString);
+                $('#valence-preview-container-custom').find('div').removeClass().addClass(searchString);
             }else{
                 $('#pipingm-preview-container-custom-subdiv').removeClass();
                 $('#pipingm-preview-container-top-custom-subdiv').removeClass();
@@ -628,8 +628,8 @@ drilldown item
         //grill cloth options
         $('.item-drill-down #custcolcabinetgrillcloth').change(function(){
             var searchString = $( '#custcolcabinetgrillcloth option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
-            $('#grillcloth-preview-container-custom').find('div').addClass('active').addClass(searchString);
-            $('#grillcloth-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
+            $('#grillcloth-preview-container-custom').find('div').removeClass().addClass(searchString);
+            $('#grillcloth-preview-container-top-custom').find('div').removeClass().addClass(searchString);
             setCustomLink();
             if (searchString != ''){
                 $('.grillclothSwatchDiv div.active').removeClass('active');
@@ -679,8 +679,8 @@ drilldown item
         $('.item-drill-down #custcolcabinethandle').change(function(){
             var searchString = $( '#custcolcabinethandle option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'');
             if (searchString != ''){
-                $('#handle-preview-container-custom').find('div').addClass('active').addClass(searchString);
-                $('#handle-preview-container-top-custom').find('div').addClass('active').addClass(searchString);
+                $('#handle-preview-container-custom').find('div').removeClass().addClass(searchString);
+                $('#handle-preview-container-top-custom').find('div').removeClass().addClass(searchString);
             }else{
                 $('#handle-preview-container-custom div').removeClass();
                 $('#handle-preview-container-top-custom div').removeClass();
@@ -705,8 +705,8 @@ drilldown item
         $('.item-drill-down #custcolcabinetoptionsfeet').change(function(){
             var searchString = $( '#custcolcabinetoptionsfeet option[value='+$(this).val()+']' ).html().replace(regex,'-').replace(regex2,'').replace(regex3,'').replace(regex4,'').replace(regex5,'').replace(regex6,'');
             if (searchString != ''){
-                $('#feet-preview-container-custom').find('div').addClass('active').addClass(searchString);
-                $('#feet2-preview-container-custom').find('div').addClass('active').addClass(searchString);
+                $('#feet-preview-container-custom').find('div').removeClass().addClass(searchString);
+                $('#feet2-preview-container-custom').find('div').removeClass().addClass(searchString);
             }else{
                 $('#feet-preview-container-custom div').removeClass();
                 $('#feet2-preview-container-custom div').removeClass();
@@ -835,65 +835,42 @@ drilldown item
             var cabDepth = inchToPxModifer*<%=getCurrentAttribute('item','custitemcabconfigdepth')%>;
             var cabChassis = inchToPxModifer*<%=getCurrentAttribute('item','custitemcabconfigchassis')%>;
 
-            var cabHasGrill = "<%=getCurrentAttribute('item','custitemcabconfighasgrill')%>";
-
             var cabLipT = inchToPxModifer*<%=getCurrentAttribute('item','custitemcustitemcabconfiglip')%>;
             var cabLipR = inchToPxModifer*<%=getCurrentAttribute('item','custitemcustitemcabconfiglipr')%>;
             var cabLipB = inchToPxModifer*<%=getCurrentAttribute('item','custitemcustitemcabconfiglipb')%>;
             var cabLipL = inchToPxModifer*<%=getCurrentAttribute('item','custitemcustitemcabconfiglipl')%>;
 
-            var cabDefaultTolex = encodeURI('<%=getCurrentAttribute('item','custitemcabconfigdefaulttolexurl')%>');
             var cabDefaultGrillCloth = encodeURI('<%=getCurrentAttribute('item','custitemcabconfigdefaultgrillclothurl')%>');
             var cabDefaultFeet = encodeURI('<%=getCurrentAttribute('item','custitemcabconfigdefaultfeet')%>');
             var cabDefaultHandle = encodeURI('<%=getCurrentAttribute('item','custitemcabconfigdefaulthandle')%>');
-
-            // @todo create top var from standard handle
-            var cabDefaultHandleTop = encodeURI('<%=getCurrentAttribute('item','custitemcabconfigdefaulthandle')%>');
-
-            var cabDefaultPipingRoute = encodeURI("<%=getCurrentAttribute('item','custitemcabconfigdefaultpipingroute')%>");
-            var cabDefaultPipingFrontPan = encodeURI("<%=getCurrentAttribute('item','custitemcabconfigdefaultpipingfrontpan')%>");
-
+            var cabDefaultHandleTop = encodeURI('<%=getCurrentAttribute('item','custitemcabconfigdefaulthandletop')%>');
 
             $mainContainer = $('#preview-container-div, #preview-container-top-div');
 
             $topCutout = $('#top-cutout');
 
-            $tolexDiv = $('#tolex-preview-container-custom-subdiv');
-            $tolexTopDiv = $('#tolex-preview-container-top-custom-subdiv');
 
             $feetDiv = $('#feet-preview-container-custom-subdiv');
             $feetDivBoth = $('#feet-preview-container-custom-subdiv, #feet2-preview-container-custom-subdiv');
             $rightFootDiv = $('#feet2-preview-container-custom-subdiv');
 
-            $pipingValance = $('#valence-preview-container-custom-subdiv');
-            $pipingCenter = $('#piping-preview-container-custom-subdiv');
-            $pipingFront = $('#pipingm-preview-container-custom-subdiv');
-            $pipingFrontTop = $('#pipingm2-preview-container-custom-subdiv');
-            $pipingFrontBottom = $('#pipingm3-preview-container-custom-subdiv');
-            $pipingTop = $('#pipingm2-preview-container-top-custom-subdiv');
-
             $handleDiv = $('#handle-preview-container-custom-subdiv');
             $handleTopDiv = $('#handle-preview-container-top-custom-subdiv');
 
             $innerShadowDiv = $('.inner-shadow, #grillcloth-preview-container-custom-subdiv');
+            $grillClothFront = $('#grillcloth-preview-container-custom-subdiv');
             $grillClothTop = $('#grillcloth-preview-container-top-custom-subdiv');
 
             $mainContainer.css('height',(cabHeight)+'px');
 
             $('#feet-button-div').css('margin-top',(cabHeight+100)+'px');
 
-            $tolexDiv.css('height',(cabHeight)+'px');
-            $tolexDiv.css('background-image','url('+cabDefaultTolex+')');
 
-            $tolexTopDiv.css('height',(cabDepth)+'px');
-            $pipingTop.css('height',(cabDepth)+'px');
-            $pipingTop.css('width',(cabWidth-40)+'px');
-            $tolexTopDiv.css('background-image','url('+cabDefaultTolex+')');
+            $grillClothFront.css('background-image','url('+cabDefaultGrillCloth+')');
+            $grillClothTop.css('background-image','url('+cabDefaultGrillCloth+')');
 
-            $('#grillcloth-preview-container-custom-subdiv').css('background-image','url('+cabDefaultGrillCloth+')');
-
-            $feetDivBoth.css('background-image','url('+cabDefaultFeet+')');
             $feetDivBoth.css('height',(cabHeight+20)+'px');
+            $feetDivBoth.css('background-image','url('+cabDefaultFeet+')');
 
             $feetDiv.css('margin-left','0px');
             $rightFootDiv.css('margin-left',(cabWidth-140)+'px');
@@ -901,33 +878,125 @@ drilldown item
             $topCutout.css('width',(cabWidth+25)+'px');
             $topCutout.css('margin-left',(50)+'px');
 
+            $handleTopDiv.css('margin-top',((cabDepth/2)-100)+'px');
             $handleDiv.css('background-image','url('+cabDefaultHandle+')');
             $handleTopDiv.css('background-image','url('+cabDefaultHandleTop+')');
-            $handleTopDiv.css('margin-top',((cabDepth/2)-100)+'px');
 
 
             $('#preview-container-top-div, #preview-container-div, #tolex-preview-container-top-custom-subdiv, #tolex-preview-container-custom-subdiv, #handle-preview-container-custom-subdiv, #handle-preview-container-top-custom-subdiv').css('width',(cabWidth)+'px');
 
-            $innerShadowDiv.css('width',(cabWidth-(cabLipR+cabLipL))+'px');
-            $innerShadowDiv.css('height',(cabHeight-(cabLipT+cabLipB))+'px');
-            $innerShadowDiv.css('margin-left',(cabLipL)+'px');
-            $innerShadowDiv.css('margin-right',(cabLipR)+'px');
-            $innerShadowDiv.css('margin-top',(cabLipT)+'px');
 
-            $pipingFrontTop.css('width',(cabWidth-40)+'px');
-            $pipingFrontTop.css('height',(cabLipT)+'px');
-
-            $pipingFront.css('width',(cabWidth-(cabLipR+cabLipL))+'px');
-            $pipingFront.css('height',(cabHeight-(cabLipT+cabLipB))+'px');
-            $pipingFrontBottom.css('margin-top',(cabHeight-cabLipB)+'px');
-            $pipingFrontBottom.css('width',(cabWidth-40)+'px');
-            $pipingFrontBottom.css('height',(cabLipB)+'px');
-
-            $grillClothTop.hide();
+            //tolex
+            var cabDefaultTolex = encodeURI('<%=getCurrentAttribute('item','custitemcabconfigdefaulttolexurl')%>');
+            $tolexDiv = $('#tolex-preview-container-custom-subdiv');
+            $tolexTopDiv = $('#tolex-preview-container-top-custom-subdiv');
+            $tolexDiv.css('height',(cabHeight)+'px');
+            $tolexDiv.css('background-image','url('+cabDefaultTolex+')');
+            $tolexTopDiv.css('height',(cabDepth)+'px');
+            $tolexTopDiv.css('background-image','url('+cabDefaultTolex+')');
 
 
-            $pipingValance.css('width',(cabWidth-(cabLipR+cabLipL))+'px');
-            $pipingCenter.css('width',(cabWidth-(cabLipR+cabLipL))+'px');
+
+            //grill front and shadow
+            var cabHasGrill = "<%=getCurrentAttribute('item','custitemcabconfighasgrill')%>";
+            if (cabHasGrill == 'No'){
+                $grillClothFront.hide();
+                $innerShadowDiv.hide();
+            }else{
+                $innerShadowDiv.css('width',(cabWidth-(cabLipR+cabLipL))+'px');
+                $innerShadowDiv.css('height',(cabHeight-(cabLipT+cabLipB))+'px');
+                $innerShadowDiv.css('margin-left',(cabLipL)+'px');
+                $innerShadowDiv.css('margin-right',(cabLipR)+'px');
+                $innerShadowDiv.css('margin-top',(cabLipT)+'px');
+            }
+
+            //grill top
+            var cabHasGrillTop = "<%=getCurrentAttribute('item','custitemcabconfighasgrilltop')%>";
+            if (cabHasGrillTop == 'No'){
+                $grillClothTop.hide();
+            }
+
+            //piping
+            var cabDefaultPipingRouteWidth = "<%=getCurrentAttribute('item','custitemcabconfigdefaultpipingroutewid')%>";
+            var cabDefaultPipingRouteColor = "<%=getCurrentAttribute('item','custitemcabconfigdefaultpipingroutecol')%>";
+            var cabDefaultPipingFrontPanWidth = "<%=getCurrentAttribute('item','custitemcabconfigdefaultpipingfrontwid')%>";
+            var cabDefaultPipingFrontPanColor = "<%=getCurrentAttribute('item','custitemcabconfigdefaultpipingfrontcol')%>";
+
+            $pipingCenter = $('#piping-preview-container-custom-subdiv');
+            $pipingBorder = $('#pipingm-preview-container-custom-subdiv');
+            $pipingFrontTop = $('#pipingm2-preview-container-custom-subdiv');
+            $pipingFrontBottom = $('#pipingm3-preview-container-custom-subdiv');
+            $pipingTop = $('#pipingm2-preview-container-top-custom-subdiv');
+
+
+            //piping-border
+            var cabHasBorderPiping = "<%=getCurrentAttribute('item','custitemcabconfighasborderpiping')%>";
+            if (cabHasBorderPiping == 'No'){
+                $pipingBorder.hide();
+                $('#cabpreview-options-h-baffle').hide();
+                $('#baffle-options').hide();
+                $('#custcolcabinetoptionspiping_m').parent().parent().parent().hide();
+            }else{
+                $pipingBorder.css('border',cabDefaultPipingRouteWidth+'px solid '+cabDefaultPipingRouteColor);
+                $pipingBorder.css('width',(cabWidth-(cabDefaultPipingRouteWidth*2)-(cabLipR+cabLipL))+'px');
+                $pipingBorder.css('height',(cabHeight-(cabDefaultPipingRouteWidth*2)-(cabLipT+cabLipB))+'px');
+                $pipingBorder.css('margin-left',(cabLipL+cabDefaultPipingRouteWidth)+'px');
+                $pipingBorder.css('margin-right',(cabLipR+cabDefaultPipingRouteWidth)+'px');
+                $pipingBorder.css('margin-top',(cabLipT+cabDefaultPipingRouteWidth)+'px');
+            }
+
+            //piping-top
+            var cabHasTopPiping = "<%=getCurrentAttribute('item','custitemcabconfighastoppiping')%>";
+            if (cabHasTopPiping == 'No'){
+                $pipingFrontTop.hide();
+                $pipingTop.hide();
+            }else{
+                $pipingFrontTop.css('border',cabDefaultPipingFrontPanWidth+'px solid '+cabDefaultPipingFrontPanColor);
+                $pipingFrontTop.css('width',(cabWidth-40)+'px');
+                $pipingFrontTop.css('height',(cabLipT)+'px');
+                $pipingTop.css('border',cabDefaultPipingFrontPanWidth+'px solid '+cabDefaultPipingFrontPanColor);
+                $pipingTop.css('height',(cabDepth)+'px');
+                $pipingTop.css('width',(cabWidth-40)+'px');
+            }
+
+            //piping-bottom
+            var cabHasBottomPiping = "<%=getCurrentAttribute('item','custitemcabconfighasbottompiping')%>";
+            if (cabHasBottomPiping == 'No'){
+                $pipingFrontBottom.hide();
+            }else{
+                $pipingFrontBottom.css('border',cabDefaultPipingFrontPanWidth+'px solid '+cabDefaultPipingFrontPanColor);
+                $pipingFrontBottom.css('margin-top',(cabHeight-cabLipB)+'px');
+                $pipingFrontBottom.css('width',(cabWidth-40)+'px');
+                $pipingFrontBottom.css('height',(cabLipB)+'px');
+            }
+
+            if ((cabHasBottomPiping == 'No') && (cabHasTopPiping == 'No')){
+                $('#cabpreview-options-h-piping').hide();
+                $('#piping-options').hide();
+            }
+
+            //piping-center
+            var cabHasCenterPiping = "<%=getCurrentAttribute('item','custitemcabconfighascenterpiping')%>";
+            if (cabHasCenterPiping == 'No'){
+                $pipingCenter.hide();
+            }else{
+                $pipingCenter.css('border',cabDefaultPipingRouteWidth+'px solid '+cabDefaultPipingRouteColor);
+                $pipingCenter.css('width',(cabWidth-(cabDefaultPipingRouteWidth*2)-(cabLipR+cabLipL))+'px');
+            }
+
+
+
+
+            //valance
+            $valance = $('#valence-preview-container-custom-subdiv');
+            var cabHasValance = "<%=getCurrentAttribute('item','custitemcabconfighasvalance')%>";
+            if (cabHasGrill == 'F'){
+                $valance.hide();
+            }else{
+                $valance.css('border',cabDefaultPipingRoute);
+            }
+
+
 
         });
     </script>
