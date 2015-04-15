@@ -985,8 +985,6 @@ drilldown item
             }
 
 
-
-
             //valance
             $valance = $('#valence-preview-container-custom-subdiv');
             var cabHasValance = "<%=getCurrentAttribute('item','custitemcabconfighasvalance')%>";
@@ -996,6 +994,11 @@ drilldown item
                 $valance.css('border',cabDefaultPipingRoute);
             }
 
+            //cutout
+            var cutoutTop = "<%=getCurrentAttribute('item','custitemcabconfigcutoutmargintop')%>";
+            var cutoutLeft = "<%=getCurrentAttribute('item','custitemcabconfigcutoutmarginleft')%>";
+            var cutoutRight = "<%=getCurrentAttribute('item','custitemcabconfigcutoutmarginright')%>";
+            var cutoutHeight = "<%=getCurrentAttribute('item','custitemcabconfigcutoutheight')%>";
 
 
         });
